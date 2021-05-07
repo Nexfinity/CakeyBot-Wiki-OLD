@@ -14,6 +14,10 @@ If you are having issues with the bot check out our [troubleshooting page](setup
 
 If you would like to make a suggestion or request a new feature you can join our discord [support server](https://discord.gg/Y3VdQAD).
 
+{% hint style="success" %}
+You can directly contribute to our wiki/documentation by click the "Edit on GitHub" button on the top right section of this page. This helps us keep the information accurate and up-to-date.
+{% endhint %}
+
 ## Premium/Donations
 
 {% hint style="info" %}
