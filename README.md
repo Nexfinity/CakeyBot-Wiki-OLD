@@ -38,7 +38,7 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 * [x] Auto Responder
 * [x] Custom Commands
 * [x] Emoji Management
-* [x] Equalizer for Music \(Including Bass Boost\)
+* [x] Equalizer for Music \(Including Bass Boost & other cool presets!\)
 * [x] Games \(Coin flip, 8ball, etc\)
 * [x] Github Code Previewer
 * [x] Giveaway Commands
