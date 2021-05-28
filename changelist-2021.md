@@ -1,5 +1,12 @@
 # Changelist - 2021
 
+## 5/28/2021
+
+#### Added
+
+* Added new command! `!eqpreset <preset>` This will allow you to automatically apply a preset equalizer to the song your listening to. 
+  * Current presets are: `lowpass, highpass, flat, extrabass, extratreble, bassandtreble` \(Thanks @Captain Ibblesworth \)
+
 ## 5/6/2021
 
 #### Fixed
