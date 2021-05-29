@@ -1,13 +1,20 @@
 # Changelist - 2021
 
-## 5/28/2021
+## 5/29/2021 - Buttons!!
+
+#### Added
+
+* Added "Open Link" button to `!avatar`
+* Added "Flip Again" button to `!coinflip`
+
+## 5/28/2021 - Equalizer Presets
 
 #### Added
 
 * Added new command! `!eqpreset <preset>` This will allow you to automatically apply a preset equalizer to the song your listening to. 
   * Current presets are: `lowpass, highpass, flat, extrabass, extratreble, bassandtreble` \(Thanks @Captain Ibblesworth \)
 
-## 5/6/2021
+## 5/6/2021 - Stickers!
 
 #### Fixed
 
@@ -18,7 +25,7 @@
 * Added Stickers check to auto mod
 * Add error message when `!video` returns no results
 
-## 5/1/2021
+## 5/1/2021 - Music Fixes
 
 #### Fixed
 
@@ -28,13 +35,13 @@
 
 * You can now toggle 'persistent mutes' on the web dashboard. This will automatically reapply mute roles to users if they try to leave/join to bypass mutes
 
-## 4/28/2021
+## 4/28/2021 - Among Us Fix
 
 #### Fixed
 
 * Fixed `!amongus` sending as a static image instead of an animated gif
 
-## 4/3/2021
+## 4/3/2021 - Delete Placeholder Upgrade
 
 #### Changed
 
