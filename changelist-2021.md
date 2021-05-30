@@ -1,5 +1,19 @@
 # Changelist - 2021
 
+## 5/30/2021 - Slash Commands V2
+
+#### Fixed
+
+* Fixed some broken stuff with existing slash commands
+
+#### Changed
+
+* Updated some slash commands to be ephemeral \(This means they'll show the results only to you, so you can use them without spamming chat!\)
+
+#### Added
+
+* Added tons of new slash commands
+
 ## 5/29/2021 - Buttons!!
 
 #### Added
