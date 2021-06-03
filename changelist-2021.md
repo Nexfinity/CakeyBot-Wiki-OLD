@@ -1,5 +1,11 @@
 # Changelist - 2021
 
+## 6/2/2021 - Calculator
+
+#### Added
+
+* Added new `!calculator` command, should be fairly straightforward
+
 ## 5/31/2021 - Stage Channels!
 
 #### Added
