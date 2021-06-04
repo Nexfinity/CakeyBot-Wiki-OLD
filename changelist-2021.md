@@ -1,5 +1,12 @@
 # Changelist - 2021
 
+## 6/3/2021 - Feature Requests
+
+#### Changed
+
+* Added usage info for `!quote` command when incorrect parameters are provided
+* Updated `!warnings` to accept user id OR user object. \(This allows you to view warnings of users who are no longer in the guild\)
+
 ## 6/2/2021 - Calculator
 
 #### Added
