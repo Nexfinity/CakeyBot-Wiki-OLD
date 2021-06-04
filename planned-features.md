@@ -20,7 +20,7 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
 
 ## General Features
 
-* Reaction Role System
+* Reaction/Button Role System
 * Ability to modify reason for warns \(mods their own, admins any\)
 * Starboard
 * Mod Cases
