@@ -1,5 +1,16 @@
 # Changelist - 2021
 
+## 6/5/2021 - Bug Fixes
+
+#### Fixed
+
+* Fixed emoji count for `!serverinfo` command
+
+#### Changed
+
+* Updated custom command / auto responder rate limit to just drop/ignore spam instead of delaying/queueing it
+* Limited `!calculator` output to 2k characters
+
 ## 6/3/2021 - Feature Requests
 
 #### Changed
