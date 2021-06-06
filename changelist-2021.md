@@ -12,6 +12,10 @@
 * `!ttt` now keeps the game board displayed after it has finished
 * Slightly improved AI to target winning tiles \(Still need to add the AI actively blocking player wins, but slightly better than pure randomization\)
 
+#### Added
+
+* Added new image manipulation command `!pride <opt:user>`, it will apply a rainbow overlay over your profile picture or the provided user's profile picture.
+
 ## 6/5/2021 - Bug Fixes
 
 #### Fixed
