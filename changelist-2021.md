@@ -1,5 +1,17 @@
 # Changelist - 2021
 
+## 6/6/2021 - TTT Fixes
+
+#### Fixed
+
+* Fixed `!ttt` colors
+* Fixed an issue where `!ttt` games could throw an incorrect "expired" error message when there's tons of games going on
+
+#### Changed
+
+* `!ttt` now keeps the game board displayed after it has finished
+* Slightly improved AI to target winning tiles \(Still need to add the AI actively blocking player wins, but slightly better than pure randomization\)
+
 ## 6/5/2021 - Bug Fixes
 
 #### Fixed
