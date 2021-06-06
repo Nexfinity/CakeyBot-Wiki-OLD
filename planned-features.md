@@ -50,7 +50,6 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
 
 * Have support tickets displayed
 * Embed builder and sender
-* Allow vars on custom commands \(include $1, $2, $1+\)
 * Voice-Text channel linking
 * Have option to allow custom commands to overwrite default command behavior
 * Properly re-sync database \(Remove ~828 invalid guilds\)
