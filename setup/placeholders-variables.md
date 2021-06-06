@@ -93,6 +93,10 @@ _Advanced Placeholders only work on "Auto Responder" and "Custom Commands". They
 
 ### **Delete**
 
+{% hint style="warning" %}
+**Note:** Delete placeholders will not work while using DM placeholders on a command.
+{% endhint %}
+
 `{delete}` - Delete initial command the user sent after the response sent  
 `{deleteafter:x}` - Delete the response automatically after `X` amount of seconds. Replace the `x` with a number between 1 and 9.  
 `{confirmdelete}` - Add a trashcan reaction to the response that deletes it after it is clicked. \(Similar to AFK messages\) _Note: The ability to delete will expire after 60 seconds._
@@ -143,10 +147,6 @@ Examples:
 In order to decrease the chances to abuse this placeholder, it is a [**Premium Only**](https://cakeybot.app/premium.html) placeholder.
 {% endhint %}
 
-{% hint style="warning" %}
-**Note:** Delete placeholders will not work while using DM placeholders on a command.
-{% endhint %}
-
 `{dm}` - Direct message the bot response to the user who called the command. _**Limited to one DM per command.**_  
 ****`{dm:@user}` - Direct message the bot response to the specified user. Replace "**user**" with the user ID. _**Limited to one DM per command.**_
 
@@ -159,6 +159,14 @@ Examples:
 {% hint style="warning" %}
 Spamming commands that use this variable will lead to your guild being blacklisted from using Custom Commands.
 {% endhint %}
+
+### **Reactions**
+
+You can also add reactions to responses \(up to 3\). To add a reaction simply include a reaction placeholder anywhere in the response string. You will need to get Discord's unique ID for the reaction you plan to use. You can do this by typing the emoji in Discord and placing a backslash in front of it. Some placeholder examples are shown here:
+
+Animated/Gif Emote: `{react:a:200IQ:730769872698736692}`  
+Custom Guild Emote: `{react:r6s:847490914749382719}`  
+Normal Unicode Emote: `{react:😄}`
 
 ### **Choose & Choice**
 
