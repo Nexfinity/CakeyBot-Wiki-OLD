@@ -162,6 +162,10 @@ Spamming commands that use this variable will lead to your guild being blacklist
 
 ### **Reactions**
 
+{% hint style="danger" %}
+This placeholder is currently not implemented.
+{% endhint %}
+
 You can also add reactions to responses \(up to 3\). To add a reaction simply include a reaction placeholder anywhere in the response string. You will need to get Discord's unique ID for the reaction you plan to use. You can do this by typing the emoji in Discord and placing a backslash in front of it. Some placeholder examples are shown here:
 
 Animated/Gif Emote: `{react:a:200IQ:730769872698736692}`  
