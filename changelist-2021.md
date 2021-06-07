@@ -1,5 +1,15 @@
 # Changelist - 2021
 
+## 6/7/2021 - Temporary Actions
+
+#### Fixed
+
+* Reminders & temporary moderation actions are now working again
+
+#### Changed
+
+* Re-added "remindme" as a slash command
+
 ## 6/6/2021 - TTT Fixes
 
 #### Fixed
