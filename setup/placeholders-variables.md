@@ -160,6 +160,22 @@ Examples:
 Spamming commands that use this variable will lead to your guild being blacklisted from using Custom Commands.
 {% endhint %}
 
+### Response Chance
+
+{% hint style="danger" %}
+This placeholder is currently not implemented.
+{% endhint %}
+
+Don't want to have the bot respond every...single...time? Well with the response chance placeholder, you can set a percentage between 0% and 100% for the bot to respond or not respond to the trigger. This works on both Auto Responders and Custom Commands. Also, only the first chance placeholder will be taken into account, any extras will be ignored. You can see some examples below:
+
+```text
+{chance:0}   //0% chance to respond
+{chance:35}  //35% chance to respond
+{chance:100} //100% chance to respond
+```
+
+_\(Note: You don't need `{chance:100}` to make the bot respond all the time, simply excluding **any** chance placeholder will act as 100%\)_
+
 ### **Reactions**
 
 {% hint style="danger" %}
@@ -168,9 +184,11 @@ This placeholder is currently not implemented.
 
 You can also add reactions to responses \(up to 3\). To add a reaction simply include a reaction placeholder anywhere in the response string. You will need to get Discord's unique ID for the reaction you plan to use. You can do this by typing the emoji in Discord and placing a backslash in front of it. Some placeholder examples are shown here:
 
-Animated/Gif Emote: `{react:a:200IQ:730769872698736692}`  
-Custom Guild Emote: `{react:r6s:847490914749382719}`  
-Normal Unicode Emote: `{react:😄}`
+```text
+{react:a:200IQ:730769872698736692} //Animated/Gif Emote
+{react:r6s:847490914749382719}     //Custom Guild Emote
+{react:😄}                         //Normal Unicode Emote
+```
 
 ### **Choose & Choice**
 
