@@ -178,6 +178,10 @@ _\(Note: You don't need `{chance:100}` to make the bot respond all the time, sim
 This placeholder is currently not implemented.
 {% endhint %}
 
+{% hint style="info" %}
+Due to rate limit concerns, this is a [**Premium Only**](https://cakeybot.app/premium.html) placeholder to discourage abuse.
+{% endhint %}
+
 You can also add reactions to responses \(up to 3\). To add a reaction simply include a reaction placeholder anywhere in the response string. You will need to get Discord's unique ID for the reaction you plan to use. You can do this by typing the emoji in Discord and placing a backslash in front of it. Some placeholder examples are shown here:
 
 ```text
