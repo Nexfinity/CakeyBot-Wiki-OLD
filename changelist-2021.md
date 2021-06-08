@@ -10,6 +10,13 @@
 
 * Re-added "remindme" as a slash command
 
+#### Added
+
+* Added `!animequote` command
+* Added `!petpet <opt:user>` command
+* Added `!lolice <opt:user>` command
+* Added `/afk` and `/unafk` slash commands
+
 ## 6/6/2021 - TTT Fixes
 
 #### Fixed
