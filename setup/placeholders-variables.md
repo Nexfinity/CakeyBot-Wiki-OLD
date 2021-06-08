@@ -174,8 +174,8 @@ _\(Note: You don't need `{chance:100}` to make the bot respond all the time, sim
 
 ### **Reactions**
 
-{% hint style="danger" %}
-This placeholder is currently not implemented.
+{% hint style="warning" %}
+**Note:** This placeholder will not work on messages that use `{confirmdelete}` as it adds a temporary emoji.
 {% endhint %}
 
 {% hint style="info" %}
