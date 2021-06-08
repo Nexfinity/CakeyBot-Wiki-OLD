@@ -16,9 +16,11 @@
 * Added `!petpet <opt:user>` command
 * Added `!lolice <opt:user>` command
 * Added `/afk` and `/unafk` slash commands
-* Added new placeholder!
+* Added two new placeholders!
   * You can now use the `{chance:X}` placeholder to randomly send a response \(or not :P\)
-  * You can check out more details on our documentation here: [https://docs.cakeybot.app/setup/placeholders-variables\#response-chance](https://docs.cakeybot.app/setup/placeholders-variables#response-chance)
+    * You can check out more details on our documentation here: [https://docs.cakeybot.app/setup/placeholders-variables\#response-chance](https://docs.cakeybot.app/setup/placeholders-variables#response-chance)
+  * You can now use the `{react:X}` placeholder to add basic reactions to your responses! `[Premium Only]`
+    * You can check out more details on our documentation here: [https://docs.cakeybot.app/setup/placeholders-variables\#reactions](https://docs.cakeybot.app/setup/placeholders-variables#reactions)
 
 ## 6/6/2021 - TTT Fixes
 
