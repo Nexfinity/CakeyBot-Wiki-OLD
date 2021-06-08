@@ -185,9 +185,9 @@ Due to rate limit concerns, this is a [**Premium Only**](https://cakeybot.app/pr
 You can also add reactions to responses \(up to 3\). To add a reaction simply include a reaction placeholder anywhere in the response string. You will need to get Discord's unique ID for the reaction you plan to use. You can do this by typing the emoji in Discord and placing a backslash in front of it. Some placeholder examples are shown here:
 
 ```text
-{react:a:200IQ:730769872698736692} //Animated/Gif Emote
-{react:r6s:847490914749382719}     //Custom Guild Emote
-{react:😄}                         //Normal Unicode Emote
+{react:<a:200IQ:730769872698736692>} //Animated/Gif Emote
+{react:<:r6s:847490914749382719>}    //Custom Guild Emote
+{react:😄}                           //Normal Unicode Emote
 ```
 
 ### **Choose & Choice**
