@@ -162,10 +162,6 @@ Spamming commands that use this variable will lead to your guild being blacklist
 
 ### Response Chance
 
-{% hint style="danger" %}
-This placeholder is currently not implemented.
-{% endhint %}
-
 Don't want to have the bot respond every...single...time? Well with the response chance placeholder, you can set a percentage between 0% and 100% for the bot to respond or not respond to the trigger. This works on both Auto Responders and Custom Commands. Also, only the first chance placeholder will be taken into account, any extras will be ignored. You can see some examples below:
 
 ```text
