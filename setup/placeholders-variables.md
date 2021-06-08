@@ -175,7 +175,7 @@ _\(Note: You don't need `{chance:100}` to make the bot respond all the time, sim
 ### **Reactions**
 
 {% hint style="warning" %}
-**Note:** This placeholder will not work on messages that use `{confirmdelete}` or `{dm}`. Also, Cakey Bot can use Emoji from any guild that Cakey Bot is in. \(Similar to nitro users\)
+**Note:** This placeholder will not work on messages that use `{confirmdelete}` or `{dm}`. Also, Cakey Bot can ONLY use Emoji from any guild that Cakey Bot is in. \(Similar to nitro users\)
 {% endhint %}
 
 {% hint style="info" %}
