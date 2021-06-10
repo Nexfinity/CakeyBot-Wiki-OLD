@@ -29,7 +29,7 @@ By default, Cakey Bot's volume will be set to 50 when playing music. You can cha
 
 ### Sound Bites
 
-Cakey Bot also has a pre-made list of fun sound bites you can play outside of music. You can view a full current list of sound bites by running the `!soundbite` command and can play the specified sound bite by running clicking the buttons.
+Cakey Bot also has a pre-made list of fun sound bites you can play outside of music. You can view a full current list of sound bites by running the `!soundbite` command and can play the specified sound bite by running `!soundbite <name>`.
 
 {% hint style="warning" %}
 Sound Bites are separate from regular music and will cause Cakey Bot to leave the voice channel and clear any ongoing music queue.
