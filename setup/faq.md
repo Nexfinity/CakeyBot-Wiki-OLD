@@ -10,7 +10,7 @@ If you can't find the answer to your question you can contact us on our discord 
 You will need **`Manage Server`** or **`Administrator`** permission to add Cakey Bot to your guild.
 {% endhint %}
 
-You can invite Cakey Bot using this [Discord OAuth URL](https://discord.com/oauth2/authorize?client_id=288163958022471680&permissions=8&redirect_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response_type=code&scope=bot+identify+guilds+applications.commands). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user. 
+You can invite Cakey Bot using this [Discord OAuth URL](https://discord.com/oauth2/authorize?client_id=288163958022471680&permissions=2654334038&redirect_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response_type=code&scope=bot+applications.commands+identify+guilds). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user. 
 
 To view a list of require/optional permissions you can check out [this section](setup.md#inviting-cakey-bot).
 
