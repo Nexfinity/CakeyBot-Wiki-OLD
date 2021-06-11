@@ -160,7 +160,7 @@ Examples:
 {dm:@225182513465786369}    //Specific user ID
 ```
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Spamming commands that use this variable will lead to your guild being blacklisted from using Custom Commands.
 {% endhint %}
 
