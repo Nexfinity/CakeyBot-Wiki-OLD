@@ -1,5 +1,14 @@
 # Changelist - 2021
 
+## 6/11/2021 - QOL Changes
+
+#### Changed
+
+* Updated Cakey Bot's invite to no longer request administrator while inviting
+  * [https://discord.com/oauth2/authorize?client\_id=288163958022471680&permissions=2654334038&redirect\_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response\_type=code&scope=bot+applications.commands+identify+guilds](https://discord.com/oauth2/authorize?client_id=288163958022471680&permissions=2654334038&redirect_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response_type=code&scope=bot+applications.commands+identify+guilds)
+* Updated website navbar buttons to be consistent across all pages \(Previously colors were inverted on some pages\)
+* Pushed Korean and Swedish translations live
+
 ## 6/7/2021 - Temporary Actions
 
 #### Fixed
