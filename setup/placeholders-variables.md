@@ -147,6 +147,10 @@ Examples:
 In order to decrease the chances to abuse this placeholder, it is a [**Premium Only**](https://cakeybot.app/premium.html) placeholder.
 {% endhint %}
 
+{% hint style="warning" %}
+Cakey Bot can sometimes fail to send a DM if the user has their privacy settings set to block DMs from users in the guild. This is NOT a bug and not something Cakey Bot can bypass.
+{% endhint %}
+
 `{dm}` - Direct message the bot response to the user who called the command. _**Limited to one DM per command.**_  
 ****`{dm:@user}` - Direct message the bot response to the specified user. Replace "**user**" with the user ID. _**Limited to one DM per command.**_
 
