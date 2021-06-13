@@ -1,5 +1,15 @@
 # Changelist - 2021
 
+## 6/12/2021 - New Placeholder
+
+#### Fixed
+
+* Fixed an issue where you couldn't edit or clone custom commands/auto responders that contained backticks on the web dashboard
+
+#### Added
+
+* Added a new placeholder `{messagelink}` which displays a Discord link/url to the original command/message that triggered the response
+
 ## 6/11/2021 - QOL Changes
 
 #### Changed
