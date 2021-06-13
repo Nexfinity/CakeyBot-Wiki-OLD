@@ -179,6 +179,10 @@ _\(Note: You don't need `{chance:100}` to make the bot respond all the time, sim
 
 ### **Link/URL Buttons**
 
+{% hint style="danger" %}
+This placeholder is coming soon and is NOT currently implemented.
+{% endhint %}
+
 `{linkbutton:text~url}` - Adds a link button to the message. Replace "text" with what you want the button to say and replace "url" with the link/url you want the button to open in the browser. _There is a limit of 25 buttons per message/response and a max of 80 characters for the button text._
 
 Examples:
