@@ -33,7 +33,8 @@ Don't know how to find role/channel/user IDs? You can use this extremely detaile
 `{channel.id}` - Channel ID  
 `{channel.name}` - Channel name  
 `{channel.mention}` - Channel mention  
-`{#channel}` - A channel mention. Replace "**channel"** with the name of the channel you want to mention
+`{#channel}` - A channel mention. Replace "**channel"** with the name of the channel you want to mention  
+`<#channelid>` - A channel mention. Replace "channelid" with the ID of the channel you want to mention
 
 ### Guild
 
@@ -175,6 +176,18 @@ Don't want to have the bot respond every...single...time? Well with the response
 ```
 
 _\(Note: You don't need `{chance:100}` to make the bot respond all the time, simply excluding **any** chance placeholder will act as 100%\)_
+
+### **Link/URL Buttons**
+
+`{linkbutton:text~url}` - Adds a link button to the message. Replace "text" with what you want the button to say and replace "url" with the link/url you want the button to open in the browser. _There is a limit of 25 buttons per message/response and a max of 80 characters for the button text._
+
+Examples:
+
+```text
+{linkbutton:Cakey Bot~https://cakeybot.app}
+{linkbutton:Open Link~https://google.com}
+{linkbutton:Some Random Text~https://youtube.com}
+```
 
 ### **Reactions**
 
