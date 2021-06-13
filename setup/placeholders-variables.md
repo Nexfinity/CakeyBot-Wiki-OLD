@@ -84,7 +84,8 @@ Currently, all times & dates are for the United States Eastern timezone. In the 
 `{here}` - Mentions `@here`   
 `{nohere}` - Disables `@here` \(being able to mention everyone online with `@here`\) in the command  
 `{nomentions}` - Disables **ALL** mentions in the command **including** `@everyone`, `@here`, role mentions & user mentions.  
-`{prefix}` - Show command prefix for the server
+`{prefix}` - Show command prefix for the server  
+`{messagelink}` - Displays a Discord message link/url to the original command that triggered the response
 
 ## Advanced Placeholders
 
