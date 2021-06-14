@@ -1,5 +1,22 @@
 # Changelist - 2021
 
+## 6/14/2021 - Accessibility Improvements
+
+#### Fixed
+
+* Fixed an issue where `!play` would throw an "unknown" error in addition to the original error message if Cakey Bot was unable to join the voice channel
+* Fixed translations that would break after the first move in TTT \(This should also fix translation issues with other button/interaction related components\)
+
+#### Changed
+
+* Improved accessibility with toggling modules on the web dashboard and viewing their current status/state
+  * Greatly increased the border width so the color is easier to identify
+  * Changed button text "Click to Toggle" to "Click to Enable/Disable"
+
+#### Added
+
+* Added padding below toggle module panels so they don't clip behind the footer
+
 ## 6/12/2021 - New Placeholder
 
 #### Fixed
