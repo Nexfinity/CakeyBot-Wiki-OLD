@@ -33,8 +33,8 @@ Don't know how to find role/channel/user IDs? You can use this extremely detaile
 `{channel.id}` - Channel ID  
 `{channel.name}` - Channel name  
 `{channel.mention}` - Channel mention  
-`{#channel}` - A channel mention. Replace "**channel"** with the name of the channel you want to mention  
-`<#channelid>` - A channel mention. Replace "channelid" with the ID of the channel you want to mention
+`{#channel}` - A channel mention. Replace "**channel"** with the name of the channel  
+`<#channelid>` - A channel mention. Replace "**channelid**" with the ID of the channel _\(More reliable\)_
 
 ### Guild
 
@@ -63,7 +63,8 @@ Don't know how to find role/channel/user IDs? You can use this extremely detaile
 
 ### Role
 
- `{&role}` - Mention a role by name. Replace "**role"** with the role name
+`{&role}` - Mention a role by name. Replace "**role"** with the role name  
+`<@&roleid>` - Mention a role. Replace "**roleid"** with the role ID _\(More reliable\)_
 
 ### Time & Date
 
