@@ -1,6 +1,6 @@
 # Changelist - 2021
 
-## 6/14/2021 - Accessibility Improvements
+## 6/14/2021 - Accessibility Improvements & Bug Fixes
 
 #### Fixed
 
