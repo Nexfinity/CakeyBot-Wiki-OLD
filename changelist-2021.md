@@ -7,6 +7,8 @@
 * Fixed an issue where `!play` would throw an "unknown" error in addition to the original error message if Cakey Bot was unable to join the voice channel
 * Fixed translations that would break after the first move in TTT \(This should also fix translation issues with other button/interaction related components\)
 * Fixed a bug where image manipulation commands would sometimes silently fail if they failed to download an image to modify
+* Fixed `!suggestion` embed error colors not being red
+* Fixed an issue where you couldn't use numbered choose/choice placeholder lists if you didn't include the default unnumbered list
 
 #### Changed
 
