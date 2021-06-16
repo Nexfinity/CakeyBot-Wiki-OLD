@@ -2,11 +2,14 @@
 
 ## 6/15/2021 - Minor Premium Update + Locale Updates
 
+#### Fixed
+
+* Fixed an issue where the Premium page would not load if you hadn't selected a guild yet
+
 #### Changed
 
 * You can now visually see which of your guilds have premium and beta applied without having to click on them individually
 * Also, all new translation work has been pushed live
-* Fixed an issue where the Premium page would not load if you hadn't selected a guild yet
 
 ## 6/14/2021 - Accessibility Improvements & Bug Fixes
 
