@@ -13,9 +13,7 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
   * `!masspersist <role> <user1> | <user2> | <user3> | etc`
   * `!masswarn <reason> | <user1> | <user2> | <user3> | etc`
   * `!massmute <user1> | <user2> | <user3> | etc`
-* Custom image banners for join/leave `[Premium]`
 * Fix github previewer not working when line count range is &gt;10
-* Investigate/fix tempmute/tempbans
 * Handle expiring premium plans
 
 ## General Features
@@ -52,5 +50,4 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
 * Embed builder and sender
 * Voice-Text channel linking
 * Have option to allow custom commands to overwrite default command behavior
-* Properly re-sync database \(Remove ~828 invalid guilds\)
 
