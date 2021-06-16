@@ -1,5 +1,12 @@
 # Changelist - 2021
 
+## 6/15/2021 - Minor Premium Update + Locale Updates
+
+#### Changed
+
+* You can now visually see which of your guilds have premium applied without having to click on them individually.
+* Also, all new translation work has been pushed live
+
 ## 6/14/2021 - Accessibility Improvements & Bug Fixes
 
 #### Fixed
