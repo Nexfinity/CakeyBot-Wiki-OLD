@@ -1,6 +1,6 @@
 # Changelist - 2021
 
-## 6/15/2021 - Minor Premium Update + Locale Updates
+## 6/15/2021 - Web Dashboard + Locale Updates
 
 #### Fixed
 
