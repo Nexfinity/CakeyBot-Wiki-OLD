@@ -1,5 +1,16 @@
 # Changelist - 2021
 
+## 6/16/2021 - New Placeholder \(Buttons!\)
+
+#### Changed
+
+* Updated `!rolelist`, `!channellist` and `!emojilist` commands to use pastebin if there's too many to list in a Discord message
+
+#### Added
+
+* Added `!persistrole` as alias to `!persistentrole`
+* New placeholder! Add link buttons on custom commands/auto responders `{linkbutton:(text)[url]}`. Read more [here](https://docs.cakeybot.app/setup/placeholders-variables#link-url-buttons).
+
 ## 6/15/2021 - Web Dashboard + Locale Updates
 
 #### Fixed
