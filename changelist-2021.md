@@ -1,5 +1,22 @@
 # Changelist - 2021
 
+## 6/18/2021 - Premium Overhaul
+
+#### Changed
+
+* Cryptocurrencies are no longer accepted
+* Credit/Debit card is now handled by PayPal \(You don't have to create an account\)
+* Stripe credit/debit card is no longer accepted
+* PayPal subscriptions will now auto-renew monthly
+* Added bulk discount \(If you buy for 11+ servers, you only pay $4/mo per server\)
+* Updated FAQ and other related elements to reflect this change
+* Added ability to select a custom number of servers \(1-99\)
+* Updated premium page to show separate buttons for "PayPal Premium" and "One-Time PayPal Donations"
+* "Next Charge" will now show "Expires On" or "Renews On" depending on the type of payment
+* Current servers will now display which of your premium plans is applied to it and when that plan expires/renews
+* Premium subscriptions now show the source type the payment came from
+* PayPal subscriptions now automatically apply your premium subscription after purchase
+
 ## 6/17/2021 - Web Optimizations
 
 #### Fixed
