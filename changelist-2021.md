@@ -1,5 +1,15 @@
 # Changelist - 2021
 
+## 6/17/2021 - Web Optimizations
+
+#### Fixed
+
+* Fixed hover tooltip for premium custom join/leave banners \(previously used the query tooltip\)
+
+#### Changed
+
+* Optimized several web dashboard pages to improve page load speeds
+
 ## 6/16/2021 - New Placeholder \(Buttons!\)
 
 #### Changed
