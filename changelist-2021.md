@@ -2,8 +2,13 @@
 
 ## 6/18/2021 - Premium Overhaul
 
+#### Fixed
+
+* Fixed an extra `>` bracket that was on ban audit log messages
+
 #### Changed
 
+* Updated `!google` to actually return first google result
 * Cryptocurrencies are no longer accepted
 * Credit/Debit card is now handled by PayPal \(You don't have to create an account\)
 * Stripe credit/debit card is no longer accepted
