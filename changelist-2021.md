@@ -22,6 +22,10 @@
 * Premium subscriptions now show the source type the payment came from
 * PayPal subscriptions now automatically apply your premium subscription after purchase
 
+#### Added
+
+* Added `!snipe` command
+
 ## 6/17/2021 - Web Optimizations
 
 #### Fixed
