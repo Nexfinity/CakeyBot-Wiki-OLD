@@ -83,12 +83,12 @@ This also protects your privacy, as we don't receive any audio from your voice c
 
 If you are having trouble playing music, Cakey Bot being deafened will not affect that.
 
-## Why can’t I see my server in the dropdown menu?
+## Why can’t I see my server on the web dashboard?
 
  Make sure you’re logged into the correct Discord account, then refresh the website.
 
 {% hint style="warning" %}
-You will need **`Manage Server`** or **`Administrator`** permission to add Cakey Bot to your guild.
+You will need **`Manage Server`** or **`Administrator`** permission to configure Cakey Bot on your server.
 {% endhint %}
 
 ## How do I set up custom commands/auto responder?
@@ -124,7 +124,7 @@ Not currently, though we may look into this option in the future.
 There's a few steps required to become a BETA tester.
 
 1. Join our [Support Discord](https://discord.gg/Y3VdQAD).
-2. Assign yourself the tester role using the `!sr use Tester` command.
+2. Assign yourself the tester role using the buttons in our [\#server-info-and-rules](https://discord.com/channels/408424043482447872/408434189256359937/848972083684835380) channel.
 3. Become an active tester and earn the "Active Tester" role
 4. Read the [\#request-beta](https://discord.com/channels/660164229092999183/780131612499247134/780132537162399755) channel to apply
 
