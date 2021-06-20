@@ -2,11 +2,17 @@
 
 ## 6/20/2021 - Achievement Banners + New Commands
 
+#### Fixed
+
+* Fixed an incorrect url while typing `!afk list`
+* Fixed an issue where `/afk` wouldn't show your currently set AFK message
+
 #### Added
 
 * Added new `!achievement <text>` command which generates a Minecraft achievement using the provided text
 * Added new `!clap <text>` command which adds some ![:clap:](https://discord.com/assets/9fa091f676e4451ee5946fed948cb8fe.svg) to your text
 * Added new `!xkcd <opt:id>` command which grabs the comic for the provided ID or the latest comic if no ID is provided
+* Uploaded new translations for korean and swedish
 
 ## 6/18/2021 - Premium Overhaul
 
