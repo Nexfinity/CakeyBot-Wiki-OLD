@@ -1,10 +1,10 @@
 # Changelist - 2021
 
-## 6/20/2021 - Achievement Banners + Music Upgades
+## 6/20/2021 - Achievement Banners + Music Upgrades
 
 #### Fixed
 
-* Fixed an incorrect url while typing `!afk list`
+* Fixed an incorrect URL while typing `!afk list`
 * Fixed an issue where `/afk` wouldn't show your currently set AFK message
 * Fixed AFK messages not supporting unicode based text \(like emotes or korean language\)
 * Fixed `!skip` vote counts
