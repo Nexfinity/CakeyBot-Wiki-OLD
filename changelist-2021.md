@@ -6,6 +6,7 @@
 
 * Fixed an incorrect url while typing `!afk list`
 * Fixed an issue where `/afk` wouldn't show your currently set AFK message
+* Fixed AFK messages not supporting unicode based text \(like emotes or korean language\)
 
 #### Added
 
