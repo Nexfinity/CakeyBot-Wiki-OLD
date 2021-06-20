@@ -1,6 +1,6 @@
 # Changelist - 2021
 
-## 6/20/2021 - Achievement Banners + New Commands
+## 6/20/2021 - Achievement Banners + Music Upgades
 
 #### Fixed
 
@@ -8,6 +8,12 @@
 * Fixed an issue where `/afk` wouldn't show your currently set AFK message
 * Fixed AFK messages not supporting unicode based text \(like emotes or korean language\)
 * Fixed `!skip` vote counts
+* Fixed `/remindme` allowing optional parameters
+* Fixed check/x emotes on slash commands
+
+#### Changed
+
+* Changed `!search` command description
 
 #### Added
 
@@ -15,6 +21,9 @@
 * Added new `!clap <text>` command which adds some ![:clap:](https://discord.com/assets/9fa091f676e4451ee5946fed948cb8fe.svg) to your text
 * Added new `!xkcd <opt:id>` command which grabs the comic for the provided ID or the latest comic if no ID is provided
 * Uploaded new translations for korean and swedish
+* Added `!forceskip` and `!fs` as aliases to the `!skip` command
+* Added slash commands for music:
+  * Including: `/join`, `/play`, `/queue`, `/nowplaying`, `/disconnect`, `/skip`, `/volume`, `/pause` and `/resume`
 
 ## 6/18/2021 - Premium Overhaul
 
