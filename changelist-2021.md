@@ -1,5 +1,11 @@
 # Changelist - 2021
 
+## 6/20/2021 - Achievement Banners
+
+#### Added
+
+* Added new `!achievement <text>` command which generates a Minecraft achievement using the provided text
+
 ## 6/18/2021 - Premium Overhaul
 
 #### Fixed
@@ -345,7 +351,7 @@
 * Updated web dashboard URLs in Cakey Bot
 * Implemented roles on not/require placeholders
 
-## 2/7/2021
+## 2/7/2021 - Better Auto Mod
 
 #### Fixed
 
