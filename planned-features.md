@@ -49,5 +49,4 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
 * Have support tickets displayed
 * Embed builder and sender
 * Voice-Text channel linking
-* Have option to allow custom commands to overwrite default command behavior
 
