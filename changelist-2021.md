@@ -1,5 +1,18 @@
 # Changelist - 2021
 
+## 6/21/2021 - Music Changes
+
+#### Fixed
+
+* Fixed missing error messages with slash commands for music
+
+#### Changed
+
+* Song titles are now trimmed to 50 characters
+* Song titles can now be clicked and link to the original song URL
+* Song requester now actually pings/mentions the user
+* Updated overall formatting of music strings a bit
+
 ## 6/20/2021 - Achievement Banners + Music Upgrades
 
 #### Fixed
