@@ -34,7 +34,6 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
 * Add ability to list your custom playlists
 * Have a global "default" playlist that loads random NCS song playlist and shuffles it
 * Have YouTube videos skip to time if included in URL
-* Have bot auto disconnect if queue ends and no song is re-queued within 30s
 * "autojoin" function, so that the bot automatically joins a certain channel whenever someone joins it, in case the bot its not at that channel yet.
 
 ## Support Ticket System
