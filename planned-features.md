@@ -14,7 +14,6 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
   * `!masswarn <reason> | <user1> | <user2> | <user3> | etc`
   * `!massmute <user1> | <user2> | <user3> | etc`
 * Fix github previewer not working when line count range is &gt;10
-* Handle expiring premium plans
 
 ## General Features
 
