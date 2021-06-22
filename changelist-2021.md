@@ -1,5 +1,11 @@
 # Changelist - 2021
 
+## 6/22/2021 - TTT Upgrades
+
+#### Changed
+
+* Upgraded `!ttt` AI to actively block player wins
+
 ## 6/21/2021 - Music Changes
 
 #### Fixed
