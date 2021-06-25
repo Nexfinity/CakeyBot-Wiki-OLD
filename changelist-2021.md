@@ -1,5 +1,18 @@
 # Changelist - 2021
 
+## 6/25/2021 - Bug Fixes
+
+#### Fixed
+
+* Fixed an issue where Audit Log wouldn't work when you updated a News channel
+* Fixed an issue where custom commands/auto responders would fail if a user provided an invalid `{choose}` placeholder
+* Fixed a ton of other misc. bugs/issues. \(Mostly with slash commands\)
+
+#### Changed
+
+* Updated `!banlist` to use pastebin if there's too many users to display in-discord
+* Updated `!banlist` command to have an additional optional argument to only output the user IDs with no usernames. \(`!banlist <true/false>`\)
+
 ## 6/22/2021 - TTT Upgrades
 
 #### Changed
