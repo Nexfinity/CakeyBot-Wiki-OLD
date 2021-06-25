@@ -12,6 +12,7 @@
 
 * Updated `!banlist` to use pastebin if there's too many users to display in-discord
 * Updated `!banlist` command to have an additional optional argument to only output the user IDs with no usernames. \(`!banlist <true/false>`\)
+* Added additional check for "UseExternalEmoji" on AFK messages
 
 ## 6/22/2021 - TTT Upgrades
 
