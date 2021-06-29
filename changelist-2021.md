@@ -1,5 +1,17 @@
 # Changelist - 2021
 
+## 6/28/2021 - Minor Improvements
+
+#### Fixed
+
+* Fixed/updated welcome DM
+* Tons of general bug fixes and performance improvements
+
+#### Added
+
+* Added fancy position bar for `!nowplaying` command
+* Added DM Feedback poll for server owner when Cakey Bot is removed from a guild
+
 ## 6/25/2021 - Bug Fixes
 
 #### Fixed
