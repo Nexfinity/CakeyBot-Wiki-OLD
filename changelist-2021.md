@@ -1,5 +1,11 @@
 # Changelist - 2021
 
+## 6/29/2021 - Avatar Improvements
+
+#### Changed
+
+* Updated `!avatar` command to provide links to multiple file types and sizes
+
 ## 6/28/2021 - Minor Improvements
 
 #### Fixed
