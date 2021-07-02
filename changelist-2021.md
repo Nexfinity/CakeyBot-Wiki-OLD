@@ -1,5 +1,11 @@
 # Changelist - 2021
 
+## 7/2/2021 - Volume Increase
+
+#### Changed
+
+* Max music volume increased to 300%
+
 ## 6/29/2021 - Avatar Improvements
 
 #### Changed
