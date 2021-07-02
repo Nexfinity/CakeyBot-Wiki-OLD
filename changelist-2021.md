@@ -2,6 +2,10 @@
 
 ## 7/2/2021 - Volume Increase
 
+#### Fixed
+
+* Fixed `{delete}` placeholder
+
 #### Changed
 
 * Max music volume increased to 300%
