@@ -1,5 +1,22 @@
 # Changelist - 2021
 
+## 7/3/2021 - First Weekly Update
+
+#### Changed
+
+* Updated `!setting` command to display information about configuring advanced features
+* Split "Announcements" role into 3 roles \(Announcements, Bot News, and Website News\) so you can subscribe to news thats important to you
+* Updated `!ttt` AI to block more potential moves
+* `!fact` command will now show a drop down to select a fact type instead of provided a random "general" fact if you don't specify a type when running the command
+* `!invite` now shows all Cakey bots that can be invited \(Music bots and BETA bot\)
+* `!help` now has a drop down menu to easily grab URLs/links to useful pages or documentation for features
+* `!rps` command will now show a dropdown menu to select a move if you fail to provide one
+* `!snipe` now pulls the message for the current channel instead of the entire guild \(this prevents accidentally leaking deleted messages from private channels\)
+
+#### Added
+
+* Added new "General" category to the `!fact` command
+
 ## 7/2/2021 - Volume Increase
 
 #### Fixed
