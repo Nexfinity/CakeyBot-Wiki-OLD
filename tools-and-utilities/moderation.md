@@ -71,6 +71,7 @@ You can also filter what types of messages you want to delete by typing `!purge 
 * Embeds \(Any messages that contain an embed\)
 * Self \(Any messages that were sent by Cakey Bot\)
 * Bots \(Any messages that were sent by a bot\)
+* Components \(Any messages that have buttons or selection dropdowns\)
 * User \(Any messages that were sent by the specified user\)
   * **Special Format:** `!purge user <user id>`
 * Until \(Deletes every message between the command and the specified message ID\)
