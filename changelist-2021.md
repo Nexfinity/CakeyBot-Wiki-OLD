@@ -1,5 +1,18 @@
 # Changelist - 2021
 
+## 7/6/2021 - Advanced Purge Returns!
+
+#### Fixed
+
+* Fixed `!remindme` and `!tempmute` commands
+* Fixed `!snipe` command
+
+#### Changed
+
+* Re-enabled advanced purge filters and fixed related issues
+  * Added new "Components" filter to delete messages that contain buttons OR selection dropdowns
+  * **NOTE:** "Between" and "Until" filters are still buggy and are currently disabled.
+
 ## 7/3/2021 - First Weekly Update
 
 #### Changed
