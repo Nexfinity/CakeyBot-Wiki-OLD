@@ -1,5 +1,18 @@
 # Changelist - 2021
 
+## 7/8/2021 - Auto Mod Improvements
+
+#### Added
+
+* Added custom server-specified word blacklist for auto mod \(web dashboard\)
+* Added the ability to whitelist websites/URLs from the website blacklist on auto mod \(web dashboard\)
+
+## 7/7/2021 - Snipe Command Toggle
+
+#### Added
+
+* Added toggle to web dashboard for `!snipe` command \(disabled by default\)
+
 ## 7/6/2021 - Advanced Purge Returns!
 
 #### Fixed
