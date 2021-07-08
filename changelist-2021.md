@@ -37,7 +37,7 @@
 * `!invite` now shows all Cakey bots that can be invited \(Music bots and BETA bot\)
 * `!help` now has a drop down menu to easily grab URLs/links to useful pages or documentation for features
 * `!rps` command will now show a dropdown menu to select a move if you fail to provide one
-* `!snipe` now pulls the message for the current channel instead of the entire guild \(this prevents accidentally leaking deleted messages from private channels\)
+* `!snipe` now pulls the message for the current channel instead of the entire server \(this prevents accidentally leaking deleted messages from private channels\)
 
 #### Added
 
@@ -69,7 +69,7 @@
 #### Added
 
 * Added fancy position bar for `!nowplaying` command
-* Added DM Feedback poll for server owner when Cakey Bot is removed from a guild
+* Added DM Feedback poll for server owner when Cakey Bot is removed from a server
 
 ## 6/25/2021 - Bug Fixes
 
@@ -180,11 +180,11 @@
 
 #### Fixed
 
-* Fixed an issue where the Premium page would not load if you hadn't selected a guild yet
+* Fixed an issue where the Premium page would not load if you hadn't selected a server yet
 
 #### Changed
 
-* You can now visually see which of your guilds have premium and beta applied without having to click on them individually
+* You can now visually see which of your servers have premium and beta applied without having to click on them individually
 * Also, all new translation work has been pushed live
 
 ## 6/14/2021 - Accessibility Improvements & Bug Fixes
@@ -280,7 +280,7 @@
 #### Changed
 
 * Added usage info for `!quote` command when incorrect parameters are provided
-* Updated `!warnings` to accept user id OR user object. \(This allows you to view warnings of users who are no longer in the guild\)
+* Updated `!warnings` to accept user id OR user object. \(This allows you to view warnings of users who are no longer in the server\)
 
 ## 6/2/2021 - Calculator
 
@@ -497,7 +497,7 @@
 #### Fixed
 
 * Fixed an issue where Cakey Bot would add duplicate entries to web dashboard music queue when skipping to next song
-* Fixed an issue where "Temporary Actions" would show every guild's actions on the web dashboard
+* Fixed an issue where "Temporary Actions" would show every server's actions on the web dashboard
 
 #### Changed
 

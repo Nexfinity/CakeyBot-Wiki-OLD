@@ -5,7 +5,7 @@ This is just the documentation for Cakey Bot. You do NOT configure the bot from 
 {% endhint %}
 
 {% hint style="danger" %}
-If you got to this page by inviting Cakey Bot, please review the REQUIRED permissions for Cakey Bot to work in your guild. You can check these out [here](setup/setup.md#inviting-cakey-bot).
+If you got to this page by inviting Cakey Bot, please review the REQUIRED permissions for Cakey Bot to work in your server. You can check these out [here](setup/setup.md#inviting-cakey-bot).
 {% endhint %}
 
 ## Support/Report Bugs/Suggestions 

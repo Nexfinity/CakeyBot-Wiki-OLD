@@ -17,7 +17,7 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
 * User Joined
   * Shows Account Creation Date
 * User Left
-  * Shows Guild Join Date
+  * Shows Server Join Date
   * Lists every role the user had
 * Message Deleted
   * Includes "Perma-Link" for images
@@ -36,7 +36,7 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
 * User Banned
 * User Unbanned
 * User Kicked
-* Guild Updated \(Nitro Boost\)
+* Server Updated \(Nitro Boost\)
   * Shows before/after boost count
   * Shows Current Tier level
 * Role Created
@@ -56,9 +56,9 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
 
 ### Special Events
 
-* Guild Boost
-  * When a member boosts your guild, Cakey Bot will log the old and new boost value as well as the current boost tier. 
-  * This event is also fired when a boost is removed from the guild.
+* Server Boost
+  * When a member boosts your server, Cakey Bot will log the old and new boost value as well as the current boost tier. 
+  * This event is also fired when a boost is removed from the server.
 * Warnings
   * When a moderator uses the `!warn` command it will log the usage to the audit log
 * Purges
@@ -77,5 +77,5 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
     * This is useful for tracking and finding newly created alternate accounts.
 * Member Left
   * Cakey Bot will display a list of any roles that use had when they left.
-  * Cakey Bot will display the date of when the user joined the guild.
+  * Cakey Bot will display the date of when the user joined the server.
 

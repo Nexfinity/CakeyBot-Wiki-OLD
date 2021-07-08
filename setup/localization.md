@@ -6,7 +6,7 @@
 New translations are constantly being added to the bot. This means some strings/phrases may not be translated yet especially for features that have been added recently.
 {% endhint %}
 
-Cakey Bot supports 10 different languages. Language can be changed per-guild and will apply for every user in that guild. You can change the guild's language from our web dashboard. You can also change the Web Dashboard's language now. Currently, supported languages are listed below:
+Cakey Bot supports 10 different languages. Language can be changed per-server and will apply for every user in that server. You can change the server's language from our web dashboard. You can also change the Web Dashboard's language now. Currently, supported languages are listed below:
 
 * English
 * Dutch

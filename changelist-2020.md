@@ -87,7 +87,7 @@
 
 #### Added
 
-* Added "Auto Dehoist" to auto mod. Works just like `!dehoist` but applies automatically when a user joins the guild or changes their nickname.
+* Added "Auto Dehoist" to auto mod. Works just like `!dehoist` but applies automatically when a user joins the server or changes their nickname.
 
 ## 12/9/2020 - Image Analysis
 
@@ -120,7 +120,7 @@
 
 #### Added
 
-* Added option to disable users setting `!afk` statuses per-guild _\[Web Dashboard\]_
+* Added option to disable users setting `!afk` statuses per-server _\[Web Dashboard\]_
 * Added option to set a max AFK time limit. _\[Web Dashboard\]_
   * By default, AFK statuses will be permanent until the user or an admin removes the status
   * You can set a max time limit between 1 minute and 1 week, after which the AFK status will be disabled automatically for users.
@@ -187,7 +187,7 @@
 * Fixed multiple issues with Github Previewer
 * Fixed an issue where some songs would fail to play/skip
 * Misc. Bug Fixes
-* Updated Auto Quoter to only work on links/URLs from the guild they are copied from
+* Updated Auto Quoter to only work on links/URLs from the server they are copied from
 
 #### Added
 
@@ -206,7 +206,7 @@
 
 #### Fixed
 
-* Fixed an issue where guild data was not syncing with the database correctly \(This caused incorrect guild icons and member counts for the web dashboard\)
+* Fixed an issue where server data was not syncing with the database correctly \(This caused incorrect server icons and member counts for the web dashboard\)
 * Implemented a patch to prevent duplicate custom commands/auto responders
 * Misc. bug fixes \(Including fixing music\)
 
@@ -291,7 +291,7 @@
 * Fixed formatting issue on all Roleplay commands.
 * Fixed `!invert` Command
 * Fixed `!greyscale` Command
-* Fixed moderation commands not working on some users in large guilds
+* Fixed moderation commands not working on some users in large servers
 
 #### Changed
 
@@ -478,7 +478,7 @@
 
 #### Fixed
 
-* Potential fix for mod commands failing in large guilds
+* Potential fix for mod commands failing in large servers
 * Fixed `!purge` commands breaking with negative numbers
 * Fixed an issue where Cakey Bot would still try to run a command even if Cakey Bot couldn't send messages to the given channel
 * Improved handling of missing custom commands
@@ -593,8 +593,8 @@
 * Fixed an issue where Cakey Bot would try to check if a DM message was a "Song Request" channel 
 * Fixed an issue where Cakey could failed to get a valid music track but still try to play it
 * Fixed incorrect titles on some error messages
-* Fixed an issue where Cakey Bot would fail to add a guild to the database if the guild name contained special unicode
-* Fixed an issue where Cakey Bot wasn't properly syncing guilds in the database
+* Fixed an issue where Cakey Bot would fail to add a server to the database if the server name contained special unicode
+* Fixed an issue where Cakey Bot wasn't properly syncing servers in the database
 
 #### Changed
 
@@ -611,7 +611,7 @@
 
 * Added the ability to use an image banner instead of custom text for join/leave announcements. More info can be found [here](tools-and-utilities/join-leave-ban-announcements.md#image-banner-announcements).
 * Added new `!covid <country>` command to keep up-to-date with the COVID-19 pandemic.
-* Cakey Bot will now inform you if the the bot is missing 'required permissions' via DM when first invited to a guild.
+* Cakey Bot will now inform you if the the bot is missing 'required permissions' via DM when first invited to a server.
 
 #### Removed
 
@@ -635,7 +635,7 @@
 
 #### Fixed
 
-* As usual fixed several misc. bugs including one that would prevent Cakey Bot from working in guilds if the bot was removed and then re-invited!
+* As usual fixed several misc. bugs including one that would prevent Cakey Bot from working in servers if the bot was removed and then re-invited!
 
 #### Changed
 
@@ -655,7 +655,7 @@
 #### Fixed
 
 * Misc. bug fixes and QOL changes
-* Fixed an issue where the website would not load "Invite Bot" pages if the bot wasn't in the selected guild
+* Fixed an issue where the website would not load "Invite Bot" pages if the bot wasn't in the selected server
 
 #### Added
 
@@ -666,7 +666,7 @@
 
 #### Fixed
 
-* Fixed an issue where the guild logo would fail to load or would load an incorrect logo
+* Fixed an issue where the server logo would fail to load or would load an incorrect logo
 * Fixed an issue on custom commands where using dropdown menu options would toggle/delete the very last command, not the one you're trying to update
 * Fixed the `!msg <id>` command output
 * Internal - Fixed an issue causing some logs to not log correctly
@@ -748,8 +748,8 @@
 
 * Fixed the `!image` command
 * Fixed an issue where two commands used the same name \(`!emoji`\)
-  * `!emojis` - List emojis and their ID in the guild
-  * `!emoji <action>` - Create, Modify and Delete emoji in the guild
+  * `!emojis` - List emojis and their ID in the server
+  * `!emoji <action>` - Create, Modify and Delete emoji in the server
 
 #### Changed
 
@@ -765,7 +765,7 @@
 
 #### Added
 
-* Added a new `!boosters` command to display a list of the users boosting the guild along with the number of days they've been boosting
+* Added a new `!boosters` command to display a list of the users boosting the server along with the number of days they've been boosting
 * Added a new `!msg <id>` command to display raw message info - useful for discord bot developers
 
 ## 1/19/2020 - The Giveaway Update
@@ -778,13 +778,13 @@
 
 #### Changed
 
-* Updated `!debug` to correctly use channel permissions instead of guild permissions for proper debugging
+* Updated `!debug` to correctly use channel permissions instead of server permissions for proper debugging
 * Disabled the looping message when a song ends
 * Overhauled `!debug` command to show optional and required permissions
 
 #### Added
 
-* Delay the auto role for 10 min if the guild is set to high verification
+* Delay the auto role for 10 min if the server is set to high verification
 * Automatically redirect users to the docs/setup after invite
 * Re-Added `!giveaway` command w/ bug fixes and corrected permission checks
 * Added a permission check while adding channel overrides when creating a new mute role

@@ -6,7 +6,7 @@ Cakey Bot can automatically post custom messages when users join/leave or are ba
 
 ### Setting A Message
 
-You can set/modify messages and the announcement channel via our [web dashboard](https://cakeybot.app/dashboard/public/). Just log in, select a guild, and head on over to the "Announcements" page. Once here you can select a channel as well as setting the message content. You can set a message for any one of these events, some of them or all of them.
+You can set/modify messages and the announcement channel via our [web dashboard](https://cakeybot.app/dashboard/public/). Just log in, select a server, and head on over to the "Announcements" page. Once here you can select a channel as well as setting the message content. You can set a message for any one of these events, some of them or all of them.
 
 {% hint style="info" %}
 In order to have Cakey Bot send the messages, you will have to set a channel for Cakey Bot to post to. You can find more information about this below.

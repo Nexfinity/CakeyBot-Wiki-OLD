@@ -18,5 +18,5 @@ You can also view and remove persistent roles from our [web dashboard](https://c
 
 ### Persistent Mutes
 
-A common use case for persistent roles is to automatically re-apply a mute role when a user leaves/joins the guild to try and get rid of the mute or bypass it. If you use Cakey bot's mute command \(`!mute <user> <reason>`\), they will NOT have the mute role added as a persistent role. You will have to run the persistent role command separately OR you can enable "Persistent Mutes" on the moderation section of the [web dashboard](https://cakeybot.app/dashboard/public) to have mutes added as persistent roles automatically.
+A common use case for persistent roles is to automatically re-apply a mute role when a user leaves/joins the server to try and get rid of the mute or bypass it. If you use Cakey bot's mute command \(`!mute <user> <reason>`\), they will NOT have the mute role added as a persistent role. You will have to run the persistent role command separately OR you can enable "Persistent Mutes" on the moderation section of the [web dashboard](https://cakeybot.app/dashboard/public) to have mutes added as persistent roles automatically.
 

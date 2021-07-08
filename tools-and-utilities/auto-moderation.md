@@ -26,15 +26,15 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 ### Setup
 
 {% hint style="warning" %}
-You will need **`Manage Server`** or **`Administrator`** permission to manage guilds and setup Auto Moderation.
+You will need **`Manage Server`** or **`Administrator`** permission to manage servers and setup Auto Moderation.
 {% endhint %}
 
 {% hint style="info" %}
-Note: You will need to make sure that the "Auto Mod" module is enabled. This module is disabled by default for new guilds.
+Note: You will need to make sure that the "Auto Mod" module is enabled. This module is disabled by default for new servers.
 {% endhint %}
 
 1. Login to the web dashboard on the [main website here](https://cakeybot.app/auth.php).
-2. Click on the guild you want to edit custom commands on.
+2. Click on the server you want to edit custom commands on.
 3. Go to the "Auto Moderation" page.
 4. You can then customization how Auto Moderation works in your server. Including which checks/rules are applied and their thresholds.
 

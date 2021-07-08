@@ -7,11 +7,11 @@ This feature allows you to set up custom responses that Cakey Bot can handle. Fo
 ### Setup
 
 {% hint style="warning" %}
-You will need **`Manage Server`** or **`Administrator`** permission to manage guilds and custom commands.
+You will need **`Manage Server`** or **`Administrator`** permission to manage servers and custom commands.
 {% endhint %}
 
 1. Login to the web dashboard on the [main website here](https://cakeybot.app/dashboard/public).
-2. Click on the guild you want to edit custom commands on.
+2. Click on the server you want to edit custom commands on.
 3. Go to the "Auto Responder" page.
 4. You can then create, delete, and edit any responses on this page. You can get an overview of any flags that are available below. 
 
@@ -35,10 +35,10 @@ Cakey Bot will ignore any messages that are sent by other bots or sent via webho
 
 ### Using Emoji/Emotes in Responses
 
-Emoji/Emotes CAN be used in Custom Commands. However, it requires slightly more work due to how discord parses emotes. Normally in Discord, you could just type `:lel:` or `:smile:` to get an emote, however in Cakey Bot, neither of these will work. In order to get valid emojis you have to send the emojis in discord but place a backward slash in front of it to get the emote's full ID. Like so: `\:lel:` or `\:smile:` which will produce these results: `<:lel:408424717217693717>` or for Unicode emoji: `😄` . Once you have the full emoji id or the raw Unicode output, you can paste these into Cakey Bot's web dashboard and they should work as long as Cakey Bot is in a guild that has that custom emote in it. 
+Emoji/Emotes CAN be used in Custom Commands. However, it requires slightly more work due to how discord parses emotes. Normally in Discord, you could just type `:lel:` or `:smile:` to get an emote, however in Cakey Bot, neither of these will work. In order to get valid emojis you have to send the emojis in discord but place a backward slash in front of it to get the emote's full ID. Like so: `\:lel:` or `\:smile:` which will produce these results: `<:lel:408424717217693717>` or for Unicode emoji: `😄` . Once you have the full emoji id or the raw Unicode output, you can paste these into Cakey Bot's web dashboard and they should work as long as Cakey Bot is in a server that has that custom emote in it. 
 
 {% hint style="info" %}
-It is worth noting that Cakey Bot can use emojis in between guilds \(similar to nitro users\). So if you have an emoji in Guild \#1, you can use that emoji in a custom command in Guild \#2 if Cakey bot is in both of those guilds.
+It is worth noting that Cakey Bot can use emojis in between servers \(similar to nitro users\). So if you have an emoji in Server \#1, you can use that emoji in a custom command in Server \#2 if Cakey bot is in both of those servers.
 {% endhint %}
 
 ### Using Images in Responses

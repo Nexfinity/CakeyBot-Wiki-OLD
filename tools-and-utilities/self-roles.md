@@ -6,7 +6,7 @@ Make sure that Cakey Bot has the **`Manage Roles`** permission and that the Cake
 
 ### Self Role Command
 
-Self Roles allows users to add/remove roles to/from their self from a list of roles that has been created/set by the guild admins.
+Self Roles allows users to add/remove roles to/from their self from a list of roles that has been created/set by the server admins.
 
 To add/remove a role from this list you can use the `!sr add <role>` and `!sr remove <role>` commands.
 

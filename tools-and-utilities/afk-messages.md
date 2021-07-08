@@ -19,7 +19,7 @@ Your AFK message will not be sent if a BOT mentions you or if you mention yourse
 ### Removing an AFK Message
 
 {% hint style="info" %}
-Users who have the **`Manage Guild`** permission node can force remove a user's AFK message using the `!unafk <user>` command.
+Users who have the **`Manage Server`** permission node can force remove a user's AFK message using the `!unafk <user>` command.
 {% endhint %}
 
 You are able to remove your own AFK message by typing the `!unafk` command.
@@ -29,12 +29,12 @@ You are able to remove your own AFK message by typing the `!unafk` command.
 You can also configure AFK messages further by using our [Web Dashboard](https://cakeybot.app/dashboard/public). There are two main options you can change:
 
 1. AFK Module Status
-   * This toggles whether or not users can set AFK statuses in your guild
+   * This toggles whether or not users can set AFK statuses in your server
 2. Max AFK Time
    * This sets how long the user's AFK status will be active before being automatically removed.
    * This can be anywhere from 1 minute to 10,080 minutes. \(1 week\)
    * If you want AFK statues to be permanent, you can just set this value to -1.
-     * This is the default value for all guilds.
+     * This is the default value for all servers.
 
 You can also view all AFK users [here](https://cakeybot.app/dashboard/public/afk-list).
 

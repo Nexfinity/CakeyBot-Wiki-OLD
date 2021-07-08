@@ -25,7 +25,7 @@ Don't know how to find role/channel/user IDs? You can use this extremely detaile
 `{user.avatar}`- The user’s avatar URL  
 `{user.mention}` - Mentions the user  
 `{user.createdAt}` - The user’s registration date  
-`{user.joinedAt}` - The user’s guild join date
+`{user.joinedAt}` - The user’s server join date
 
 ### Channel
 
@@ -36,7 +36,7 @@ Don't know how to find role/channel/user IDs? You can use this extremely detaile
 `{#channel}` - A channel mention. Replace "**channel"** with the name of the channel  
 `<#channelid>` - A channel mention. Replace "**channelid**" with the ID of the channel _\(More reliable\)_
 
-### Guild
+### Server
 
 `{server.id}` - Server’s ID  
 `{server.name}` - Server’s name  
@@ -75,7 +75,7 @@ Don't know how to find role/channel/user IDs? You can use this extremely detaile
 `{datetime12}` - Current date with the 12 hour time
 
 {% hint style="warning" %}
-Currently, all times & dates are for the United States Eastern timezone. In the future, you will be able to select your timezone per-guild.
+Currently, all times & dates are for the United States Eastern timezone. In the future, you will be able to select your timezone per-server.
 {% endhint %}
 
 ### Other
@@ -151,7 +151,7 @@ In order to decrease the chances to abuse this placeholder, it is a [**Premium O
 {% endhint %}
 
 {% hint style="warning" %}
-Cakey Bot can sometimes fail to send a DM if the user has their privacy settings set to block DMs from users in the guild. This is NOT a bug and not something Cakey Bot can bypass.
+Cakey Bot can sometimes fail to send a DM if the user has their privacy settings set to block DMs from users in the server. This is NOT a bug and not something Cakey Bot can bypass.
 {% endhint %}
 
 `{dm}` - Direct message the bot response to the user who called the command. _**Limited to one DM per command.**_  
@@ -164,7 +164,7 @@ Examples:
 ```
 
 {% hint style="danger" %}
-Spamming commands that use this variable will lead to your guild being blacklisted from using Custom Commands.
+Spamming commands that use this variable will lead to your server being blacklisted from using Custom Commands.
 {% endhint %}
 
 ### Response Chance
@@ -194,7 +194,7 @@ Examples:
 ### **Reactions**
 
 {% hint style="warning" %}
-**Note:** This placeholder will not work on messages that use `{confirmdelete}` or `{dm}`. Also, Cakey Bot can ONLY use Emoji from any guild that Cakey Bot is in. \(Similar to nitro users\)
+**Note:** This placeholder will not work on messages that use `{confirmdelete}` or `{dm}`. Also, Cakey Bot can ONLY use Emoji from any server that Cakey Bot is in. \(Similar to nitro users\)
 {% endhint %}
 
 {% hint style="info" %}
@@ -205,7 +205,7 @@ You can also add reactions to responses \(up to 3\). To add a reaction simply in
 
 ```text
 {react:<a:200IQ:730769872698736692>} //Animated/Gif Emote
-{react:<:r6s:847490914749382719>}    //Custom Guild Emote
+{react:<:r6s:847490914749382719>}    //Custom Server Emote
 {react:😄}                           //Normal Unicode Emote
 ```
 

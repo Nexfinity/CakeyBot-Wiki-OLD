@@ -7,7 +7,7 @@ If you can't find the answer to your question you can contact us on our discord 
 ## How do I invite Cakey Bot to my server?
 
 {% hint style="warning" %}
-You will need **`Manage Server`** or **`Administrator`** permission to add Cakey Bot to your guild.
+You will need **`Manage Server`** or **`Administrator`** permission to add Cakey Bot to your server.
 {% endhint %}
 
 You can invite Cakey Bot using this [Discord OAuth URL](https://discord.com/oauth2/authorize?client_id=288163958022471680&permissions=2654334038&redirect_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response_type=code&scope=bot+applications.commands+identify+guilds). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user. 
@@ -38,7 +38,7 @@ You can find an extremely detailed and easy to follow guide [here](https://suppo
 Some commands in Cakey Bot are restricted to "Server Moderators". Cakey Bot considers anyone with the permissions listed below as a "Server Moderator".
 
 * Administrator
-* Manage Guild
+* Manage Server
 * Manage Channels
 * Manage Messages
 * Mute/Ban/Kick Members
@@ -49,7 +49,7 @@ Some music commands also require a "Server Moderator". Any music commands that r
 
 ## Why is Cakey Bot offline in my server but online in other servers?
 
-Cakey Bot may be working on some servers, but not on others. This is because the Cakey Bot is shard based and runs on multiple shards that each have a set amount of guilds \(or servers\) on them.
+Cakey Bot may be working on some servers, but not on others. This is because the Cakey Bot is shard based and runs on multiple shards that each have a set amount of servers \(or servers\) on them.
 
 ## What sources can I listen to music from? Do you support YouTube/Twitch/Spotify?
 
@@ -158,11 +158,11 @@ If none of these seem to be the cause of this issue, please head over to our [su
 
 ## Why does Cakey Bot automatically leave my server when invited?
 
-Cakey Bot may automatically leave guilds for a few reasons. Some of these are listed below:
+Cakey Bot may automatically leave servers for a few reasons. Some of these are listed below:
 
-* The guild is blacklisted from Cakey Bot
-  * If guilds abuse Cakey Bot too much, the guild \(and/or guild owner\) can be blacklisted from using the bot
-* The guild is a "Bot Hell"
-  * Some guilds will have hundreds/thousands of bots but only a handful of users. Bots in these guilds are generally spammy and pointless which adds unnecessary load to Cakey Bot.
-  * Cakey Bot will attempt to DM the guild owner if this happens.
+* The server is blacklisted from Cakey Bot
+  * If servers abuse Cakey Bot too much, the server \(and/or server owner\) can be blacklisted from using the bot
+* The server is a "Bot Hell"
+  * Some servers will have hundreds/thousands of bots but only a handful of users. Bots in these servers are generally spammy and pointless which adds unnecessary load to Cakey Bot.
+  * Cakey Bot will attempt to DM the server owner if this happens.
 
