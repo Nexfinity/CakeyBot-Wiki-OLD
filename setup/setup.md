@@ -12,20 +12,20 @@ While Cakey Bot's invite link defaults to **`Administrator`**, it does not requi
 
 You can invite Cakey Bot using this [Discord OAuth URL](https://discord.com/oauth2/authorize?client_id=288163958022471680&permissions=8&redirect_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response_type=code&scope=bot+identify+guilds+applications.commands). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user.
 
-#### Required Permissions:
+### Required Permissions:
 
 * Send Messages
 * Read/View Messages/Channels
 * Use External Emoji
 * Add Reactions
 
-#### Optional Permissions:
+### Optional Permissions:
 
 * Connect/Speak/Voice Activity \(For Music commands\)
 * Manage Roles/Channels/Emoji/Server \(Server Management commands\)
 * Kick/Ban/Mute/Manage Nickname/Manage Messages/Manage Roles \(Moderation commands\)
 
-#### Wildcard Permissions:
+### Wildcard Permissions:
 
 * Administrator - If you don't want to worry about specific permissions you can just grant Administrator.
 
@@ -39,7 +39,7 @@ It is not recommended to freely give out Administrator permission. It would just
 You will need **`Manage Server`** or **`Administrator`** permission to customize Cakey Bot in your server.
 {% endhint %}
 
-After you invite Cakey Bot, most commands/features will work right out of the box \(assuming it has the correct permissions\). However, there are some more advanced features that you can enable. Some of these features include but are not limited to: multiple languages, custom prefix, custom commands, audit logging, etc. 
+After you invite Cakey Bot, most commands/features will work right out of the box \(assuming it has the correct permissions\). However, there are some more advanced features that you can enable. Some of these features include but are not limited to: multiple languages, custom prefix, custom commands, audit logging, etc.
 
 You can access the web dashboard [here](https://cakeybot.app/dashboard/public). All of Cakey Bot's most advanced features can be configured through the web dashboard.
 

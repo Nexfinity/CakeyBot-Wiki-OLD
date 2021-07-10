@@ -12,12 +12,10 @@
 
 ## Changelists
 
----
-
-* [Planned Features](planned-features.md)
-* [Changelist - 2021](changelist-2021.md)
-* [Changelist - 2020](changelist-2020.md)
-* [Changelist - 2019](changelist-2019.md)
+* [Planned Features](changelists/planned-features.md)
+* [Changelist - 2021](changelists/changelist-2021.md)
+* [Changelist - 2020](changelists/changelist-2020.md)
+* [Changelist - 2019](changelists/changelist-2019.md)
 
 ## Core
 

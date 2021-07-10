@@ -10,7 +10,7 @@ If you can't find the answer to your question you can contact us on our discord 
 You will need **`Manage Server`** or **`Administrator`** permission to add Cakey Bot to your server.
 {% endhint %}
 
-You can invite Cakey Bot using this [Discord OAuth URL](https://discord.com/oauth2/authorize?client_id=288163958022471680&permissions=2654334038&redirect_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response_type=code&scope=bot+applications.commands+identify+guilds). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user. 
+You can invite Cakey Bot using this [Discord OAuth URL](https://discord.com/oauth2/authorize?client_id=288163958022471680&permissions=2654334038&redirect_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response_type=code&scope=bot+applications.commands+identify+guilds). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user.
 
 To view a list of require/optional permissions you can check out [this section](setup.md#inviting-cakey-bot).
 
@@ -75,8 +75,8 @@ Note: In order for Cakey Bot to mute a user several things must happen. Cakey Bo
 
 ## Why does Cakey Bot deafen itself in voice channels?
 
-Cakey Bot server deafens itself to prevent itself from receiving your audio. This doesn't have any effect on the functionality of the bot and it can play music even if it is server deafened.  
-  
+Cakey Bot server deafens itself to prevent itself from receiving your audio. This doesn't have any effect on the functionality of the bot and it can play music even if it is server deafened.
+
 This significantly reduces Cakey Bot's bandwidth usage \(since we don't receive what you say in a voice channel\), as well as Discord's bandwidth \(as they don't need to send it\).
 
 This also protects your privacy, as we don't receive any audio from your voice channel.
@@ -85,7 +85,7 @@ If you are having trouble playing music, Cakey Bot being deafened will not affec
 
 ## Why can’t I see my server on the web dashboard?
 
- Make sure you’re logged into the correct Discord account, then refresh the website.
+Make sure you’re logged into the correct Discord account, then refresh the website.
 
 {% hint style="warning" %}
 You will need **`Manage Server`** or **`Administrator`** permission to configure Cakey Bot on your server.
@@ -117,8 +117,6 @@ For a tutorial on switching your server region, [click here](https://support.dis
 
 Not currently, though we may look into this option in the future.
 
-
-
 ## How do I become a BETA tester?
 
 There's a few steps required to become a BETA tester.
@@ -140,12 +138,12 @@ If none of these seem to be the cause of this issue, please head over to our [su
 
 ## Why can’t I purge messages older than 14 days in a channel?
 
- Discord doesn’t allow bots to purge/delete messages that are older than 14 days old. [Learn more here](https://wiki.dyno.gg/purge-14-day).
+Discord doesn’t allow bots to purge/delete messages that are older than 14 days old. [Learn more here](https://wiki.dyno.gg/purge-14-day).
 
 ## Why won't Cakey Bot assign the Auto Role?
 
-You have to move Cakey Bot’s role above the role you’re trying to manage by going to Server Settings -&gt; Roles and dragging Cakey Bot's role above any roles you want Cakey Bot to manage.  
-  
+You have to move Cakey Bot’s role above the role you’re trying to manage by going to Server Settings -&gt; Roles and dragging Cakey Bot's role above any roles you want Cakey Bot to manage.
+
 To learn more about role hierarchy, [click here](https://support.discordapp.com/hc/en-us/articles/214836687-Role-Management-101).
 
 ## Why isn't Audit Log working on my server?

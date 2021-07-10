@@ -1,6 +1,6 @@
 # AFK Messages
 
-### Overview
+## Overview
 
 AFK messages allow you to automatically display a message to users who ping you. This allows you to explain why you might not be responding or when you'll be back. AFK messages have a 100 character limit to prevent abuse and you are unable to use clickable links/user mentions in the message. Currently AFK messages are permanent and will last until you or a server admin removes it.
 
@@ -8,7 +8,7 @@ AFK messages allow you to automatically display a message to users who ping you.
 If Cakey Bot has the appropriate permissions \(**`Add Reactions`** and **`Manage Messages`**\) any AFK message will have a trashcan reaction added to it. When clicked, it will delete the AFK message in order to keep the channel clean.
 {% endhint %}
 
-### Setting an AFK Message
+## Setting an AFK Message
 
 You are able to set your own AFK message by typing `!afk <message>`. If you ever forget what you have your AFK message set to you can always type `!afk` without any message and it'll show what message you currently have set. \(If one is set\)
 
@@ -16,7 +16,7 @@ You are able to set your own AFK message by typing `!afk <message>`. If you ever
 Your AFK message will not be sent if a BOT mentions you or if you mention yourself.
 {% endhint %}
 
-### Removing an AFK Message
+## Removing an AFK Message
 
 {% hint style="info" %}
 Users who have the **`Manage Server`** permission node can force remove a user's AFK message using the `!unafk <user>` command.
@@ -24,7 +24,7 @@ Users who have the **`Manage Server`** permission node can force remove a user's
 
 You are able to remove your own AFK message by typing the `!unafk` command.
 
-### Extra Configurations
+## Extra Configurations
 
 You can also configure AFK messages further by using our [Web Dashboard](https://cakeybot.app/dashboard/public). There are two main options you can change:
 

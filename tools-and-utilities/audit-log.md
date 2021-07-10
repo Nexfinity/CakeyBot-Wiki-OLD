@@ -1,10 +1,10 @@
 # Audit Log
 
-### Overview
+## Overview
 
 Cakey Bot has a very detailed feature-rich audit log, in addition to logging all of the events in the **Events** section below Cakey Bot also includes "Jump To" and "Perma-Link" features for some events. Audit Log not only logs highly detailed information for events but it can also log information for events that discord and most other bots don't log. For example, Cakey Bot logs both when a user boosts and when they quit boosting as well as permanent links for deleted images.
 
-### Enable/Disable Logging
+## Enable/Disable Logging
 
 In order to start logging you will need to designate a text channel as the log channel. You can do this by selecting a channel in the [Web Dashboard](https://cakeybot.app/dashboard/public/) on the "Audit Log" page. In order to disable logging, simply select "none" in the channel dropdown list.
 
@@ -12,7 +12,7 @@ In order to start logging you will need to designate a text channel as the log c
 Cakey Bot will need access to Send/Read messages in the channel you designate as the audit log.
 {% endhint %}
 
-### Audit Events
+## Audit Events
 
 * User Joined
   * Shows Account Creation Date
@@ -54,7 +54,7 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
 * Invite Created
 * Invite Deleted
 
-### Special Events
+## Special Events
 
 * Server Boost
   * When a member boosts your server, Cakey Bot will log the old and new boost value as well as the current boost tier. 
@@ -65,7 +65,7 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
   * When a moderator uses the !purge command it will log the amount of messages and the purge type to the audit log
   * If Cakey Bot has not hit the rate limit yet, purge will also include a Pastebin perma-link to all of the messages that were purged.
 
-### Additional Information
+## Additional Information
 
 * Message Deletion
   * Cakey Bot only caches the last 100 messages per channel. If a message is deleted past that, Cakey Bot will not be able to show the content of that message.

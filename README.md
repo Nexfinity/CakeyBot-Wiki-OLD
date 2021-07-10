@@ -8,7 +8,7 @@ This is just the documentation for Cakey Bot. You do NOT configure the bot from 
 If you got to this page by inviting Cakey Bot, please review the REQUIRED permissions for Cakey Bot to work in your server. You can check these out [here](setup/setup.md#inviting-cakey-bot).
 {% endhint %}
 
-## Support/Report Bugs/Suggestions 
+## Support/Report Bugs/Suggestions
 
 If you are having issues with the bot check out our [troubleshooting page](setup/troubleshooting.md). You can also find answers to common questions on our [FAQ page](setup/faq.md). If you do not find your issue there you can also join our discord [support server](https://discord.gg/Y3VdQAD) and get direct assistance there in our [\#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
 

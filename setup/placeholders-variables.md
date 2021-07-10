@@ -80,9 +80,9 @@ Currently, all times & dates are for the United States Eastern timezone. In the 
 
 ### Other
 
-`{everyone}` - Mentions `@everyone`   
+`{everyone}` - Mentions `@everyone`  
 `{noeveryone}` - Disables `@everyone` \(being able to mention everyone\) in the command  
-`{here}` - Mentions `@here`   
+`{here}` - Mentions `@here`  
 `{nohere}` - Disables `@here` \(being able to mention everyone online with `@here`\) in the command  
 `{nomentions}` - Disables **ALL** mentions in the command **including** `@everyone`, `@here`, role mentions & user mentions.  
 `{prefix}` - Show command prefix for the server  
@@ -127,8 +127,8 @@ Examples:
 ### **Not**
 
 `{not:&role}` - Blacklist a specific role from using the command. Replace "**role**" with the role ID.  
-****`{not:#channel}` - Blacklist the command from being run in a specific channel. Replace "**channel**" with the channel ID.  
-`{not:@user}` - Blacklist a specific user from using the command. Replace "**user**" with the user ID.
+**\*\*`{not:#channel}` - Blacklist the command from being run in a specific channel. Replace "**channel**" with the channel ID.  
+`{not:@user}` - Blacklist a specific user from using the command. Replace "**user\*\*" with the user ID.
 
 Examples:
 
@@ -155,7 +155,7 @@ Cakey Bot can sometimes fail to send a DM if the user has their privacy settings
 {% endhint %}
 
 `{dm}` - Direct message the bot response to the user who called the command. _**Limited to one DM per command.**_  
-****`{dm:@user}` - Direct message the bot response to the specified user. Replace "**user**" with the user ID. _**Limited to one DM per command.**_
+**\*\*`{dm:@user}` - Direct message the bot response to the specified user. Replace "**user**" with the user ID. \_**Limited to one DM per command.\*\*\_
 
 Examples:
 

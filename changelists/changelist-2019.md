@@ -25,7 +25,7 @@
 #### Added
 
 * Support for "DJ" role instead of Server Moderator permissions on music commands
-* Added Cakey Bot's definition of a "Server Moderator" to the [FAQ](setup/faq.md#what-is-considered-a-server-moderator).
+* Added Cakey Bot's definition of a "Server Moderator" to the [FAQ](../setup/faq.md#what-is-considered-a-server-moderator).
 
 ## 12/28/2019 - Soundcloud Support Added
 
