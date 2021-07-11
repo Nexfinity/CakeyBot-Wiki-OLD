@@ -7,13 +7,6 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
 ## In Progress
 
 * Auto Message \(Send automated messages on a specific interval\)
-* Commands to manage/update multiple users at once
-  * `!massban <user1> | <user2> | <user3> | etc`
-  * `!masskick <user1> | <user2> | <user3> | etc`
-  * `!masspersist <role> <user1> | <user2> | <user3> | etc`
-  * `!masswarn <reason> | <user1> | <user2> | <user3> | etc`
-  * `!massmute <user1> | <user2> | <user3> | etc`
-* Fix github previewer not working when line count range is &gt;10
 
 ## General Features
 
@@ -23,7 +16,7 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
 * Mod Cases
 * Tags
 * Auto Purge
-* Auto Punish
+* Auto Punish/Auto Ban
 * Reddit/youtube/twitch/twitter/rss subscriptions
 
 ## Music Features
