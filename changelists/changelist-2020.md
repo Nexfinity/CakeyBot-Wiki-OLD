@@ -101,7 +101,7 @@
 * Added new `!analyzeimage` command. Analyzes the image and tags common objects in it.
 * Added the ability to set the verification role on the web dashboard.
 
-### Removed
+#### Removed
 
 * Removed ability to toggle modules using the `!setting` command.
 
@@ -149,7 +149,7 @@
 
 * \#feedback channel on the [Support Discord](https://discord.gg/Y3VdQAD) has been renamed to \#suggestions \(Use `!suggestion <title> | <description>` to post suggestions now and use \#support for bug reports.\)
 
-### Removed
+#### Removed
 
 * Removed `!feedback` command. Bot now directs people to use the [Support Discord](https://discord.gg/Y3VdQAD).
 
@@ -234,7 +234,7 @@
 * Faster load times 
 * Confirmation dialogs for sensitive actions and hover tooltips for various actions
 
-### Planned:
+#### Planned
 
 * Light Mode addition
 * More features overall \(Basically all the stuff that's been sitting on the "planned" list due to lack of a decent dashboard\)
@@ -451,7 +451,7 @@
 
 * Added uptime info to `!about` command
 
-### Removed
+#### Removed
 
 * Removed support for mixer from music \(Mixer shut down July 22nd apparently\)
 
@@ -613,12 +613,12 @@
 * Added new `!covid <country>` command to keep up-to-date with the COVID-19 pandemic.
 * Cakey Bot will now inform you if the the bot is missing 'required permissions' via DM when first invited to a server.
 
-### Removed
+#### Removed
 
 * Removed `!blurple` command
 * Removed `!gstats` command
 
-### Other
+#### Other
 
 * Cakey Bot is now an Officially Verified Discord Bot!
 

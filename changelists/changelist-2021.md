@@ -421,7 +421,7 @@
 * Added max song length to dashboard
 * Added word blacklist to dashboard for music titles \(To auto-blacklist ear rape or similar\)
 
-### Removed
+#### Removed
 
 * Removed the `!playskip` command.
 * Removed useless code from `!search` \(Checking for playlist loading, will now display no results error\)
