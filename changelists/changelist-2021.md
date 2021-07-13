@@ -1,5 +1,13 @@
 # Changelist - 2021
 
+## 7/12/2021 - Misc Fixes
+
+#### Fixed
+
+* Fixed word blacklist not working in auto mod
+* Updated `!google` command to censor titles/descriptions in non-NSFW channels
+* Fixed `!reminder` not be able to accept emoji
+
 ## 7/10/2021 - Auto-Updating Localized Timestamps
 
 #### Fixed
