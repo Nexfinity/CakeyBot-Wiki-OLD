@@ -28,7 +28,7 @@
 
 ## 7/8/2021 - Auto Mod Improvements
 
-### Added
+#### Added
 
 * Added custom server-specified word blacklist for auto mod \(web dashboard\)
 * Added the ability to whitelist websites/URLs from the website blacklist on auto mod \(web dashboard\)
