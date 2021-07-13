@@ -10,7 +10,7 @@
 
 ## 12/28/2020
 
-### Added
+#### Added
 
 * Released more [Advanced Placeholders](../setup/placeholders-variables.md#advanced-placeholders):
   * `{deleteafter:x}` - Delete the response after X amount of seconds. Replace the x with a number between 1 and 9.
@@ -890,3 +890,4 @@
 * Added a `!panel`/`!dashboard` command for direct URL to web dashboard
 
 .
+
