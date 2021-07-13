@@ -19,7 +19,7 @@
 
 ## 12/27/2020 - Slash Commands!
 
-### Added
+#### Added
 
 * Released new slash commands:
   * /b64decode
@@ -39,12 +39,12 @@
 
 ## 12/25/2020 - User Gateway Screening
 
-### Changed
+#### Changed
 
 * Cakey Bot will now wait until users pass Discord's new gateway screening before adding the Auto Role.
   * This will prevent users from completely bypassing it
 
-### Fixed
+#### Fixed
 
 * "View Usage" & "Placeholder Reference" both open in new tabs now
 * Auto Responder now correctly pre-fills the "Flags" field
@@ -52,12 +52,12 @@
 
 ## 12/22/2020 - V3 Website Design
 
-### Changed
+#### Changed
 
 * A new website design! It now matches the new web dashboard and designed to look a bit cleaner. This is the first step and I will be greatly overhauling the design and layout to match the new theme as time goes on. This initial update was just to match the styling to that of the web dashboard.
 * Updated Korean and Swedish translations
 
-### Added
+#### Added
 
 * Added first "[Advanced Placeholder](../setup/placeholders-variables.md#advanced-placeholders)": `{delete}`
 
