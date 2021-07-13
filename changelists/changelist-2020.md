@@ -10,7 +10,7 @@
 
 ## 12/28/2020
 
-#### Added
+### Added
 
 * Released more [Advanced Placeholders](../setup/placeholders-variables.md#advanced-placeholders):
   * `{deleteafter:x}` - Delete the response after X amount of seconds. Replace the x with a number between 1 and 9.
@@ -19,7 +19,7 @@
 
 ## 12/27/2020 - Slash Commands!
 
-#### Added
+### Added
 
 * Released new slash commands:
   * /b64decode
@@ -39,12 +39,12 @@
 
 ## 12/25/2020 - User Gateway Screening
 
-#### Changed
+### Changed
 
 * Cakey Bot will now wait until users pass Discord's new gateway screening before adding the Auto Role.
   * This will prevent users from completely bypassing it
 
-#### Fixed
+### Fixed
 
 * "View Usage" & "Placeholder Reference" both open in new tabs now
 * Auto Responder now correctly pre-fills the "Flags" field
@@ -52,73 +52,73 @@
 
 ## 12/22/2020 - V3 Website Design
 
-#### Changed
+### Changed
 
 * A new website design! It now matches the new web dashboard and designed to look a bit cleaner. This is the first step and I will be greatly overhauling the design and layout to match the new theme as time goes on. This initial update was just to match the styling to that of the web dashboard.
 * Updated Korean and Swedish translations
 
-#### Added
+### Added
 
 * Added first "[Advanced Placeholder](../setup/placeholders-variables.md#advanced-placeholders)": `{delete}`
 
 ## 12/19/2020 - Among Us Gif
 
-#### Changed
+### Changed
 
 * Improved how Cakey Bot interacts with external APIs. This should lower the number of problems & will now send an error message when a problem occurs instead of just silently failing.
   * Note: It takes a few seconds to actually load/generate.
 
-#### Added
+### Added
 
 * Added new `!amongus [user]` command. ;\)
 
 ## 12/14/2020 - Automatic Dehoist
 
-#### Fixed
+### Fixed
 
 * Fixed the "Channel" for auto mod violations in audit log messages.
 * Fixed a translation error in the `!8ball` command.
 * Fixed literal boat load of bugs ;\)
 
-#### Changed
+### Changed
 
 * Modified the default word blacklist in auto mod for less false positives and reduced default number of blacklisted words.
 * Reverted some changes that broke `!tempmute`, `!tempban` & `!reminder`.
 
-#### Added
+### Added
 
 * Added "Auto Dehoist" to auto mod. Works just like `!dehoist` but applies automatically when a user joins the server or changes their nickname.
 
 ## 12/9/2020 - Image Analysis
 
-#### Fixed
+### Fixed
 
 * Fixed an issue where "Logs" on the web dashboard would not sort correctly on initial load
 
-#### Added
+### Added
 
 * Added new `!requests` command. Displays all songs in the queue that you have requested.
 * Added new `!analyzeimage` command. Analyzes the image and tags common objects in it.
 * Added the ability to set the verification role on the web dashboard.
 
-#### Removed
+### Removed
 
 * Removed ability to toggle modules using the `!setting` command.
 
 ## 12/8/2020 - Auto Mod Release
 
-#### Added
+### Added
 
 * Released Auto Mod publicly again after fixing some critical bugs
 * Added two new Text Manipulation commands! They are `!bold <text>` and `!boldscript <text>`
 
 ## 11/27/2020 - Improved AFK Statuses
 
-#### Changed
+### Changed
 
 * Updated `!afk` command so that running `!afk none` will remove your AFK status.
 
-#### Added
+### Added
 
 * Added option to disable users setting `!afk` statuses per-server _\[Web Dashboard\]_
 * Added option to set a max AFK time limit. _\[Web Dashboard\]_
@@ -127,52 +127,52 @@
 
 ## 11/26/2020 - Music Queue Update
 
-#### Fixed
+### Fixed
 
 * Fixed `!musicsetup` command
 * Misc. Bug Fixes
 
-#### Changed
+### Changed
 
 * Improved auto mod to check for new bypasses _\[BETA Feature\]_
 * `!userinfo` command embed color now matches the highest colored role of the user \(or default bot color if none\)
 * Updated documentation to match new dashboard layout/settings
 
-#### Added
+### Added
 
 * Music Queue
   * Cakey Bot will now display/sync the current music queue on the web dashboard!
 
 ## 11/18/2020
 
-#### Changed
+### Changed
 
 * \#feedback channel on the [Support Discord](https://discord.gg/Y3VdQAD) has been renamed to \#suggestions \(Use `!suggestion <title> | <description>` to post suggestions now and use \#support for bug reports.\)
 
-#### Removed
+### Removed
 
 * Removed `!feedback` command. Bot now directs people to use the [Support Discord](https://discord.gg/Y3VdQAD).
 
 ## 11/14/2020
 
-#### Changed
+### Changed
 
 * Auto Mod has now been relocked to BETA testers due to it clearly not being release ready.
 
 ## 11/12/2020 - BETA Program Returns
 
-#### Fixed
+### Fixed
 
 * Fixed an issue where Cakey Bot may lag/reconnect when bulk deleting messages
 * Fixed an issue where some users could not properly authenticate to the new dashboard
 * Fixed a bug where Github Previewer would show even when disabled
 * Fixed a bug where Auto Mod would not work even when enabled
 
-#### Changed
+### Changed
 
 * Disabled prefix/language caching for now
 
-#### Added
+### Added
 
 * Started up Cakey Bot BETA Testing program again
 * Added `BETA`, `WIP` \(Work-In-Progress\), and `New` badges to the navigation sidebar of the panel.
@@ -181,7 +181,7 @@
 
 ## 11/11/2020
 
-#### Fixed
+### Fixed
 
 * Fixed a bug where Auto Mod wouldn't work on most servers
 * Fixed multiple issues with Github Previewer
@@ -189,7 +189,7 @@
 * Misc. Bug Fixes
 * Updated Auto Quoter to only work on links/URLs from the server they are copied from
 
-#### Added
+### Added
 
 * Added `!yoink` as alias for `!grab`
 * Added underscores to `!dehoist`
@@ -198,25 +198,25 @@
 
 ## 11/6/2020 - Github Code Preview
 
-#### Added
+### Added
 
 * Added Github Code Previewer
 
 ## 11/5/2020 - Message Auto Quoter
 
-#### Fixed
+### Fixed
 
 * Fixed an issue where server data was not syncing with the database correctly \(This caused incorrect server icons and member counts for the web dashboard\)
 * Implemented a patch to prevent duplicate custom commands/auto responders
 * Misc. bug fixes \(Including fixing music\)
 
-#### Added
+### Added
 
 * Added Auto Quoter \(You can toggle this via the web dashboard\)
 
 ## 11/2/2020 - Dashboard V2 Update
 
-#### Added
+### Added
 
 * Responsive Design \(MUCH better tablet/phone support\)
 * Localization support \(Change panel language\)
@@ -225,7 +225,7 @@
 * Ability to edit custom commands/auto responders
 * Enabled the ability to configure auto mod settings
 
-#### Changed
+### Changed
 
 * Instant data refresh \(no more needed to manually refresh pages to see your changes\)
 * Improved feedback/notifications/errors \(You now get a fancy pop up when you make changes or encounter issues\)
@@ -234,7 +234,7 @@
 * Faster load times 
 * Confirmation dialogs for sensitive actions and hover tooltips for various actions
 
-#### Planned
+### Planned
 
 * Light Mode addition
 * More features overall \(Basically all the stuff that's been sitting on the "planned" list due to lack of a decent dashboard\)
@@ -244,40 +244,40 @@
 
 ## 10/23/2020
 
-#### Fixed
+### Fixed
 
 * Tons of bug fixes \(like literally a ton\)
 * Fixed error message for purge when there are no valid messages to delete
 * **Fixed music, seems it may have been broken for a day or two**
 
-#### Changed
+### Changed
 
 * Improved the results of the `!gif` command
 * Updated acceptable time format for `!giveaway` command, works just like `!reminder` now
 
 ## 10/18/2020
 
-#### Fixed
+### Fixed
 
 * Fixed \[join \| leave \| ban\] arguments being case-sensitive on the announcements command
 * Fixed an error message in the announcement command where it wasn't auto-filling the custom prefix
 
-#### Changed
+### Changed
 
 * Updated how roleplay commands mention users \(This should fix the invalid mentions for mobile users\)
 
-#### Added
+### Added
 
 * Added another fallback for user avatars \(Affects many core components of the bot where user avatars are used\)
 
 ## 10/5/2020 - More Audit Logs
 
-#### Fixed
+### Fixed
 
 * Fixed Join/Leave announcements \(They will now work with [Basic Placeholders](../setup/placeholders-variables.md#basic-placeholders) as intended\)
 * Improved voice channel join checks \(Now checks for user limit AND permissions\)
 
-#### Added
+### Added
 
 * New [audit log](../tools-and-utilities/audit-log.md#audit-events)[ events](../tools-and-utilities/audit-log.md#audit-events)!
   * Invite Created
@@ -286,20 +286,20 @@
 
 ## 9/29/2020 - Image Manipulation Update
 
-#### Fixed
+### Fixed
 
 * Fixed formatting issue on all Roleplay commands.
 * Fixed `!invert` Command
 * Fixed `!greyscale` Command
 * Fixed moderation commands not working on some users in large servers
 
-#### Changed
+### Changed
 
 * Updated `!fact` Command - **New Usages:**
   * `!fact` - Displays a random fact that you probably didn't know.
   * `!fact [dog | cat | panda | fox | bird | koala | kangaroo | raccoon | elephant | giraffe | whale]` - Displays an animal-specific fact.
 
-#### Added
+### Added
 
 * Added `!pokedex <pokemon>` Command - Displays info about the provided Pokemon.
 * Added `!meme` Command - Displays a random meme!
@@ -327,23 +327,23 @@
 
 ## 9/28/2020 - The Movie Update
 
-#### Fixed
+### Fixed
 
 * Role, Channel and User mention placeholders should now work properly in Custom Commands/Auto Responder
 
-#### Added
+### Added
 
 * Added `!imdb <query>` Command - Pulls various information from IMDb.
 * Added `!trailer <query>` Command - Gets a TV/Movie trailer from IMDb for the provided query.
 
 ## 9/25/2020 - The Animal Update
 
-#### Fixed
+### Fixed
 
 * Fixed several issues with Music Embeds
 * Fixed an issue where `!covid` sometimes didn't send a response due to rate limits
 
-#### Added
+### Added
 
 * Added error message for Overflows on the `!math` command
 * Added `!uptime` Command - Displays the current uptime of Cakey Bot
@@ -357,28 +357,28 @@
 
 ## 9/23/2020 - The Anime Update
 
-#### Added
+### Added
 
 * Added `!anime <name>` command
 * Added `!manga <name>` command
 
 ## 9/20/2020
 
-#### Fixed
+### Fixed
 
 * Fixed join/leave/ban announcements sending when set to "none" \(They will now no longer send as intended\)
 * Removed `!rank` as alias for `!role` \(Conflicts with too many other bots\)
 
 ## 9/19/2020
 
-#### Fixed
+### Fixed
 
 * Fixed music embed message
 * Fixed `!musicsetup` command
 
 ## 9/16/2020
 
-#### Fixed
+### Fixed
 
 * Added an error message when Cakey Bot fails to create or find a suitable mute role on `!mute` & `!tempmute` commands
 * Improved error handling/null values for Custom Commands and Auto Responder
@@ -389,29 +389,29 @@
 
 ## 9/2/2020
 
-#### Added
+### Added
 
 * Added new `!grab` command to send the currently playing song's info to your DMs. \(Great way to save a good song for later\)
 
 ## 8/30/2020
 
-#### Changed
+### Changed
 
 * Updated trivia timeout \(10s =&gt; 15s\)
 * Trivia errors and timeout will now show the correct answer
 
 ## 8/27/2020 - The Trivia Update
 
-#### Fixed
+### Fixed
 
 * Fixed an issue where `!purge` wouldn't upload message log to pastebin
 * Updated `!persistentrole` to actually add/remove the role when making it persistent
 
-#### Changed
+### Changed
 
 * Exclude deafened people from voteskip counts
 
-#### Added
+### Added
 
 * Added new `!discrim <value>` command that will give you a list of users that have the same discriminator
 * Added new `!trivia` minigame command with over 400 questions! \(More coming soon ;\) \)
@@ -422,13 +422,13 @@
 
 ## 8/26/2020 - Improved Auto Responder
 
-#### Changed
+### Changed
 
 * Custom Commands & Auto Responders are now separate and have their own pages on the panel.
 * The layout and options for the tables and command creation popups have updated slightly to reflect these changes
 * Both Custom Commands & Auto Responder are grouped on the "Auto Responder" module, so if you toggle that module, you'll toggle both of these
 
-#### Added
+### Added
 
 * Auto Responder now has the ability to set a few extra "Flags"
   * Exact Match - Default behavior, looks for exact match strings
@@ -439,44 +439,44 @@
 
 ## 8/4/2020
 
-#### Fixed
+### Fixed
 
 * Fixed some issues with Cakey Bot not handling permissions correctly. \(Specifically when trying to delete messages\)
 
-#### Changed
+### Changed
 
 * Updated all language files
 
-#### Added
+### Added
 
 * Added uptime info to `!about` command
 
-#### Removed
+### Removed
 
 * Removed support for mixer from music \(Mixer shut down July 22nd apparently\)
 
 ## 7/29/2020 - The Verification Update
 
-#### Fixed
+### Fixed
 
 * Fixed a bug where messages would not be properly translated for the Role Management module
 * Fixed an issue where certain embeds, errors and messages were not displaying correctly. \(i.e. a success message showing up as an error\)
 * Usual misc. bug fixes
 
-#### Added
+### Added
 
 * Added a new role verification command. Read more [here](../tools-and-utilities/verification-role.md).
 
 ## 6/10/2020 - The Equalizer Update
 
-#### Added
+### Added
 
 * New 14-band equalizer command for music \(`!equalizer <band> <gain>`\)
   * View current equalizer values by running the `!equalizer` command without any arguments.
 
 ## 6/3/2020
 
-#### Fixed
+### Fixed
 
 * Potential fix for mod commands failing in large servers
 * Fixed `!purge` commands breaking with negative numbers
@@ -485,33 +485,33 @@
 
 ## 6/2/2020
 
-#### Added
+### Added
 
 * Cakey Bot will now display "Cakey Bot is typing...." when a command is ran. \(Similar to normal users in discord\)
 
 ## 5/30/2020
 
-#### Fixed
+### Fixed
 
 * Misc. bug fixes to `!image` and music commands
 
 ## 5/21/2020
 
-#### Fixed
+### Fixed
 
 * Improved error handling for `!covid` command
 * `!image` command will now properly display errors instead of not returning any data
 
 ## 5/15/2020
 
-#### Fixed
+### Fixed
 
 * Fixed some TypeReader errors which would cause commands using a user mention to not work
 * Fix error handling for the `!image` command
 * Fixed an error where Music Embeds would not update properly
 * Fixed an issue where adding super long songs or a ton of songs to the queue would mess up queue messages due to super long play times
 
-#### Changed
+### Changed
 
 * Updated the `!poll` command to not throw errors if the message is deleted while being processed
 * `!image` command will now function even if _some_ data is missing \(for example a title or source url\)
@@ -519,48 +519,48 @@
 
 ## 5/14/2020 - Silent Moderation
 
-#### Added
+### Added
 
 * You can now use moderator commands silently.
   * See more information [here](../tools-and-utilities/moderation.md#silent-actions).
 
 ## 4/27/2020 - Temporary Moderation
 
-#### Fixed
+### Fixed
 
 * Fixed `!unban` command
 
-#### Added
+### Added
 
 * Added `!tempban <user> <time> [opt:reason]` command
 * Added `!tempmute <user> <time> [opt:reason]` command
 
 ## 4/24/2020
 
-#### Fixed
+### Fixed
 
 * Fixed `!reverse` command
 * Fixed `!ping` command
 
 ## 4/20/2020
 
-#### Fixed
+### Fixed
 
 * Fixed `!bird` command
 * Fixed `!image` command
 
-#### Changed
+### Changed
 
 * Increased `!gif` command cooldown \(1s =&gt; 3s\)
 * Updated error messages on roleplay commands to use embeds
 
 ## 4/17/2020
 
-#### Fixed
+### Fixed
 
 * Fixed an incorrect message in the music embed system
 
-#### Changed
+### Changed
 
 * Update delays on commands that use reactions to prevent triggering Discord API rate limits
 * Increase rate limit on `!poll` command \(1s =&gt; 15s\)
@@ -570,7 +570,7 @@
   * This should help with resuming music automatically when a shard restarts. Any feedback on whether this is working or not is appreciated as I can't force a shard to reconnect to test it manually
 * Improved error handling for the `!unwarn` command
 
-#### Added
+### Added
 
 * Added support for images in `!quote` command
 * Added new `{accountage}` variable for join/leave messages
@@ -579,14 +579,14 @@
 
 ## 4/12/2020
 
-#### Changed
+### Changed
 
 * Slightly darkened the background for the server query banner
 * Increased cooldown on `!ping` command \(1s =&gt; 5s\)
 
 ## 4/10/2020 - 4/11/2020 - The Covid Update
 
-#### Fixed
+### Fixed
 
 * Fixed an issue where some music messages would be posted to the \#cakey\_songrequests channels 
 * Fixed an issue where some commands would throw "unknown errors" when a module was disabled 
@@ -596,7 +596,7 @@
 * Fixed an issue where Cakey Bot would fail to add a server to the database if the server name contained special unicode
 * Fixed an issue where Cakey Bot wasn't properly syncing servers in the database
 
-#### Changed
+### Changed
 
 * Updated `!togglemention` command to work if discord doesn't have a valid value set
 * Updated `!setting module` to not completely break if Cakey Bot doesn't have external emoji permissions
@@ -607,24 +607,24 @@
 * Converted all error messages to fancy embed format with same design
 * Updated strings in newer commands to used localized variants
 
-#### Added
+### Added
 
 * Added the ability to use an image banner instead of custom text for join/leave announcements. More info can be found [here](../tools-and-utilities/join-leave-ban-announcements.md#image-banner-announcements).
 * Added new `!covid <country>` command to keep up-to-date with the COVID-19 pandemic.
 * Cakey Bot will now inform you if the the bot is missing 'required permissions' via DM when first invited to a server.
 
-#### Removed
+### Removed
 
 * Removed `!blurple` command
 * Removed `!gstats` command
 
-#### Other
+### Other
 
 * Cakey Bot is now an Officially Verified Discord Bot!
 
 ## 3/28/2020 - Reminders!
 
-#### Added
+### Added
 
 * Reminders
   * Maximum time limit for reminders is 1 month
@@ -633,16 +633,16 @@
 
 ## 3/19/2020 - Song Request Channel
 
-#### Fixed
+### Fixed
 
 * As usual fixed several misc. bugs including one that would prevent Cakey Bot from working in servers if the bot was removed and then re-invited!
 
-#### Changed
+### Changed
 
 * Improved/added localization to several music strings
 * Updated the "30 seconds until bot disconnect" message to self-delete if Cakey Bot has permission to do so
 
-#### Added
+### Added
 
 * Added a Song Request channel feature!
   * Control your music and view a real-time updated queue list in a dedicated music text channel!
@@ -652,90 +652,90 @@
 
 ## 3/18/2020
 
-#### Fixed
+### Fixed
 
 * Misc. bug fixes and QOL changes
 * Fixed an issue where the website would not load "Invite Bot" pages if the bot wasn't in the selected server
 
-#### Added
+### Added
 
 * Song Request channel
   * You can view more information about this [here](../music/music-basics.md#song-request-channel).
 
 ## 3/6/2020
 
-#### Fixed
+### Fixed
 
 * Fixed an issue where the server logo would fail to load or would load an incorrect logo
 * Fixed an issue on custom commands where using dropdown menu options would toggle/delete the very last command, not the one you're trying to update
 * Fixed the `!msg <id>` command output
 * Internal - Fixed an issue causing some logs to not log correctly
 
-#### Changed
+### Changed
 
 * Updated the `!quote` command to be functional and useful
   * Description: Displays a quote of the given message id in the provided channel.
   * Usage: `!quote <channel> <message id>`
 
-#### Added
+### Added
 
 * Added documentation to the [custom commands](../tools-and-utilities/custom-commands.md#using-emote-emotes-in-commands) section explaining how to use emoji/emotes in them
 * Added music support for Vlare.tv AND MP4 web URLs
 
 ## 2/25/2020 - Spotify Music Support
 
-#### Added
+### Added
 
 * Experimental support for spotify music added!
 
 ## 2/23/2020
 
-#### Added
+### Added
 
 * Added cooldown time for `!dehoist` \(1s =&gt; 7s\)
 * Added new `!unnick` command
 * Banned member messages in audit log will now display the user's last known nickname \(if one exists\)
 
-#### Fixed
+### Fixed
 
 * Fixed an issue where the days on `!serverinfo` would contain a really looong decimal
 
 ## 2/19/2020 - Improved Documentation
 
-#### Added
+### Added
 
 * Updated documentation regarding bot permissions, made required perms more obvious when inviting the bot for the first time
 * Added localization support for Romanian!
 
 ## 2/8/2020
 
-#### Fixed
+### Fixed
 
 * `!banlist` will now show user discriminator, user id and overflow user count
 * Misc. bug fixes
 
 ## 1/31/2020
 
-#### Fixed
+### Fixed
 
 * Fixed articles not showing up on `!wiki`
 * Fixed multiple words not working on `!wiki`
 
 ## 1/30/2020
 
-#### Changed
+### Changed
 
 * Updated translations for Turkish and Korean
 
 ## 1/27/2020
 
-#### Changed
+### Changed
 
 * Anyone can now use the trashcan/delete feature on AFK messages, not just the pinger
 
 ## 1/22/2020
 
-#### Changed
+### Changed
 
 * Updated `!image` command
   * SafeSearch is now disabled in NSFW text channels
@@ -744,45 +744,45 @@
 
 ## 1/21/2020
 
-#### Fixed
+### Fixed
 
 * Fixed the `!image` command
 * Fixed an issue where two commands used the same name \(`!emoji`\)
   * `!emojis` - List emojis and their ID in the server
   * `!emoji <action>` - Create, Modify and Delete emoji in the server
 
-#### Changed
+### Changed
 
 * Update translations for Arabic, German, Greek, Italian, Korean, Swedish, Turkish & Dutch
 
 ## 1/20/2020 - Added Booster Info
 
-#### Fixed
+### Fixed
 
 * Fixed the `!wiki` command
 * Fixed the `!steam` command
 * Misc. bug fixes
 
-#### Added
+### Added
 
 * Added a new `!boosters` command to display a list of the users boosting the server along with the number of days they've been boosting
 * Added a new `!msg <id>` command to display raw message info - useful for discord bot developers
 
 ## 1/19/2020 - The Giveaway Update
 
-#### Fixed
+### Fixed
 
 * Auto-Trim `!math` error messages to 200 characters to prevent spam
 * Fixed a bug causing Audit User Left to not be sent
 * Fixed the `!warn` command displaying the wrong target username
 
-#### Changed
+### Changed
 
 * Updated `!debug` to correctly use channel permissions instead of server permissions for proper debugging
 * Disabled the looping message when a song ends
 * Overhauled `!debug` command to show optional and required permissions
 
-#### Added
+### Added
 
 * Delay the auto role for 10 min if the server is set to high verification
 * Automatically redirect users to the docs/setup after invite
@@ -791,34 +791,34 @@
 
 ## 1/18/2020
 
-#### Fixed
+### Fixed
 
 * Fixed `!fact` command
 
 ## 1/16/2020 - The Math Update
 
-#### Added
+### Added
 
 * Added a `!math` command. To see a list of features you can check out [this page](../other-misc/math-command.md).
 
 ## 1/14/2020
 
-#### Fixed
+### Fixed
 
 * Misc but fixes
 
-#### Changed
+### Changed
 
 * Updated multiple languages with new translations
 
 ## 1/11/2020
 
-#### Fixed
+### Fixed
 
 * Fixed multiple issues/bugs with Auto Mod
 * Fixed misc. bugs
 
-#### Changed
+### Changed
 
 * Updated Turkish, Swedish Greek with new translations
 * Converted more strings to use localization
@@ -826,65 +826,66 @@
 
 ## 1/10/2020
 
-#### Changed
+### Changed
 
 * Arabic, German, Italian & Korean updated with new translations
 
-#### Added
+### Added
 
 * Released Auto Mod for public testing. Limited customization.
 
 ## 1/8/2020
 
-#### Changed
+### Changed
 
 * German & Korean languages updated w/ new translations
 
-#### Added
+### Added
 
 * Added multiple aliases to `!unwarn` and `!warnings`
 * Started testing Auto Mod features, join our discord to help test it out!
 
 ## 1/7/2020 - Localization Improvements
 
-#### Added
+### Added
 
 * Added Italian as an available language
 * Added updated translations for Greek and Swedish
 
 ## 1/6/2020 - Add Arabic Support
 
-#### Added
+### Added
 
 * Added Arabic as an available language
 
 ## 1/4/2020 - The Playlist Update
 
-#### Fixed
+### Fixed
 
 * Fixed role count on "User Left" audit log message
 
-#### Changed
+### Changed
 
 * Updated `!rewind`, `!ff` and `!seek` to accept human readable time strings
 * Prevented live streams from being saved to playlists
 * Improved error checking for `!playlist` commands
 
-#### Added
+### Added
 
 * Added the ability to run the `!help` command in DMs
 * Added a `!playlist list` to list all of your currently saved playlists
 
 ## 1/3/2020
 
-#### Changed
+### Changed
 
 * Fixed "Requester" being displayed wrong on the `!queue` command
 * Fixed an issue where `!queue` and `!np` commands wouldn't work after a song has looped
 * Updated Swedish, Korean and Greek languages with new translations
 
-#### Added
+### Added
 
 * Added `!repeat` as alias for `!loop`
 * Added a `!docs`/`!faq` command for direct URL to docs
 * Added a `!panel`/`!dashboard` command for direct URL to web dashboard
+
