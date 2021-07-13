@@ -889,3 +889,4 @@
 * Added a `!docs`/`!faq` command for direct URL to docs
 * Added a `!panel`/`!dashboard` command for direct URL to web dashboard
 
+.
