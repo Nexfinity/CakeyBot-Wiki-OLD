@@ -63,62 +63,62 @@
 
 ## 12/19/2020 - Among Us Gif
 
-### Changed
+#### Changed
 
 * Improved how Cakey Bot interacts with external APIs. This should lower the number of problems & will now send an error message when a problem occurs instead of just silently failing.
   * Note: It takes a few seconds to actually load/generate.
 
-### Added
+#### Added
 
 * Added new `!amongus [user]` command. ;\)
 
 ## 12/14/2020 - Automatic Dehoist
 
-### Fixed
+#### Fixed
 
 * Fixed the "Channel" for auto mod violations in audit log messages.
 * Fixed a translation error in the `!8ball` command.
 * Fixed literal boat load of bugs ;\)
 
-### Changed
+#### Changed
 
 * Modified the default word blacklist in auto mod for less false positives and reduced default number of blacklisted words.
 * Reverted some changes that broke `!tempmute`, `!tempban` & `!reminder`.
 
-### Added
+#### Added
 
 * Added "Auto Dehoist" to auto mod. Works just like `!dehoist` but applies automatically when a user joins the server or changes their nickname.
 
 ## 12/9/2020 - Image Analysis
 
-### Fixed
+#### Fixed
 
 * Fixed an issue where "Logs" on the web dashboard would not sort correctly on initial load
 
-### Added
+#### Added
 
 * Added new `!requests` command. Displays all songs in the queue that you have requested.
 * Added new `!analyzeimage` command. Analyzes the image and tags common objects in it.
 * Added the ability to set the verification role on the web dashboard.
 
-### Removed
+#### Removed
 
 * Removed ability to toggle modules using the `!setting` command.
 
 ## 12/8/2020 - Auto Mod Release
 
-### Added
+#### Added
 
 * Released Auto Mod publicly again after fixing some critical bugs
 * Added two new Text Manipulation commands! They are `!bold <text>` and `!boldscript <text>`
 
 ## 11/27/2020 - Improved AFK Statuses
 
-### Changed
+#### Changed
 
 * Updated `!afk` command so that running `!afk none` will remove your AFK status.
 
-### Added
+#### Added
 
 * Added option to disable users setting `!afk` statuses per-server _\[Web Dashboard\]_
 * Added option to set a max AFK time limit. _\[Web Dashboard\]_
@@ -127,52 +127,52 @@
 
 ## 11/26/2020 - Music Queue Update
 
-### Fixed
+#### Fixed
 
 * Fixed `!musicsetup` command
 * Misc. Bug Fixes
 
-### Changed
+#### Changed
 
 * Improved auto mod to check for new bypasses _\[BETA Feature\]_
 * `!userinfo` command embed color now matches the highest colored role of the user \(or default bot color if none\)
 * Updated documentation to match new dashboard layout/settings
 
-### Added
+#### Added
 
 * Music Queue
   * Cakey Bot will now display/sync the current music queue on the web dashboard!
 
 ## 11/18/2020
 
-### Changed
+#### Changed
 
 * \#feedback channel on the [Support Discord](https://discord.gg/Y3VdQAD) has been renamed to \#suggestions \(Use `!suggestion <title> | <description>` to post suggestions now and use \#support for bug reports.\)
 
-### Removed
+#### Removed
 
 * Removed `!feedback` command. Bot now directs people to use the [Support Discord](https://discord.gg/Y3VdQAD).
 
 ## 11/14/2020
 
-### Changed
+#### Changed
 
 * Auto Mod has now been relocked to BETA testers due to it clearly not being release ready.
 
 ## 11/12/2020 - BETA Program Returns
 
-### Fixed
+#### Fixed
 
 * Fixed an issue where Cakey Bot may lag/reconnect when bulk deleting messages
 * Fixed an issue where some users could not properly authenticate to the new dashboard
 * Fixed a bug where Github Previewer would show even when disabled
 * Fixed a bug where Auto Mod would not work even when enabled
 
-### Changed
+#### Changed
 
 * Disabled prefix/language caching for now
 
-### Added
+#### Added
 
 * Started up Cakey Bot BETA Testing program again
 * Added `BETA`, `WIP` \(Work-In-Progress\), and `New` badges to the navigation sidebar of the panel.
@@ -181,7 +181,7 @@
 
 ## 11/11/2020
 
-### Fixed
+#### Fixed
 
 * Fixed a bug where Auto Mod wouldn't work on most servers
 * Fixed multiple issues with Github Previewer
@@ -189,7 +189,7 @@
 * Misc. Bug Fixes
 * Updated Auto Quoter to only work on links/URLs from the server they are copied from
 
-### Added
+#### Added
 
 * Added `!yoink` as alias for `!grab`
 * Added underscores to `!dehoist`
@@ -198,25 +198,25 @@
 
 ## 11/6/2020 - Github Code Preview
 
-### Added
+#### Added
 
 * Added Github Code Previewer
 
 ## 11/5/2020 - Message Auto Quoter
 
-### Fixed
+#### Fixed
 
 * Fixed an issue where server data was not syncing with the database correctly \(This caused incorrect server icons and member counts for the web dashboard\)
 * Implemented a patch to prevent duplicate custom commands/auto responders
 * Misc. bug fixes \(Including fixing music\)
 
-### Added
+#### Added
 
 * Added Auto Quoter \(You can toggle this via the web dashboard\)
 
 ## 11/2/2020 - Dashboard V2 Update
 
-### Added
+#### Added
 
 * Responsive Design \(MUCH better tablet/phone support\)
 * Localization support \(Change panel language\)
@@ -225,7 +225,7 @@
 * Ability to edit custom commands/auto responders
 * Enabled the ability to configure auto mod settings
 
-### Changed
+#### Changed
 
 * Instant data refresh \(no more needed to manually refresh pages to see your changes\)
 * Improved feedback/notifications/errors \(You now get a fancy pop up when you make changes or encounter issues\)
@@ -234,7 +234,7 @@
 * Faster load times 
 * Confirmation dialogs for sensitive actions and hover tooltips for various actions
 
-### Planned
+#### Planned
 
 * Light Mode addition
 * More features overall \(Basically all the stuff that's been sitting on the "planned" list due to lack of a decent dashboard\)
@@ -244,40 +244,40 @@
 
 ## 10/23/2020
 
-### Fixed
+#### Fixed
 
 * Tons of bug fixes \(like literally a ton\)
 * Fixed error message for purge when there are no valid messages to delete
 * **Fixed music, seems it may have been broken for a day or two**
 
-### Changed
+#### Changed
 
 * Improved the results of the `!gif` command
 * Updated acceptable time format for `!giveaway` command, works just like `!reminder` now
 
 ## 10/18/2020
 
-### Fixed
+#### Fixed
 
 * Fixed \[join \| leave \| ban\] arguments being case-sensitive on the announcements command
 * Fixed an error message in the announcement command where it wasn't auto-filling the custom prefix
 
-### Changed
+#### Changed
 
 * Updated how roleplay commands mention users \(This should fix the invalid mentions for mobile users\)
 
-### Added
+#### Added
 
 * Added another fallback for user avatars \(Affects many core components of the bot where user avatars are used\)
 
 ## 10/5/2020 - More Audit Logs
 
-### Fixed
+#### Fixed
 
 * Fixed Join/Leave announcements \(They will now work with [Basic Placeholders](../setup/placeholders-variables.md#basic-placeholders) as intended\)
 * Improved voice channel join checks \(Now checks for user limit AND permissions\)
 
-### Added
+#### Added
 
 * New [audit log](../tools-and-utilities/audit-log.md#audit-events)[ events](../tools-and-utilities/audit-log.md#audit-events)!
   * Invite Created
@@ -286,20 +286,20 @@
 
 ## 9/29/2020 - Image Manipulation Update
 
-### Fixed
+#### Fixed
 
 * Fixed formatting issue on all Roleplay commands.
 * Fixed `!invert` Command
 * Fixed `!greyscale` Command
 * Fixed moderation commands not working on some users in large servers
 
-### Changed
+#### Changed
 
 * Updated `!fact` Command - **New Usages:**
   * `!fact` - Displays a random fact that you probably didn't know.
   * `!fact [dog | cat | panda | fox | bird | koala | kangaroo | raccoon | elephant | giraffe | whale]` - Displays an animal-specific fact.
 
-### Added
+#### Added
 
 * Added `!pokedex <pokemon>` Command - Displays info about the provided Pokemon.
 * Added `!meme` Command - Displays a random meme!
@@ -327,23 +327,23 @@
 
 ## 9/28/2020 - The Movie Update
 
-### Fixed
+#### Fixed
 
 * Role, Channel and User mention placeholders should now work properly in Custom Commands/Auto Responder
 
-### Added
+#### Added
 
 * Added `!imdb <query>` Command - Pulls various information from IMDb.
 * Added `!trailer <query>` Command - Gets a TV/Movie trailer from IMDb for the provided query.
 
 ## 9/25/2020 - The Animal Update
 
-### Fixed
+#### Fixed
 
 * Fixed several issues with Music Embeds
 * Fixed an issue where `!covid` sometimes didn't send a response due to rate limits
 
-### Added
+#### Added
 
 * Added error message for Overflows on the `!math` command
 * Added `!uptime` Command - Displays the current uptime of Cakey Bot
