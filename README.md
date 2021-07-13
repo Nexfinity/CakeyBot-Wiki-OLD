@@ -67,4 +67,5 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 * [x] Verification Role System
 * [x] Web Dashboard
 * [x] Warnings/Infractions
+* [x] + so much more!
 
