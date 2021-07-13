@@ -1,5 +1,12 @@
 # Changelist - 2021
 
+## 7/14/2021 - Music Locale Fixes
+
+#### Fixed
+
+* Fixed music translations/localization
+* Fixed an issue where some music titles would mess up the url/link formatting
+
 ## 7/12/2021 - Misc Fixes
 
 #### Fixed
