@@ -9,6 +9,7 @@
 
 #### Changed
 
+* Bot settings will now save if Cakey Bot is kicked/removed
 * Major audit log overhaul
   * You can now toggle individual audit log events on/off so you can see events that are important to you
   * You can now send individual events to different channels so you can group them by priority or have certain logs public \(or for certain staff ranks\)
