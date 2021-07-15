@@ -1,11 +1,20 @@
 # Changelist - 2021
 
-## 7/14/2021 - Music Locale Fixes
+## 7/14/2021 - MAJOR Audit Log Overhaul
 
 #### Fixed
 
 * Fixed music translations/localization
 * Fixed an issue where some music titles would mess up the url/link formatting
+
+#### Changed
+
+* Major audit log overhaul
+  * You can now toggle individual audit log events on/off so you can see events that are important to you
+  * You can now send individual events to different channels so you can group them by priority or have certain logs public \(or for certain staff ranks\)
+  * You can now change the embed color for each event to make them better stand out
+  * Re-enabled the voice channel user state event \(shows when users join, leave and swap voice channels\)
+  * Added the ability to exclude certain roles or channels from being logged \(This one is a WIP and will be out later tonight\)
 
 ## 7/12/2021 - Misc Fixes
 
