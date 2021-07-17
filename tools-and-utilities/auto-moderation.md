@@ -33,7 +33,7 @@ You will need **`Manage Server`** or **`Administrator`** permission to manage se
 Note: You will need to make sure that the "Auto Mod" module is enabled. This module is disabled by default for new servers.
 {% endhint %}
 
-1. Login to the web dashboard on the [main website here](https://cakeybot.app/auth.php).
+1. Login to the web dashboard on the [main website here](https://cakeybot.app/dashboard/public).
 2. Click on the server you want to edit custom commands on.
 3. Go to the "Auto Moderation" page.
 4. You can then customization how Auto Moderation works in your server. Including which checks/rules are applied and their thresholds.
