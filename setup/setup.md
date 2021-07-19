@@ -10,7 +10,7 @@ You will need **`Manage Server`** or **`Administrator`** permission to add Cakey
 While Cakey Bot's invite link defaults to **`Administrator`**, it does not require this permission to function. It's just to make setup simpler for those who don't want to spend time on channel/role-specific permissions.
 {% endhint %}
 
-You can invite Cakey Bot using this [Discord OAuth URL](https://discord.com/oauth2/authorize?client_id=288163958022471680&permissions=8&redirect_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response_type=code&scope=bot+identify+guilds+applications.commands). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user.
+You can invite Cakey Bot using this [Discord OAuth URL](https://cakeybot.app/invite). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user.
 
 ### Required Permissions:
 
