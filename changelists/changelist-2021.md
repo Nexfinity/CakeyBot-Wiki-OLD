@@ -1,20 +1,20 @@
 # Changelist - 2021
 
-## 7/18/2021
+## 7/18/2021 - More Music Fixes
 
 #### Fixed
 
 * Fixed music embed/song request channel buttons not working
 * Fixed music not auto-skipping on song end \(again\)
 
-## 7/16/2021
+## 7/16/2021 - Music Fixes
 
 #### Fixed
 
 * Fixed Cakey Bot not properly disconnecting when all users leave the voice channel
 * Fixed Cakey Bot not automatically skipping to next song when one ends
 
-## 7/15/2021
+## 7/15/2021 - Button AFK
 
 #### Fixed
 
