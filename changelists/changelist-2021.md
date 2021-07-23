@@ -1,5 +1,16 @@
 # Changelist - 2021
 
+## 7/21/2021 - Minor Bug Fixes
+
+#### Fixed
+
+* Users can now view their own warnings without explicitly providing their user id as a parameter in `!warnings`
+
+#### Changed
+
+* Fixed some issues with `!ttt`
+* Fixed join/leave DMs
+
 ## 7/18/2021 - More Music Fixes
 
 #### Fixed
