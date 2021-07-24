@@ -8,6 +8,7 @@
   * You can configure it on the web dashboard under "Social Feeds" and select the "Twitch Feeds" tab
   * Reddit, RSS, and Youtube alerts are planned
   * Non-premium users are limited to a maximum of 3 feeds per type, premium get unlimited
+* Added new `{quote:#channelid}` placeholder. Which will quote the last message in the provided channel. Replace "channelid" with the ID of the channel
 
 ## 7/21/2021 - Minor Bug Fixes
 
