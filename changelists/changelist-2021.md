@@ -1,5 +1,14 @@
 # Changelist - 2021
 
+## 7/24/2021 - Social Feeds! \(Twitch\)
+
+#### Added
+
+* Released first social feed tracking type! \(Twitch live alerts\)
+  * You can configure it on the web dashboard under "Social Feeds" and select the "Twitch Feeds" tab
+  * Reddit, RSS, and Youtube alerts are planned
+  * Non-premium users are limited to a maximum of 3 feeds per type, premium get unlimited
+
 ## 7/21/2021 - Minor Bug Fixes
 
 #### Fixed
