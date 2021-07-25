@@ -87,7 +87,8 @@ Currently, all times & dates are for the United States Eastern timezone. In the 
 `{nomentions}` - Disables **ALL** mentions in the command **including** `@everyone`, `@here`, role mentions & user mentions.  
 `{prefix}` - Show command prefix for the server  
 `{messagelink}` - Displays a Discord message link/url to the original command/message that triggered the response  
-`{quote:#channelid}` - Quote the last message in the provided channel. Replace "**channelid**" with the ID of the channel
+`{quote:#channelid}` - Quote the last message in the provided channel. Replace "**channelid**" with the ID of the channel  
+`{random:min:max}` - Generates a random number between the min/max. Replace "**min**" and "**max**" with a number between 0 and 999,999,999. **Note:** Your minimum number must be smaller than your maximum number.
 
 ## Advanced Placeholders
 
