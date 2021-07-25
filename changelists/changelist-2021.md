@@ -1,5 +1,12 @@
 # Changelist - 2021
 
+## 7/25/2021 - TTT Fixes
+
+#### Fixed
+
+* Added a note to `!ttt` games displaying how long until they expire
+* Automatically expire deleted `!ttt` games
+
 ## 7/24/2021 - Social Feeds! \(Twitch\)
 
 #### Added
