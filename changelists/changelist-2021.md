@@ -1,6 +1,6 @@
 # Changelist - 2021
 
-## 7/25/2021 - TTT Fixes
+## 7/25/2021 - TTT Fixes + Random Number Placeholder
 
 #### Fixed
 
