@@ -7,6 +7,7 @@
 * Added a note to `!ttt` games displaying how long until they expire
 * Automatically expire deleted `!ttt` games
 * Fixed issues with new Twitch Feeds
+* Increased ratelimit/cooldown of all moderation commands from 1s =&gt; 2s due to abuse
 
 #### Added
 
