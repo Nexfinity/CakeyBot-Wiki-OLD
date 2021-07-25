@@ -6,6 +6,11 @@
 
 * Added a note to `!ttt` games displaying how long until they expire
 * Automatically expire deleted `!ttt` games
+* Fixed issues with new Twitch Feeds
+
+#### Added
+
+* Added new placeholder `{random:min:max}` Which generates a random number between the min/max. Replace "min" and "max" with a number between 0 and 999,999,999. Note: Your minimum number must be smaller than your maximum number.
 
 ## 7/24/2021 - Social Feeds! \(Twitch\)
 
