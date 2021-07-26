@@ -41,6 +41,10 @@ To use a tag simply type `!tag <name>`.
 * Messages sent by bots or webhooks will be ignored
 * @User, @Role and @Everyone/@Here mentions are completely disabled in tags
 
+{% hint style="info" %}
+**Note:** Tag names CAN contain spaces, but you can only create/modify tags with spaces via the web dashboard.
+{% endhint %}
+
 ## Using Emoji/Emotes in Tags
 
 Emoji/Emotes CAN be used in Tags. However, it requires slightly more work due to how discord parses emotes. Normally in Discord, you could just type `:lel:` or `:smile:` to get an emote, however in Cakey Bot, neither of these will work. In order to get valid emojis you have to send the emojis in discord but place a backward slash in front of it to get the emote's full ID. Like so: `\:lel:` or `\:smile:` which will produce these results: `<:lel:408424717217693717>` or for Unicode emoji: `😄` . Once you have the full emoji id or the raw Unicode output, you can paste these into Cakey Bot's web dashboard and they should work as long as Cakey Bot is in a server that has that custom emote in it.
