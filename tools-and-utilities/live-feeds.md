@@ -2,13 +2,9 @@
 
 ## Overview
 
-Cakey Bot has the ability to send live updates and notifications to specific channels using Web Hooks. While Cakey Bot only supports a few official sources, you can attempt to use the "generic rss" feed to post live updates of less-common feeds. You can setup these feeds via the "Live Feeds" page on the web dashboard.
+Cakey Bot has the ability to send live updates and notifications to specific channels using web hooks. While Cakey Bot only supports a few official sources, you can attempt to use the "generic RSS" feed to post live updates of less-common feeds. You can set up these feeds via the "Social Feeds" page on the web dashboard.
 
 ## Reddit
-
-{% hint style="warning" %}
-Work-In-Progress
-{% endhint %}
 
 ![](../.gitbook/assets/ss5%20%281%29.jpg)
 
@@ -20,9 +16,7 @@ Not implemented yet.
 
 ## Twitch
 
-{% hint style="danger" %}
-Not implemented yet.
-{% endhint %}
+![](../.gitbook/assets/twitchfeed.jpg)
 
 ## Twitter
 
