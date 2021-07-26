@@ -27,7 +27,7 @@ Once you have created tags, you can also modify them here.
 
 You can manage and list tags using the following commands:
 
-* To list all commands simply type `!tags` or `!tags` list. 
+* To list all commands simply type `!tags` or `!tags list`. 
 * To create a tag type `!tags create <name> <response>`.
 * To modify a tag type `!tags edit <name> <response>`.
 * To delete a tag just type `!tags delete <name>`.
