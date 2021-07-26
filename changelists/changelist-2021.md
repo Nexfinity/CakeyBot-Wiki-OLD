@@ -1,5 +1,13 @@
 # Changelist - 2021
 
+## 7/26/2021 - Tags
+
+#### Added
+
+* Added new Tags system!
+  * You can now create "tags" that anyone can use.
+  * To read more about these check out our documentation here: [https://docs.cakeybot.app/tools-and-utilities/tags](https://docs.cakeybot.app/tools-and-utilities/tags)
+
 ## 7/25/2021 - TTT Fixes + Random Number Placeholder
 
 #### Fixed
