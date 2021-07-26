@@ -2,6 +2,17 @@
 
 ## Overview
 
+This module allows you to setup a variety of "tags" that users can list and use to output pre-determined strings of text. This is useful for creating public FAQ responses without making a bunch of [Custom Commands](custom-commands.md). Also, you can configure tags to be modified by different permission levels, unlike Custom Commands which can only be modified by server admins. The different permission tiers are listed below:
+
+* Anyone - Anyone can add, delete and modify any tag.
+* Tag Owner - Anyone can add tags, but they can only delete or modify tags that they created. \(Server admins can always modify/delete ALL tags\)
+* Server Mods - Anyone considered a "Server Mod" can create, delete and modify any tag.
+* Server Admins - Anyone with the "Administrator" permission node can create, delete and modify every tag.
+
+{% hint style="info" %}
+**Note:** These permissions only affect creating, deleting and modifying tags. ALL users will be able to USE every tag regardless of who created the tag.
+{% endhint %}
+
 ## Setup
 
 ## Limitations/Restrictions
