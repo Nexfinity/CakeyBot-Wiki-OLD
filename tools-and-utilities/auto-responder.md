@@ -31,7 +31,9 @@ You will need **`Manage Server`** or **`Administrator`** permission to manage se
 
 ## Limitations/Restrictions
 
-Cakey Bot will ignore any messages that are sent by other bots or sent via webhooks. This is to prevent spam loops or command loops between both bots.
+* You can't have duplicate tags with the same name
+* Auto Responders are also limited to Discord's message character limit
+* Messages sent by bots or webhooks will be ignored
 
 ## Using Emoji/Emotes in Responses
 
@@ -43,7 +45,7 @@ It is worth noting that Cakey Bot can use emojis in between servers \(similar to
 
 ## Using Images in Responses
 
-To use images in responses, you can simply just type the image URL/link like you would in a normal message. If you have the file on your local machine/PC but no URL/link, you can upload it to an image hosting website \(such as [Imgur](https://imgur.com/upload)\) and paste the URL they provide into the response.
+To use images in responses, you can simply just type the image URL/link like you would in a normal message. If you have the file on your local machine/PC but no URL/link, you can upload it to an image hosting website \(such as [Imgur](https://imgur.com/upload)\) and paste the URL they provide into the response. Cakey Bot should automatically embed the image in Discord's client if it's a valid URL/image.
 
 ## Placeholders/Variables
 

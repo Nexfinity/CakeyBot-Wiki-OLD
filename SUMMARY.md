@@ -50,6 +50,7 @@
 * [Reminders](tools-and-utilities/reminders.md)
 * [Self Roles/Reaction Roles](tools-and-utilities/self-roles.md)
 * [Support Ticket System](tools-and-utilities/support-ticket-system.md)
+* [Tags](tools-and-utilities/tags.md)
 * [Verification Role](tools-and-utilities/verification-role.md)
 
 ## Other/Misc
