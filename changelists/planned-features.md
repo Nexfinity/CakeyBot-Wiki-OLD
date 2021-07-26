@@ -14,10 +14,9 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
 * Ability to modify reason for warns \(mods their own, admins any\)
 * Starboard
 * Mod Cases
-* Tags
 * Auto Purge
 * Auto Punish/Auto Ban
-* Reddit/youtube/twitch/twitter/rss subscriptions
+* youtube/twitter/rss subscriptions
 
 ## Music Features
 
