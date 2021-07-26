@@ -50,11 +50,11 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 * [x] Role-Play Commands \(Including Basic D&D\)
 * [x] Role Management \(Muting, Persistent Roles, Self Roles\)
 * [x] Self Roles
-* [ ] Social Media/Streaming Announcements \(Reddit, Youtube, Twitter, Twitch, RSS, etc\)
+* [x] Social Media/Streaming Announcements \(Reddit, Youtube, Twitter, Twitch, RSS, etc\)
 * [x] Song Request Channel / Music Embed Controller
 * [ ] Starboard
 * [ ] Support Ticket Commands
-* [ ] Tags System
+* [x] Tags System
 * [x] Temporary Mutes/Bans \(Including silent moderation actions\)
 * [x] Text Manipulation
 * [x] Trivia Minigames
