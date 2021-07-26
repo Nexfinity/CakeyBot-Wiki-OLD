@@ -13,7 +13,7 @@ This module allows you to setup a variety of "tags" that users can list and use 
 **Note:** These permissions only affect creating, deleting and modifying tags. ALL users will be able to USE every tag regardless of who created the tag.
 {% endhint %}
 
-## Setup/Manage Tags
+## Setup/Manage Tags \(Web Dashboard\)
 
 1. Login to our [web dashboard](https://cakeybot.app/dashboard/).
 2. Go to "Tags" [here](https://cakeybot.app/dashboard/public/tags).
@@ -22,6 +22,17 @@ This module allows you to setup a variety of "tags" that users can list and use 
 5. Click "Create"
 
 Once you have created tags, you can also modify them here.
+
+## Manage Tags \(Bot\)
+
+You can manage and list tags using the following commands:
+
+* To list all commands simply type `!tags` or `!tags` list. 
+* To create a tag type `!tags create <name> <response>`.
+* To modify a tag type `!tags edit <name> <response>`.
+* To delete a tag just type `!tags delete <name>`.
+
+To use a tag simply type `!tag <name>`.
 
 ## Limitations/Restrictions
 
