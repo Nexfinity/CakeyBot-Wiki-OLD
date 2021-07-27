@@ -8,6 +8,8 @@ Make sure that Cakey Bot has the **`Manage Channels`** permission and that the C
 
 Cakey Bot's support ticket system allows your users to make tickets and get 1 on 1 support from your support team. You can easily manage tickets via Discord's button system and even save transcripts of the ticket history.
 
+![](../.gitbook/assets/ss1.jpg)
+
 ## Setup
 
 1. Login to our [web dashboard](https://cakeybot.app/dashboard/).
@@ -35,4 +37,6 @@ Once a user has closed a ticket, Cakey Bot will send an embed with three differe
 * **Re-Open:** This option will re-open the ticket to allow the user to provide more information or to ask more questions.
 * **Delete:** This option will delete the ticket and clears the channel history.
   * This option does NOT automatically save a transcript.
+
+![](../.gitbook/assets/ss2.jpg)
 
