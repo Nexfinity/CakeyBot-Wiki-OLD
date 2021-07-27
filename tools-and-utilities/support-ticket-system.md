@@ -6,6 +6,8 @@ Make sure that Cakey Bot has the **`Manage Channels`** permission and that the C
 
 ## Overview
 
+Cakey Bot's support ticket system allows your users to make tickets and get 1 on 1 support from your support team. You can easily manage tickets via Discord's button system and even save transcripts of the ticket history.
+
 ## Setup
 
 1. Login to our [web dashboard](https://cakeybot.app/dashboard/).
