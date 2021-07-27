@@ -23,7 +23,7 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 Once you have enabled and configured support tickets via the web dashboard your users can start making tickets using the `!new <description>` command. 
 
 {% hint style="info" %}
-Note: The issue description is optional and a default reason will be filled in if a user does not provide one.
+**Note:** The issue description is optional and a default reason will be filled in if a user does not provide one.
 {% endhint %}
 
 You do _not_ need to make/set up a support category, Cakey Bot will automatically generate the correct channels and permissions if Cakey Bot has access to do so.
