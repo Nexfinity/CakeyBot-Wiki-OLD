@@ -53,7 +53,7 @@ Emoji/Emotes CAN be used in Tags. However, it requires slightly more work due to
 It is worth noting that Cakey Bot can use emojis in between servers \(similar to nitro users\). So if you have an emoji in Server \#1, you can use that emoji in a custom command in Server \#2 if Cakey bot is in both of those servers.
 {% endhint %}
 
-### Using Images in Tags
+## Using Images in Tags
 
 To use images in responses, you can simply just type the image URL/link like you would in a normal message. If you have the file on your local machine/PC but no URL/link, you can upload it to an image hosting website \(such as [Imgur](https://imgur.com/upload)\) and paste the URL they provide into the response. Cakey Bot should automatically embed the image in Discord's client if it's a valid URL/image.
 
