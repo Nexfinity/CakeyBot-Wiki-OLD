@@ -22,6 +22,6 @@ Cakey Bot supports 10 different languages. Language can be changed per-server an
 We are adding more languages and you can contribute via our Github Repository located [here](https://github.com/MrCakeSlayer/CakeyBot-translations). Once the majority of a language is completed \(&gt;80% translated\) on Github it will be added as an officially supported language.
 
 {% hint style="warning" %}
-If you plan to contribute, please follow the rules and formatting guidelines provided in the READEME on the repository page.
+If you plan to contribute, please follow the rules and formatting guidelines provided in the README on the repository page.
 {% endhint %}
 
