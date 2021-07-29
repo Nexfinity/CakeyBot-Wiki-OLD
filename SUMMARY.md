@@ -55,6 +55,5 @@
 
 ## Other/Misc
 
-* [Contributors](other-misc/contributors.md)
 * [Math Command](other-misc/math-command.md)
 
