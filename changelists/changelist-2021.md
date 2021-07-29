@@ -1,5 +1,22 @@
 # Changelist - 2021
 
+## 7/28/2021 - Support Tickets
+
+#### Fixed
+
+* Fixed an issue where `!dehoist` and auto mod's "Auto Dehoist" would not work on some username combinations
+* Fixed join/leave banners showing a "glitched" image when a user has certain gifs set as their profile picture
+
+#### Added
+
+* Added support tickets!
+  * You'll need to enable support tickets view the web dashboard and will need to set a "Support Staff" role who can view the tickets \(unless you want to restrict tickets to only administrators\)
+  * Users can create tickets using the `!new <opt:description>` command. If they don't provide a reason, a default one will be filled it.
+  * You can currently close, re-open, save transcript, and delete tickets.
+  * Currently users are limited to 1 active ticket at a time.
+  * You can also set a transcript channel to keep a log of tickets.
+  * Planned addition: Open tickets will be be displayed on the web dashboard
+
 ## 7/26/2021 - Tags
 
 #### Added
