@@ -6,7 +6,7 @@ This feature is a Work-In-Progress and will be greatly overhauled later on. \(Au
 
 ## Overview
 
-Auto Moderation allows Cakey Bot to automatically detect rule breakers and punish them automatically even while your moderators are offline or busy! Auto Moderation can detect anything from spam, inappropriate content, and even user self bots. Currently in Auto Mod Cakey Bot can only delete messages. However, In Auto Mod V2, you will be able to define custom rule sets and custom punishments including adding/removing roles, adding warnings or warning points automatically, and kicking/banning users who are constant trouble makers.
+Auto Moderation allows Cakey Bot to automatically detect rule breakers and punish them automatically even while your moderators are offline or busy! Auto Moderation can detect anything from spam, inappropriate content, and even zalgo text. Currently in Auto Mod Cakey Bot can only delete messages. However, In Auto Mod V2, you will be able to define custom rule sets and custom punishments including adding/removing roles, adding warnings or warning points automatically, and kicking/banning users who are constant trouble makers.
 
 ## Features
 
@@ -15,13 +15,14 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 * Duplicated words
 * Word Blacklist
 * Discord invite URLs
-* Any URL/Link
+* Any URL/Link \(+Whitelist specific URLs\)
 * Mass mentions
 * Mass emoji
 * Has Spoilers
 * Self bot detection
-* Auto-Dehoist Nicknames
+* Auto-Dehoist nicknames
 * Stickers detection
+* Zalgo detection
 
 ## Setup
 
