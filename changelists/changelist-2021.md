@@ -22,6 +22,8 @@
   * Auto moderation will work inside of threads.
   * Role-muted users will also be muted inside of threads.
 * Added `!ticketembed` command. Generates a fancy embed with a button that users can click to automatically open a ticket with ease.
+* Added alias `!tmute` to `tempmute` command.
+* Added alias `!tban` to `tempban` command.
 
 ## 8/1/2021 - New Aliases
 
