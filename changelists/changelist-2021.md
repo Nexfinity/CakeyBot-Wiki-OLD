@@ -2,7 +2,11 @@
 
 ## 8/5/2021 - Stage Channels + Thread Improvements
 
-Added
+#### Fixed
+
+* Pushed a TON of various bug fixes + added some error messages for some commands that would normally fail silently
+
+#### Added
 
 * Added full thread support
   * Cakey Bot will now automatically join public threads \(and private ones if permissions allow\)
