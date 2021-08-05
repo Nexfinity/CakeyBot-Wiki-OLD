@@ -6,6 +6,12 @@
 
 * Pushed a TON of various bug fixes + added some error messages for some commands that would normally fail silently
 
+#### Changed
+
+* Increased `!suggestion` character length \(200 =&gt; 500\)
+* Improved stage channel support
+  * Cakey Bot will now automatically request to speak when joining a stage channel
+
 #### Added
 
 * Added full thread support
@@ -15,8 +21,7 @@
   * Other audit log events like message deleted/modified will also work.
   * Auto moderation will work inside of threads.
   * Role-muted users will also be muted inside of threads.
-* Improved stage channel support
-  * Cakey Bot will now automatically request to speak when joining a stage channel
+* Added `!ticketembed` command. Generates a fancy embed with a button that users can click to automatically open a ticket with ease.
 
 ## 8/1/2021 - New Aliases
 
