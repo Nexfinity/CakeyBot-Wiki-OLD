@@ -1,5 +1,51 @@
 # Changelist - 2021
 
+## 8/5/2021 - Stage Channels + Thread Improvements
+
+Added
+
+* Added full thread support
+  * Cakey Bot will now automatically join public threads \(and private ones if permissions allow\)
+  * You are able to use commands \(include custom commands/auto responders\)
+  * You can now toggle audit log events for thread created, deleted and modified events.
+  * Other audit log events like message deleted/modified will also work.
+  * Auto moderation will work inside of threads.
+  * Role-muted users will also be muted inside of threads.
+* Improved stage channel support
+  * Cakey Bot will now automatically request to speak when joining a stage channel
+
+## 8/1/2021 - New Aliases
+
+#### Fixed
+
+* Fixed duplicate success message from `!clearwarnings`
+
+#### Changed
+
+* Updated audit log to display new permissions when a channel or role is modified \(Request to speak, use slash commands, create/delete/manage threads\)
+
+#### Added
+
+* Added aliases to `!warnings` \("strikes", "listwarnings", "listwarns", "liststrikes"\)
+* Added aliases to `!warn` \("strike", "addwarn", "addstrike"\)
+* Added aliases to `!unwarn` \("rmstrike", "unstrike", "deletestrike", "removestrike"\)
+* Added aliases to `!clearwarnings` \("deletestrikes", "removestrikes", "clearstrikes"\)
+* Added the ability to add/remove warnings from yourself \(if your a moderator obviously\)
+
+## 7/31/2021 - Threads
+
+#### Fixed
+
+* Fixed outdated vote URLs
+
+#### Added
+
+* Added full support for threads in Auto Mod.
+* Added full support for normal commands in threads.
+* Added full support for slash commands in threads.
+* Added vote encouragement to `!help`
+* Added new `!someone` command that pings a random user. \(Similar to Discord's april fools @someone ping\)
+
 ## 7/28/2021 - Support Tickets
 
 #### Fixed
