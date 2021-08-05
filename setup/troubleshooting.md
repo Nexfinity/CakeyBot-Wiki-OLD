@@ -42,8 +42,8 @@ Discord requires you to verify your e-mail account to add bots into your servers
      * You can learn how to change Cakey Bot's prefix by heading to the [Prefix Setting](faq.md#what-is-the-default-prefix-and-how-can-i-change-it) section!
   3. Make sure Cakey Bot has the permissions to read and send messages in the channel.
      * You can give the `Administrator` permission to Cakey Bot to make this easier.
-  4. Take a look at our [\#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://discord.gg/Y3VdQAD) server to see if there are any issues going on. You can also check out our NEW [status page](https://cakeybot.statuspage.io/).
-  5. If the above methods do not work, please choose option 3 in our [\#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://discord.gg/Y3VdQAD) server to receive assistance from a member of our Support Team.
+  4. Take a look at our [\#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakeybot.app/discord) server to see if there are any issues going on. You can also check out our NEW [status page](https://cakeybot.statuspage.io/).
+  5. If the above methods do not work, please choose option 3 in our [\#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://cakeybot.app/discord) server to receive assistance from a member of our Support Team.
 
 ## Audio Troubleshooting
 
@@ -90,6 +90,6 @@ If your queue contains audio from multiple/different sources, you can create a C
 
 ### I met the error "Not supported within the Android app", what should I do?
 
-* If you encounter this error when inviting Cakey Bot, try opening an **Incognito Tab** and copy this link into the search bar: [https://discord.com/oauth2/authorize?client\_id=288163958022471680&permissions=8&redirect\_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response\_type=code&scope=bot+identify+guilds](https://discord.com/oauth2/authorize?client_id=288163958022471680&permissions=8&redirect_uri=https%3A%2F%2Fdocs.cakeybot.app%2F&response_type=code&scope=bot+identify+guilds)
+* If you encounter this error when inviting Cakey Bot, try opening an **Incognito Tab** and copy this link into the search bar: [https://cakeybot.app/invite](https://cakeybot.app/invite)
 * [Click here](https://support.google.com/chrome/answer/95464) to learn how to open an Incognito Tab.
 

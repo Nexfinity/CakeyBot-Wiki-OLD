@@ -1,7 +1,7 @@
 # FAQ
 
 {% hint style="info" %}
-If you can't find the answer to your question you can contact us on our discord [support server](https://discord.gg/Y3VdQAD).
+If you can't find the answer to your question you can contact us on our discord [support server](https://cakeybot.app/discord).
 {% endhint %}
 
 ## How do I invite Cakey Bot to my server?
@@ -19,7 +19,7 @@ To view a list of require/optional permissions you can check out [this section](
 1. Type `@Cakey Bot#2608 help`. If Cakey Bot responds, you have the correct permissions but were using an incorrect prefix. The help command you just ran will show you what the current prefix is.
 2. Check the channel permissions to see if Cakey Bot has Send/Read permissions for the channel. You can either check permissions manually or use the `!debug` command. **This is the most common reason why Cakey Bot doesn't respond.** 
 3. Make sure that Cakey Bot is online. Discord might be having issues or Cakey Bot may be restarting to apply new updates/content. 
-4. If none of these steps work you can join our discord [support server](https://discord.gg/Y3VdQAD) here for direct help from our developers.
+4. If none of these steps work you can join our discord [support server](https://cakeybot.app/discord) here for direct help from our developers.
 
 ## What is the default prefix and how can I change it?
 
@@ -121,7 +121,7 @@ Not currently, though we may look into this option in the future.
 
 There's a few steps required to become a BETA tester.
 
-1. Join our [Support Discord](https://discord.gg/Y3VdQAD).
+1. Join our [Support Discord](https://cakeybot.app/discord).
 2. Assign yourself the tester role using the buttons in our [\#server-info-and-rules](https://discord.com/channels/408424043482447872/408434189256359937/848972083684835380) channel.
 3. Become an active tester and earn the "Active Tester" role
 4. Read the [\#request-beta](https://discord.com/channels/660164229092999183/780131612499247134/780132537162399755) channel to apply
@@ -134,7 +134,7 @@ The following are some possible reasons why Auto Mod isn’t deleting messages:
 * The Auto Mod module is not enabled.
 * Cakey Bot doesn’t have **`Manage Messages`** in the channel/role permissions.
 
-If none of these seem to be the cause of this issue, please head over to our [support server](https://discord.gg/Y3VdQAD).
+If none of these seem to be the cause of this issue, please head over to our [support server](https://cakeybot.app/discord).
 
 ## Why can’t I purge messages older than 14 days in a channel?
 
@@ -152,7 +152,7 @@ To learn more about role hierarchy, [click here](https://support.discordapp.com/
 * If the module is enabled, check if Cakey Bot can Read and Send Messages in the log channel, as well as Embed Links. To quickly check if Cakey Bot has those permissions, run `!debug` in the channel.
 * Lastly, check if a channel has been set for Audit Log by running `!setting log`
 
-If none of these seem to be the cause of this issue, please head over to our [support server](https://discord.gg/Y3VdQAD).
+If none of these seem to be the cause of this issue, please head over to our [support server](https://cakeybot.app/discord).
 
 ## Why does Cakey Bot automatically leave my server when invited?
 
