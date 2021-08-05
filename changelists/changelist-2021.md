@@ -24,6 +24,7 @@
 * Added `!ticketembed` command. Generates a fancy embed with a button that users can click to automatically open a ticket with ease.
 * Added alias `!tmute` to `tempmute` command.
 * Added alias `!tban` to `tempban` command.
+* You can now toggle audit log events for stage started, ended and modified events.
 
 ## 8/1/2021 - New Aliases
 
