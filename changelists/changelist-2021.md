@@ -10,7 +10,8 @@
 
 * Increased `!suggestion` character length \(200 =&gt; 500\)
 * Improved stage channel support
-  * Cakey Bot will now automatically request to speak when joining a stage channel
+  * Cakey Bot will now automatically become a speaker inside of stages if he is considered a stage moderator.
+    * If Cakey Bot is lacking permissions, he will "Request To Speak" instead.
 
 #### Added
 
