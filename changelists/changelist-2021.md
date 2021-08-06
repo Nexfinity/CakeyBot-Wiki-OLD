@@ -26,6 +26,7 @@
 * Added alias `!tmute` to `tempmute` command.
 * Added alias `!tban` to `tempban` command.
 * You can now toggle audit log events for stage started, ended and modified events.
+* Added web dashboard toggle to auto-save support ticket transcripts `[Premium]`
 
 ## 8/1/2021 - New Aliases
 
