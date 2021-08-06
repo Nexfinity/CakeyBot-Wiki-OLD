@@ -18,12 +18,14 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakeybot.app/inv
 * Read/View Messages/Channels
 * Use External Emoji
 * Add Reactions
+* Use Public/Private Threads
 
 ### Optional Permissions:
 
 * Connect/Speak/Voice Activity \(For Music commands\)
 * Manage Roles/Channels/Emoji/Server \(Server Management commands\)
-* Kick/Ban/Mute/Manage Nickname/Manage Messages/Manage Roles \(Moderation commands\)
+* Kick/Ban/Mute/Manage Nickname/Manage Messages/Manage Roles/Manage Threads \(Moderation commands\)
+* Mute Members/Move Members/Manage Channels \(Stage Music\)
 
 ### Wildcard Permissions:
 
