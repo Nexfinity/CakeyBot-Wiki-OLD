@@ -53,7 +53,7 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 * [x] Social Media/Streaming Announcements \(Reddit, Youtube, Twitter, Twitch, RSS, etc\)
 * [x] Song Request Channel / Music Embed Controller
 * [ ] Starboard
-* [ ] Support Ticket Commands
+* [x] Support Ticket Commands
 * [x] Tags System
 * [x] Temporary Mutes/Bans \(Including silent moderation actions\)
 * [x] Text Manipulation
