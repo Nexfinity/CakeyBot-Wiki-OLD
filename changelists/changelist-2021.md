@@ -1,5 +1,15 @@
 # Changelist - 2021
 
+## 8/9/2021 - Delay Placeholder
+
+#### Fixed
+
+* Fixed an issue where `!ttt` would throw invalid guild user errors while trying to play against the AI
+
+#### Added
+
+* `{delay:0-60}` - Delays the response for up to 60 seconds. Only the first delay placeholder in a response will work. If you exclude the delay placeholder then responses will be sent instantly.
+
 ## 8/8/2021 - Bug Fixes
 
 #### Fixed
