@@ -12,7 +12,7 @@
 
 ## Changelists
 
-* [Planned Features](changelists/planned-features.md)
+* [Planned Features](https://cakeybot.app/planned-features)
 * [Changelist - 2021](changelists/changelist-2021.md)
 * [Changelist - 2020](changelists/changelist-2020.md)
 * [Changelist - 2019](changelists/changelist-2019.md)
