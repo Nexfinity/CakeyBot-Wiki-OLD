@@ -22,6 +22,7 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakeybot.app/inv
 * Manage Roles/Channels/Emoji/Server \(Server Management commands\)
 * Kick/Ban/Mute/Manage Nickname/Manage Messages/Manage Roles/Manage Threads \(Moderation commands\)
 * Mute Members/Move Members/Manage Channels \(Stage Music\)
+* Manage Threads \(Threads\)
 
 ### Wildcard Permissions:
 
