@@ -1,5 +1,15 @@
 # Changelist - 2021
 
+## 8/8/2021 - Bug Fixes
+
+#### Fixed
+
+* Pushed a ton of bug fixes relating to stage channels, threads, and slash commands.
+
+#### Changed
+
+* Pushed Korean translations live
+
 ## 8/5/2021 - Stage Channels + Thread Improvements
 
 #### Fixed
