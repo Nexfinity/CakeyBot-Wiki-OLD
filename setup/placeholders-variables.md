@@ -88,7 +88,8 @@ Currently, all times & dates are for the United States Eastern timezone. In the 
 `{prefix}` - Show command prefix for the server  
 `{messagelink}` - Displays a Discord message link/url to the original command/message that triggered the response  
 `{quote:#channelid}` - Quote the last message in the provided channel. Replace "**channelid**" with the ID of the channel  
-`{random:min:max}` - Generates a random number between the min/max. Replace "**min**" and "**max**" with a number between 0 and 999,999,999. **Note:** Your minimum number must be smaller than your maximum number.
+`{random:min:max}` - Generates a random number between the min/max. Replace "**min**" and "**max**" with a number between 0 and 999,999,999. **Note:** Your minimum number must be smaller than your maximum number.  
+`{delay:0-60}` - Delays the response for up to 60 seconds. Only the first delay placeholder in a response will work. If you exclude the delay placeholder then responses will be sent instantly.
 
 ## Advanced Placeholders
 
