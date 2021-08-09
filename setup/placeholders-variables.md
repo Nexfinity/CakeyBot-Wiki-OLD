@@ -157,7 +157,7 @@ Cakey Bot can sometimes fail to send a DM if the user has their privacy settings
 {% endhint %}
 
 `{dm}` - Direct message the bot response to the user who called the command. _**Limited to one DM per command.**_  
-**\*\*`{dm:@user}` - Direct message the bot response to the specified user. Replace "**user**" with the user ID. \_**Limited to one DM per command.\*\*\_
+`{dm:@user}` **-** Direct message the bot response to the specified user. Replace **"user"** with the user ID. _**Limited to one DM per command.**_
 
 Examples:
 
