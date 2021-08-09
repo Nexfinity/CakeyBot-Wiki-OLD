@@ -9,6 +9,7 @@
 #### Changed
 
 * Pushed Korean translations live
+* Disabled slash commands in DMs \(Previously slash commands wouldn't work at all, this 'fix' just makes the bot actually send an error/explanation\)
 
 ## 8/5/2021 - Stage Channels + Thread Improvements
 
