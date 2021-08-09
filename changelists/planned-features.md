@@ -16,7 +16,6 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
 * Mod Cases
 * Auto Purge
 * Auto Punish/Auto Ban
-* youtube/twitter/rss subscriptions
 
 ## Music Features
 
@@ -28,15 +27,8 @@ Note: Just because a feature is listed here does NOT guarantee that it will be i
 * Have YouTube videos skip to time if included in URL
 * "autojoin" function, so that the bot automatically joins a certain channel whenever someone joins it, in case the bot its not at that channel yet.
 
-## Support Ticket System
-
-* `!new` - Creates a new ticket/channel @ pings given support role
-* `!close` - Closes the support ticket
-* `!tadmin` - Various admin commands for ticket system
-
 ## Web Dashboard
 
-* Have support tickets displayed
 * Embed builder and sender
 * Voice-Text channel linking
 
