@@ -1,5 +1,11 @@
 # Changelist - 2021
 
+## 8/10/2021 - Music Queue Upgrade
+
+#### Changed
+
+* Upgraded `!queue` command to use fancy pagination with buttons. You can now see ALL of the songs in your queue instead of `+5 more songs.`
+
 ## 8/9/2021 - Delay Placeholder
 
 #### Fixed
