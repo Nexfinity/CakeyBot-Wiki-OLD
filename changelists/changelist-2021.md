@@ -6,6 +6,10 @@
 
 * Fixed an issue where `!ttt` would throw invalid guild user errors while trying to play against the AI
 
+#### Changed
+
+* Upgraded `!trivia` to use buttons to answer the questions
+
 #### Added
 
 * `{delay:0-60}` - Delays the response for up to 60 seconds. Only the first delay placeholder in a response will work. If you exclude the delay placeholder then responses will be sent instantly.
