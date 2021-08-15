@@ -1,5 +1,17 @@
 # Changelist - 2021
 
+## 8/15/2021 - General Bug Fixes
+
+#### Fixed
+
+* Premium is no longer incorrectly expired on PayPal/Patreon subscriptions
+
+#### Changed
+
+* All social feeds will be disabled when a server's premium subscription runs out. \(You can re-enable them up to the limit for the free plan, or re-subscribe for unlimited.\)
+* Due to ratelimit issues, Reddit feeds will be entirely locked behind premium. All other feed types will remain the same. \(Up to 3 for free, unlimited for premium\)
+* Re-enabled Twitch & Reddit social feeds
+
 ## 8/10/2021 - Music Queue Upgrade
 
 #### Changed
