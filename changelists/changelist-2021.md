@@ -1,5 +1,16 @@
 # Changelist - 2021
 
+## 8/16/2021 - Vote Reminder
+
+#### Fixed
+
+* Fixed audit log not saving a persistent image URL
+
+#### Added
+
+* Added a vote reminder
+  * If a user has not voted within the last 24 hours, there is a 1 in 1,000 chance that a vote reminder will be sent to them whenever a command is sent by them.
+
 ## 8/15/2021 - General Bug Fixes
 
 #### Fixed
