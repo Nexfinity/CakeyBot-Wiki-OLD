@@ -45,7 +45,7 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 * [x] Music \([Multiple Sources](music/supported-sources.md)\) \(+Custom Playlists\)
 * [x] Music Song Request Channel
 * [x] Persistent Roles \(Prevents Mute Evasion\)
-* [ ] Reaction Role Assignment
+* [x] Reaction/Button/Selection Role Assignment
 * [x] Reminders
 * [x] Role-Play Commands \(Including Basic D&D\)
 * [x] Role Management \(Muting, Persistent Roles, Self Roles\)
