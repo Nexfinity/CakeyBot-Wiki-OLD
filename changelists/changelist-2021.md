@@ -1,5 +1,26 @@
 # Changelist - 2021
 
+## 8/18/2021 - Selection Roles + Other Fixes
+
+#### Fixed
+
+* Fixed a bug where the `!serverinfo` command would fail to send when the server has a massive amount of roles.
+* Fixed `Until` and `Between` flags on the `!purge` command
+
+#### Changed
+
+* Removed premium message on `!help` command due to rate limits.
+* Upgraded `!top` command to format member counts.
+* Upgraded the "VIP Features" list to be a bit more human-readable. 
+  * This also decreases the amount of characters used allows more features to be shown on servers that have a lot of features enabled.
+
+#### Added
+
+* Added new `!selfrole embed` parameter to the `!selfrole` command.
+  * This will generate an embed with a selection dropdown, buttons or reactions to self-assign roles. 
+  * You will be able to set which method to use via the web dashboard.
+    * Currently, only selection dropdowns are supported and as such can't be changed via dashboard yet
+
 ## 8/16/2021 - Vote Reminder
 
 #### Fixed
