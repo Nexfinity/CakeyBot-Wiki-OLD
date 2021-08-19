@@ -41,7 +41,7 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 * [x] IMDb Lookup \(Movie/TV/Company Info +Trailers\)
 * [x] Info Commands
 * [x] Localization \(Cakey Bot supports over 10 different languages!\)
-* [x] Moderation Tools \(Kick, Ban, Purge, etc\) \(Includes `!report` command\)
+* [x] Moderation Tools \(Kick, Ban, Purge, etc\) \(Includes `!report` and `!modmenu` commands\)
 * [x] Music \([Multiple Sources](music/supported-sources.md)\) \(+Custom Playlists\)
 * [x] Music Song Request Channel
 * [x] Persistent Roles \(Prevents Mute Evasion\)
