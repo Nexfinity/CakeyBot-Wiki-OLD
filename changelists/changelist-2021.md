@@ -1,5 +1,16 @@
 # Changelist - 2021
 
+## 8/19/2021 - Song Request Channel Fix
+
+#### Fixed
+
+* Fixed song request channel and related embed not working at all
+
+#### Changed
+
+* Re-enabled Cakey Bot's rotating custom status message
+* Update song request channel embed/queue when using `!skip`
+
 ## 8/18/2021 - Selection Roles + Other Fixes
 
 #### Fixed
