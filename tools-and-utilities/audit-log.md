@@ -33,26 +33,31 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
   * Shows role name + if it was added/removed
 * User Updated \(Voice channels\)
   * Shows when a User Joined/Left/Swapped voice channels
-* User Banned
-* User Unbanned
+* User Banned/Unbanned
 * User Kicked
 * Server Updated \(Nitro Boost\)
   * Shows before/after boost count
   * Shows Current Tier level
-* Role Created
-* Role Deleted
+* Role Created/Deleted
 * Role Updated
   * Shows before/after permissions
   * Shows before/after name
   * Shows before/after properties \(hoisted, mentionable, color, etc\)
-* Channel Created
-* Channel Deleted
+* Channel Created/Deleted
 * Channel Updated
   * Shows before/after permissions
   * Shows before/after name
   * Shows before/after properties \(slow mode, topic, isNSFW, category, etc\)
-* Invite Created
-* Invite Deleted
+* Invite Created/Deleted
+* Thread Created/Deletion
+* Thread Updated
+  * Shows before/after name
+  * Shows before/after properties \(slow mode, auto-archive time, isLocked, isArchived, etc\)
+* Stage Started/Ended
+* Stage Updated
+  * Shows before/after name
+  * Shows before/after permissions
+  * Speaker changes
 
 ## Special Events
 

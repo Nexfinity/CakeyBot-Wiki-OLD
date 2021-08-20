@@ -21,6 +21,7 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 * Has Spoilers
 * Self bot detection
 * Auto-Dehoist nicknames
+* Scam Link Detection
 * Stickers detection
 * Zalgo detection
 
