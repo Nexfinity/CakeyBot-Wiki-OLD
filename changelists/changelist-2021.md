@@ -1,5 +1,23 @@
 # Changelist - 2021
 
+## 8/21/2021 - Context Menus
+
+Added
+
+* As some of you may have seen, Cakey Bot has implemented a few context menu items. \(Both for user and message menus\). Up until today you would get a `WIP - Coming Soon` error message. They are now live and functional!
+  * **User:**
+    * Get Avatar
+    * Get User Info
+    * View Warnings
+    * Mute `[Not implemented Yet]`
+    * Unmute `[Not implemented Yet]` 
+  * **Message:**
+    * Analyze Image `[Bugged]`
+    * Base64 Decode
+    * Base64 Encode
+    * Google Message
+    * Debug Message
+
 ## 8/19/2021 - Song Request Channel Fix
 
 #### Fixed
