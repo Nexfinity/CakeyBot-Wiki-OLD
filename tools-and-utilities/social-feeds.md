@@ -17,29 +17,35 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 **Note:** It can take _up to_ 5 minutes for modifications/additions to sync with the bot. After that, most feeds will search for new content/events every 10 seconds to 1 minute depending on the feed type and rate limits.
 {% endhint %}
 
-## Reddit
+{% tabs %}
+{% tab title="Twitch" %}
+![](../.gitbook/assets/twitchfeed.jpg)
+{% endtab %}
+
+{% tab title="Youtube" %}
+{% hint style="danger" %}
+Not implemented yet.
+{% endhint %}
+{% endtab %}
+
+{% tab title="Reddit" %}
+{% hint style="warning" %}
+Reddit feeds currently require a premium subscription to use due to rate limit concerns.
+{% endhint %}
 
 ![](../.gitbook/assets/ss5%20%281%29.jpg)
+{% endtab %}
 
-## Youtube
-
+{% tab title="Twitter" %}
 {% hint style="danger" %}
 Not implemented yet.
 {% endhint %}
+{% endtab %}
 
-## Twitch
-
-![](../.gitbook/assets/twitchfeed.jpg)
-
-## Twitter
-
+{% tab title="Generic RSS" %}
 {% hint style="danger" %}
 Not implemented yet.
 {% endhint %}
-
-## Generic RSS
-
-{% hint style="danger" %}
-Not implemented yet.
-{% endhint %}
+{% endtab %}
+{% endtabs %}
 
