@@ -1,4 +1,4 @@
-# Live Feeds
+# Social Feeds
 
 ## Overview
 

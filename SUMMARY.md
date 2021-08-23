@@ -44,7 +44,7 @@
 * [Auto Role](tools-and-utilities/auto-role.md)
 * [Custom Commands](tools-and-utilities/custom-commands.md)
 * [Join/Leave/Ban Announcements](tools-and-utilities/join-leave-ban-announcements.md)
-* [Live Feeds](tools-and-utilities/live-feeds.md)
+* [Social Feeds](tools-and-utilities/social-feeds.md)
 * [Moderation](tools-and-utilities/moderation.md)
 * [Persistent Roles/Mutes](tools-and-utilities/persistent-roles.md)
 * [Reminders](tools-and-utilities/reminders.md)
