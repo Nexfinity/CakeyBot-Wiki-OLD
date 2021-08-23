@@ -1,9 +1,5 @@
 # Auto Moderation
 
-{% hint style="danger" %}
-This feature is a Work-In-Progress and will be greatly overhauled later on. \(Auto Mod V2\)
-{% endhint %}
-
 ## Overview
 
 Auto Moderation allows Cakey Bot to automatically detect rule breakers and punish them automatically even while your moderators are offline or busy! Auto Moderation can detect anything from spam, inappropriate content, and even zalgo text. Currently in Auto Mod Cakey Bot can only delete messages. However, In Auto Mod V2, you will be able to define custom rule sets and custom punishments including adding/removing roles, adding warnings or warning points automatically, and kicking/banning users who are constant trouble makers.
