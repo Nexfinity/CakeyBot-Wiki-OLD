@@ -24,6 +24,8 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 * Scam Link Detection
 * Stickers detection
 * Zalgo detection
+* Phishing URL Detection
+  * **NOTE:** This feature is only to help block malicious URLs while allowing "safe" URLs. While we constantly try to improve its accuracy, it will NOT block every unsafe URL. You will still need to manually review some URLs.
 
 ## Setup
 
