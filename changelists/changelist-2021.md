@@ -1,8 +1,19 @@
 # Changelist - 2021
 
+## 8/22/2021 - 8/24/2021 - URL Scanning + Recipe Command
+
+#### Added
+
+* Added new `!recipe <query>` command
+* Anti-Phishing Auto Moderation module has had several updates
+  * Blacklist now auto-updates every 6 hours to have the latest data
+  * Blacklist is now compiled from MULTIPLE APIs to cover as many threats as possible
+  * Cakey Bot will now scan URLs live if they are not caught by the blacklist to determine their safety
+    * **Note:** Cakey Bot does _**not**_ store/log these URLs due to privacy concerns. They are simply scanned and discarded.
+
 ## 8/21/2021 - Context Menus
 
-Added
+#### Added
 
 * As some of you may have seen, Cakey Bot has implemented a few context menu items. \(Both for user and message menus\). Up until today, you would get a `WIP - Coming Soon` error message. They are now live and functional!
   * **User:**
