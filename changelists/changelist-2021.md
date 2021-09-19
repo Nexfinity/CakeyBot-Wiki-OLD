@@ -1,5 +1,49 @@
 # Changelist - 2021
 
+## 9/19/2021
+
+#### Fixed
+
+* Music should now be working as expected
+  * An added bonus to this is that Cakey Bot should no longer clear your queue/song when a shard reconnects from Discord
+
+## 9/2/2021
+
+#### Added
+
+* Added a "Vote Skip" toggle to the web dashboard to together whether the normal vote command force skips or vote skips. \(By default, vote skipping is disabled\)
+* Cakey Bot now auto deafens when joining voice channels
+* The documentation links in the `!help` command should now point to their correct pages
+
+## 9/1/2021
+
+#### Fixed
+
+* Analyze Image Command & Context Menu option now work as expected
+* "Ignored Channels" now works for Audit Log events
+* System Messages for "User Join" events will now show the username in the audit log if the user deletes the join message
+
+## 8/31/2021
+
+#### Fixed/Updated
+
+* I just pushed a massive collection of bug fixes regarding permission checks/overrides. Most to all commands should still work as expected. However if you encounter issues that you think are related to permissions, please let me know.
+* This was a MAJOR overhaul to permissions.
+* There's also quite a few other bug fixes included for other commands/features.
+
+## 8/27/2021
+
+#### Fixed
+
+* Re-enabled context menus
+* Fixed an issue where role add/remove audit log wouldn't be sent
+
+## 8/24/2021
+
+#### Added
+
+* Added new `!recipe <query>` command
+
 ## 8/22/2021 - 8/24/2021 - URL Scanning + Recipe Command
 
 #### Added
