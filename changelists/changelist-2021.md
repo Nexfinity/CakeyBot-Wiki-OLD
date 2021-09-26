@@ -1,13 +1,33 @@
 # Changelist - 2021
 
-## 9/19/2021
+## 9/26/2021 - Bug Fixes
+
+#### Fixed
+
+* Fixed `!gif` command not returning an error message if the search query is too long
+* Misc. bug fixes
+
+#### Changed
+
+* Dropped max volume for music due to new player limitations \(300 =&gt; 100\)
+
+## 9/23/2021 - Music Fixes Pt. 2
+
+#### Fixed
+
+* Fixed "Now Playing / Finished Playing" messages displaying the incorrect songs
+* Fixed queue skipping over songs
+* Fixed loading youtube playlists into queue
+* Fixed other misc queue bugs
+
+## 9/19/2021 - Music Fixes Pt. 1
 
 #### Fixed
 
 * Music should now be working as expected
   * An added bonus to this is that Cakey Bot should no longer clear your queue/song when a shard reconnects from Discord
 
-## 9/2/2021
+## 9/2/2021 - Music Enhancements
 
 #### Added
 
@@ -15,7 +35,7 @@
 * Cakey Bot now auto deafens when joining voice channels
 * The documentation links in the `!help` command should now point to their correct pages
 
-## 9/1/2021
+## 9/1/2021 - QOL Changes
 
 #### Fixed
 
@@ -23,7 +43,7 @@
 * "Ignored Channels" now works for Audit Log events
 * System Messages for "User Join" events will now show the username in the audit log if the user deletes the join message
 
-## 8/31/2021
+## 8/31/2021 - Permission Rewrite
 
 #### Fixed/Updated
 
@@ -31,14 +51,14 @@
 * This was a MAJOR overhaul to permissions.
 * There's also quite a few other bug fixes included for other commands/features.
 
-## 8/27/2021
+## 8/27/2021 - Context Menu Fixes
 
 #### Fixed
 
 * Re-enabled context menus
 * Fixed an issue where role add/remove audit log wouldn't be sent
 
-## 8/24/2021
+## 8/24/2021 - Recipes!
 
 #### Added
 
