@@ -35,12 +35,6 @@ Cakey Bot also has a pre-made list of fun sound bites you can play outside of mu
 Sound Bites are separate from regular music and will cause Cakey Bot to leave the voice channel and clear any ongoing music queue.
 {% endhint %}
 
-### Equalizer \(+ Presets\)
-
-You can set custom equalizer bands using the `!equalizer <band> <value>` command. There are 15 bands \(**0-14**\) that can be changed. gain is the multiplier for the given band. The default value is **0**. Valid values range from **-0.25** to **1.0**, where **-0.25** means the given band is completely muted, and **0.25** means it is doubled.
-
-You can also use our presets for those of you who just want a quick and easy solution by typing `!eqpreset <preset>`. Our presets include: _**lowpass**_, _**highpass**_, _**flat**_, _**extrabass**_, _**extratreble**_, _**bassandtreble**_
-
 ### Supported Sources
 
 Cakey Bot supports many different sources including Twitch and Youtube!

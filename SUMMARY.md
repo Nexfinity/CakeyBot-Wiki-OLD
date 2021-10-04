@@ -30,9 +30,10 @@
 ## Music
 
 * [Basic Usage](music/music-basics.md)
-* [Song Request Channel](music/song-request-channel.md)
+* [Filters & Presets](music/filters-and-presets.md)
 * [Playlists](music/playlists.md)
 * [Supported Sources](music/supported-sources.md)
+* [Song Request Channel](music/song-request-channel.md)
 * [Special Permissions/Conditions](music/special-permissions.md)
 
 ## Tool & Utilities <a id="tools-and-utilities"></a>
