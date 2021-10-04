@@ -52,5 +52,9 @@ All filters have a minimum value of **0.01** and a maximum value of **5.**
 
 ## Nightcore
 
+Nightcore is a special effect that speeds up the music while applying a slightly higher pitch to it. You can toggle this preset with the `!nightcore` command.
+
 ## Vaporwave
+
+Vaporwave is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `!vaporwave` command.
 
