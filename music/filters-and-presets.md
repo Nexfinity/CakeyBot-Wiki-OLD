@@ -15,6 +15,10 @@ You can also use our presets for those of you who just want a quick and easy sol
 
 ## Music Filters
 
+{% hint style="warning" %}
+Filters require a premium subscription to use due to increased CPU usage requirements.
+{% endhint %}
+
 You can also set custom filters on your music using the `!filter <name> <options>` command. If you'd like to revert these changes you can also type `!filter <name> reset`. If you run the `!nowplaying` command, it will show all of your currently applied filters as well. Our possible filters include:
 
 * Distortion
@@ -52,9 +56,17 @@ All filters have a minimum value of **0.01** and a maximum value of **5.**
 
 ## Nightcore
 
+{% hint style="warning" %}
+Nightcore requires a premium subscription to use due to increased CPU usage requirements.
+{% endhint %}
+
 Nightcore is a special effect that speeds up the music while applying a slightly higher pitch to it. You can toggle this preset with the `!nightcore` command.
 
 ## Vaporwave
+
+{% hint style="warning" %}
+Vaporwave requires a premium subscription to use due to increased CPU usage requirements.
+{% endhint %}
 
 Vaporwave is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `!vaporwave` command.
 
