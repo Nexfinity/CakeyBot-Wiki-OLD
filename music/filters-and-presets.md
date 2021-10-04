@@ -6,12 +6,12 @@ You can set custom equalizer bands using the `!equalizer <band> <value>` command
 
 You can also use our presets for those of you who just want a quick and easy solution by typing `!eqpreset <preset>`. Our presets include:
 
-* lowpass
-* highpass
-* flat
-* extrabass
-* extratreble
-* bassandtreble
+* Lowpass
+* Highpass
+* Flat
+* Extrabass
+* Extratreble
+* Bassandtreble
 
 ## Music Filters
 
