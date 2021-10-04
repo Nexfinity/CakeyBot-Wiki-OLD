@@ -30,8 +30,8 @@
 ## Music
 
 * [Basic Usage](music/music-basics.md)
-* [Filters & Presets](music/filters-and-presets.md)
 * [Playlists](music/playlists.md)
+* [Filters & Presets](music/filters-and-presets.md)
 * [Supported Sources](music/supported-sources.md)
 * [Song Request Channel](music/song-request-channel.md)
 * [Special Permissions/Conditions](music/special-permissions.md)
