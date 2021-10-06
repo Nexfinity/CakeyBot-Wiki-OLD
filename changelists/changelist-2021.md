@@ -6,6 +6,7 @@
 
 * Fixed requester info on tracks
 * Fixed music queue on web dashboard
+* Fixed `!equalizer` command
 
 #### Changed
 
