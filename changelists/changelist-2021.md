@@ -1,5 +1,63 @@
 # Changelist - 2021
 
+## 10/6/2021 - Music Requester Fixed
+
+#### Fixed
+
+* Fixed requester info on tracks
+
+#### Changed
+
+* Increased ratelimit on `!nightcore`/`!vaporwave` to when it actually gets applied to the track
+
+## 10/4/2021 - Music Filters V2
+
+#### Added
+
+* Added new `!vaporwave` command / music effect \[Premium\]
+* Added new `!nightcore` command / music effect \[Premium\]
+* Updated `!filter` command \[Premium\]
+  * You can now type `!filter <preset> reset` to reset the filter to default values
+  * You can now type `!filter <preset>` to see the current values and usage info
+  * `!filter` now shows the updated values after applying the settings
+
+## 10/3/2021 - Music Fixes & Rewrite
+
+#### Fixed
+
+* Fixed incorrect error message when enqueuing songs
+* Fixed missing message when enqueueing songs
+* Spotify playlist URLs now throw an error message
+
+#### Added
+
+* Applied filters now display on the `!nowplaying` command
+* `!skip` should now display the correct message
+* Added "24/7" music capabilities \[Premium\] =&gt; Added music filters! \[Premium\]
+
+## 9/30/2021 - Boost Announcements
+
+#### Fixed
+
+* Fixed `!help` command not responding
+
+#### Changed
+
+* Modified custom command behavior. Custom commands will now block and OVERRIDE built-in default commands with the same name.
+
+#### Added
+
+* Add custom boost announcement \[Premium\]
+
+## 9/27/2021 - Informational Commands
+
+#### Added
+
+* Added new `!staff` command
+* Added new `!premium` command
+* Added "Report a Bug" to the `!help` command dropdown menu
+* Added audit log reasons for all moderation and automated actions \(Auto Role, Ban, Muting, Persistent Role, etc\)
+
 ## 9/26/2021 - Bug Fixes
 
 #### Fixed
