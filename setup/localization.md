@@ -11,7 +11,7 @@ Cakey Bot \(and our web dashboard\) both support over 10 different languages. Th
 * English
 * Dutch/Nederlands `(Vikthor)`
 * German/Deutsch `(Marcel & MST2)`
-* Korean/한국어 `(JohnMarco)`
+* Korean/한국어 `(Johnmacro)`
 * Greek/ελληνικά `(xxNikosGaming)`
 * Swedish/Svenska `(Casper)`
 * Turkish/Türkçe `(Aleph & Oğuzhan)`
