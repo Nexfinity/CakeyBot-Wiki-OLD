@@ -35,6 +35,10 @@ Cakey Bot also has a pre-made list of fun sound bites you can play outside of mu
 Sound Bites are separate from regular music and will cause Cakey Bot to leave the voice channel and clear any ongoing music queue.
 {% endhint %}
 
+### Multiple Music Bots
+
+Cakey Bot has additional bots that you can invite that are designed specifically for music playback! You can find the invites to these bots on our premium page [here](https://cakeybot.app/dashboard/public/premium). Note that you must have premium enabled on the server in order to invite these additional music bots.
+
 ### Supported Sources
 
 Cakey Bot supports many different sources including Twitch and Youtube!
