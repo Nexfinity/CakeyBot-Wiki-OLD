@@ -5,10 +5,10 @@
 ## Setup
 
 * [Setup](setup/setup.md)
-* [Localization \(Multi-Language\)](setup/localization.md)
 * [FAQ](setup/faq.md)
 * [Troubleshooting](setup/troubleshooting.md)
 * [Placeholders/Variables](setup/placeholders-variables.md)
+* [Localization \(Multi-Language\)](setup/localization.md)
 
 ## Changelists
 

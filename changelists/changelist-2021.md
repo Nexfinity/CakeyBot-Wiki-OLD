@@ -1,5 +1,15 @@
 # Changelist - 2021
 
+## 10/7/2021 - Song Request Changes
+
+#### Changed
+
+* Song looping will now be disabled if a track encounters a playback or encoding error to prevent spam
+* Song request channel embed & queue message have now been merged into a single message.
+  * You'll notice that the queue message itself \(the message that does not have an image/embed\) will no longer update, it can be deleted.
+* The song request embed should now always show the default image \(instead of failing to load an image\)
+  * Current song artwork/image will be re-added once it has been fixed.
+
 ## 10/6/2021 - Music Requester Fixed
 
 #### Fixed
