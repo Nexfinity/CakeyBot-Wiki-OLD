@@ -1,13 +1,27 @@
 # Changelist - 2021
 
+## 10/12/2021 - Massive Bug Fixes
+
+#### Fixed
+
+* Fixed player position being off when using timescale filter
+* Fixed incorrect permissions being applied to premium bot invite links
+* Fixed incorrect or missing music error messages
+* Fixed pause command not working as expected with destroyed players
+* Fixed various issues with filters, equalizer and nightcore =
+* Fixed various issues relating to the queue embed
+* Fixed purge log file not being saved correctly
+* Fixed image manipulation commands
+* Fixed join/leave image banners not sending
+
 ## 10/7/2021 - Song Request Changes
 
 #### Changed
 
 * Song looping will now be disabled if a track encounters a playback or encoding error to prevent spam
 * Song request channel embed & queue message have now been merged into a single message.
-  * You'll notice that the queue message itself \(the message that does not have an image/embed\) will no longer update, it can be deleted.
-* The song request embed should now always show the default image \(instead of failing to load an image\)
+  * You'll notice that the queue message itself (the message that does not have an image/embed) will no longer update, it can be deleted.
+* The song request embed should now always show the default image (instead of failing to load an image)
   * Current song artwork/image will be re-added once it has been fixed.
 
 ## 10/6/2021 - Music Requester Fixed
@@ -26,9 +40,9 @@
 
 #### Added
 
-* Added new `!vaporwave` command / music effect \[Premium\]
-* Added new `!nightcore` command / music effect \[Premium\]
-* Updated `!filter` command \[Premium\]
+* Added new `!vaporwave` command / music effect \[Premium]
+* Added new `!nightcore` command / music effect \[Premium]
+* Updated `!filter` command \[Premium]
   * You can now type `!filter <preset> reset` to reset the filter to default values
   * You can now type `!filter <preset>` to see the current values and usage info
   * `!filter` now shows the updated values after applying the settings
@@ -45,7 +59,7 @@
 
 * Applied filters now display on the `!nowplaying` command
 * `!skip` should now display the correct message
-* Added "24/7" music capabilities \[Premium\] =&gt; Added music filters! \[Premium\]
+* Added "24/7" music capabilities \[Premium] => Added music filters! \[Premium]
 
 ## 9/30/2021 - Boost Announcements
 
@@ -59,7 +73,7 @@
 
 #### Added
 
-* Add custom boost announcement \[Premium\]
+* Add custom boost announcement \[Premium]
 
 ## 9/27/2021 - Informational Commands
 
@@ -68,7 +82,7 @@
 * Added new `!staff` command
 * Added new `!premium` command
 * Added "Report a Bug" to the `!help` command dropdown menu
-* Added audit log reasons for all moderation and automated actions \(Auto Role, Ban, Muting, Persistent Role, etc\)
+* Added audit log reasons for all moderation and automated actions (Auto Role, Ban, Muting, Persistent Role, etc)
 
 ## 9/26/2021 - Bug Fixes
 
@@ -79,7 +93,7 @@
 
 #### Changed
 
-* Dropped max volume for music due to new player limitations \(300 =&gt; 100\)
+* Dropped max volume for music due to new player limitations (300 => 100)
 
 ## 9/23/2021 - Music Fixes Pt. 2
 
@@ -101,7 +115,7 @@
 
 #### Added
 
-* Added a "Vote Skip" toggle to the web dashboard to together whether the normal vote command force skips or vote skips. \(By default, vote skipping is disabled\)
+* Added a "Vote Skip" toggle to the web dashboard to together whether the normal vote command force skips or vote skips. (By default, vote skipping is disabled)
 * Cakey Bot now auto deafens when joining voice channels
 * The documentation links in the `!help` command should now point to their correct pages
 
@@ -149,7 +163,7 @@
 
 #### Added
 
-* As some of you may have seen, Cakey Bot has implemented a few context menu items. \(Both for user and message menus\). Up until today, you would get a `WIP - Coming Soon` error message. They are now live and functional!
+* As some of you may have seen, Cakey Bot has implemented a few context menu items. (Both for user and message menus). Up until today, you would get a `WIP - Coming Soon` error message. They are now live and functional!
   * **User:**
     * Get Avatar
     * Get User Info
@@ -214,8 +228,8 @@
 
 #### Changed
 
-* All social feeds will be disabled when a server's premium subscription runs out. \(You can re-enable them up to the limit for the free plan, or re-subscribe for unlimited.\)
-* Due to ratelimit issues, Reddit feeds will be entirely locked behind premium. All other feed types will remain the same. \(Up to 3 for free, unlimited for premium\)
+* All social feeds will be disabled when a server's premium subscription runs out. (You can re-enable them up to the limit for the free plan, or re-subscribe for unlimited.)
+* Due to ratelimit issues, Reddit feeds will be entirely locked behind premium. All other feed types will remain the same. (Up to 3 for free, unlimited for premium)
 * Re-enabled Twitch & Reddit social feeds
 
 ## 8/10/2021 - Music Queue Upgrade
@@ -247,7 +261,7 @@
 #### Changed
 
 * Pushed Korean translations live
-* Disabled slash commands in DMs \(Previously slash commands wouldn't work at all, this 'fix' just makes the bot actually send an error/explanation\)
+* Disabled slash commands in DMs (Previously slash commands wouldn't work at all, this 'fix' just makes the bot actually send an error/explanation)
 
 ## 8/5/2021 - Stage Channels + Thread Improvements
 
@@ -257,7 +271,7 @@
 
 #### Changed
 
-* Increased `!suggestion` character length \(200 =&gt; 500\)
+* Increased `!suggestion` character length (200 => 500)
 * Improved stage channel support
   * Cakey Bot will now automatically become a speaker inside of stages if he is considered a stage moderator.
     * If Cakey Bot is lacking permissions, he will "Request To Speak" instead.
@@ -265,8 +279,8 @@
 #### Added
 
 * Added full thread support
-  * Cakey Bot will now automatically join public threads \(and private ones if permissions allow\)
-  * You are able to use commands \(include custom commands/auto responders\)
+  * Cakey Bot will now automatically join public threads (and private ones if permissions allow)
+  * You are able to use commands (include custom commands/auto responders)
   * You can now toggle audit log events for thread created, deleted and modified events.
   * Other audit log events like message deleted/modified will also work.
   * Auto moderation will work inside of threads.
@@ -285,15 +299,15 @@
 
 #### Changed
 
-* Updated audit log to display new permissions when a channel or role is modified \(Request to speak, use slash commands, create/delete/manage threads\)
+* Updated audit log to display new permissions when a channel or role is modified (Request to speak, use slash commands, create/delete/manage threads)
 
 #### Added
 
-* Added aliases to `!warnings` \("strikes", "listwarnings", "listwarns", "liststrikes"\)
-* Added aliases to `!warn` \("strike", "addwarn", "addstrike"\)
-* Added aliases to `!unwarn` \("rmstrike", "unstrike", "deletestrike", "removestrike"\)
-* Added aliases to `!clearwarnings` \("deletestrikes", "removestrikes", "clearstrikes"\)
-* Added the ability to add/remove warnings from yourself \(if your a moderator obviously\)
+* Added aliases to `!warnings` ("strikes", "listwarnings", "listwarns", "liststrikes")
+* Added aliases to `!warn` ("strike", "addwarn", "addstrike")
+* Added aliases to `!unwarn` ("rmstrike", "unstrike", "deletestrike", "removestrike")
+* Added aliases to `!clearwarnings` ("deletestrikes", "removestrikes", "clearstrikes")
+* Added the ability to add/remove warnings from yourself (if your a moderator obviously)
 
 ## 7/31/2021 - Threads
 
@@ -307,7 +321,7 @@
 * Added full support for normal commands in threads.
 * Added full support for slash commands in threads.
 * Added vote encouragement to `!help`
-* Added new `!someone` command that pings a random user. \(Similar to Discord's april fools @someone ping\)
+* Added new `!someone` command that pings a random user. (Similar to Discord's april fools @someone ping)
 
 ## 7/28/2021 - Support Tickets
 
@@ -319,7 +333,7 @@
 #### Added
 
 * Added support tickets!
-  * You'll need to enable support tickets view the web dashboard and will need to set a "Support Staff" role who can view the tickets \(unless you want to restrict tickets to only administrators\)
+  * You'll need to enable support tickets view the web dashboard and will need to set a "Support Staff" role who can view the tickets (unless you want to restrict tickets to only administrators)
   * Users can create tickets using the `!new <opt:description>` command. If they don't provide a reason, a default one will be filled it.
   * You can currently close, re-open, save transcript, and delete tickets.
   * Currently users are limited to 1 active ticket at a time.
@@ -341,17 +355,17 @@
 * Added a note to `!ttt` games displaying how long until they expire
 * Automatically expire deleted `!ttt` games
 * Fixed issues with new Twitch Feeds
-* Increased ratelimit/cooldown of all moderation commands from 1s =&gt; 2s due to abuse
+* Increased ratelimit/cooldown of all moderation commands from 1s => 2s due to abuse
 
 #### Added
 
 * Added new placeholder `{random:min:max}` Which generates a random number between the min/max. Replace "min" and "max" with a number between 0 and 999,999,999. Note: Your minimum number must be smaller than your maximum number.
 
-## 7/24/2021 - Social Feeds! \(Twitch\)
+## 7/24/2021 - Social Feeds! (Twitch)
 
 #### Added
 
-* Released first social feed tracking type! \(Twitch live alerts\)
+* Released first social feed tracking type! (Twitch live alerts)
   * You can configure it on the web dashboard under "Social Feeds" and select the "Twitch Feeds" tab
   * Reddit, RSS, and Youtube alerts are planned
   * Non-premium users are limited to a maximum of 3 feeds per type, premium get unlimited
@@ -373,7 +387,7 @@
 #### Fixed
 
 * Fixed music embed/song request channel buttons not working
-* Fixed music not auto-skipping on song end \(again\)
+* Fixed music not auto-skipping on song end (again)
 
 ## 7/16/2021 - Music Fixes
 
@@ -386,7 +400,7 @@
 
 #### Fixed
 
-* Upgraded AFK responses to user a button instead of reactions \(More reliable, requires less permissions\)
+* Upgraded AFK responses to user a button instead of reactions (More reliable, requires less permissions)
 * Fixed skip message not sending while using music embed/song request channel
 * Updated translation strings to latest version
 
@@ -402,10 +416,10 @@
 * Bot settings will now save if Cakey Bot is kicked/removed
 * Major audit log overhaul
   * You can now toggle individual audit log events on/off so you can see events that are important to you
-  * You can now send individual events to different channels so you can group them by priority or have certain logs public \(or for certain staff ranks\)
+  * You can now send individual events to different channels so you can group them by priority or have certain logs public (or for certain staff ranks)
   * You can now change the embed color for each event to make them better stand out
-  * Re-enabled the voice channel user state event \(shows when users join, leave and swap voice channels\)
-  * Added the ability to exclude certain roles or channels from being logged \(This one is a WIP and will be out later tonight\)
+  * Re-enabled the voice channel user state event (shows when users join, leave and swap voice channels)
+  * Added the ability to exclude certain roles or channels from being logged (This one is a WIP and will be out later tonight)
 
 ## 7/12/2021 - Misc Fixes
 
@@ -423,9 +437,9 @@
 
 #### Changed
 
-* Converted `!giveaway` and `!remindme` commands to use Discord's new localized relative timestamps \(Auto-updating in each user's timezone\)
-* Increased giveaway's max time limit \(1 hour =&gt; 1 day\)
-* Updated `!giveaway` to not spam update every 10 seconds \(Cleaner audit logs, more accurate time, and less rate limit issues/delays\)
+* Converted `!giveaway` and `!remindme` commands to use Discord's new localized relative timestamps (Auto-updating in each user's timezone)
+* Increased giveaway's max time limit (1 hour => 1 day)
+* Updated `!giveaway` to not spam update every 10 seconds (Cleaner audit logs, more accurate time, and less rate limit issues/delays)
 * Updated `!tempban` and `!tempmute` to also use these new placeholders
 
 #### Added
@@ -437,14 +451,14 @@
 
 #### Added
 
-* Added custom server-specified word blacklist for auto mod \(web dashboard\)
-* Added the ability to whitelist websites/URLs from the website blacklist on auto mod \(web dashboard\)
+* Added custom server-specified word blacklist for auto mod (web dashboard)
+* Added the ability to whitelist websites/URLs from the website blacklist on auto mod (web dashboard)
 
 ## 7/7/2021 - Snipe Command Toggle
 
 #### Added
 
-* Added toggle to web dashboard for `!snipe` command \(disabled by default\)
+* Added toggle to web dashboard for `!snipe` command (disabled by default)
 
 ## 7/6/2021 - Advanced Purge Returns!
 
@@ -464,13 +478,13 @@
 #### Changed
 
 * Updated `!setting` command to display information about configuring advanced features
-* Split "Announcements" role into 3 roles \(Announcements, Bot News, and Website News\) so you can subscribe to news thats important to you
+* Split "Announcements" role into 3 roles (Announcements, Bot News, and Website News) so you can subscribe to news thats important to you
 * Updated `!ttt` AI to block more potential moves
 * `!fact` command will now show a drop down to select a fact type instead of provided a random "general" fact if you don't specify a type when running the command
-* `!invite` now shows all Cakey bots that can be invited \(Music bots and BETA bot\)
+* `!invite` now shows all Cakey bots that can be invited (Music bots and BETA bot)
 * `!help` now has a drop down menu to easily grab URLs/links to useful pages or documentation for features
 * `!rps` command will now show a dropdown menu to select a move if you fail to provide one
-* `!snipe` now pulls the message for the current channel instead of the entire server \(this prevents accidentally leaking deleted messages from private channels\)
+* `!snipe` now pulls the message for the current channel instead of the entire server (this prevents accidentally leaking deleted messages from private channels)
 
 #### Added
 
@@ -510,12 +524,12 @@
 
 * Fixed an issue where Audit Log wouldn't work when you updated a News channel
 * Fixed an issue where custom commands/auto responders would fail if a user provided an invalid `{choose}` placeholder
-* Fixed a ton of other misc. bugs/issues. \(Mostly with slash commands\)
+* Fixed a ton of other misc. bugs/issues. (Mostly with slash commands)
 
 #### Changed
 
 * Updated `!banlist` to use pastebin if there's too many users to display in-discord
-* Updated `!banlist` command to have an additional optional argument to only output the user IDs with no usernames. \(`!banlist <true/false>`\)
+* Updated `!banlist` command to have an additional optional argument to only output the user IDs with no usernames. (`!banlist <true/false>`)
 * Added additional check for "UseExternalEmoji" on AFK messages
 
 ## 6/22/2021 - TTT Upgrades
@@ -543,7 +557,7 @@
 
 * Fixed an incorrect URL while typing `!afk list`
 * Fixed an issue where `/afk` wouldn't show your currently set AFK message
-* Fixed AFK messages not supporting unicode based text \(like emotes or korean language\)
+* Fixed AFK messages not supporting unicode based text (like emotes or korean language)
 * Fixed `!skip` vote counts
 * Fixed `/remindme` allowing optional parameters
 * Fixed check/x emotes on slash commands
@@ -572,12 +586,12 @@
 
 * Updated `!google` to actually return first google result
 * Cryptocurrencies are no longer accepted
-* Credit/Debit card is now handled by PayPal \(You don't have to create an account\)
+* Credit/Debit card is now handled by PayPal (You don't have to create an account)
 * Stripe credit/debit card is no longer accepted
 * PayPal subscriptions will now auto-renew monthly
-* Added bulk discount \(If you buy for 11+ servers, you only pay $4/mo per server\)
+* Added bulk discount (If you buy for 11+ servers, you only pay $4/mo per server)
 * Updated FAQ and other related elements to reflect this change
-* Added ability to select a custom number of servers \(1-99\)
+* Added ability to select a custom number of servers (1-99)
 * Updated premium page to show separate buttons for "PayPal Premium" and "One-Time PayPal Donations"
 * "Next Charge" will now show "Expires On" or "Renews On" depending on the type of payment
 * Current servers will now display which of your premium plans is applied to it and when that plan expires/renews
@@ -592,13 +606,13 @@
 
 #### Fixed
 
-* Fixed hover tooltip for premium custom join/leave banners \(previously used the query tooltip\)
+* Fixed hover tooltip for premium custom join/leave banners (previously used the query tooltip)
 
 #### Changed
 
 * Optimized several web dashboard pages to improve page load speeds
 
-## 6/16/2021 - New Placeholder \(Buttons!\)
+## 6/16/2021 - New Placeholder (Buttons!)
 
 #### Changed
 
@@ -625,7 +639,7 @@
 #### Fixed
 
 * Fixed an issue where `!play` would throw an "unknown" error in addition to the original error message if Cakey Bot was unable to join the voice channel
-* Fixed translations that would break after the first move in TTT \(This should also fix translation issues with other button/interaction related components\)
+* Fixed translations that would break after the first move in TTT (This should also fix translation issues with other button/interaction related components)
 * Fixed a bug where image manipulation commands would sometimes silently fail if they failed to download an image to modify
 * Fixed `!suggestion` embed error colors not being red
 * Fixed an issue where you couldn't use numbered choose/choice placeholder lists if you didn't include the default unnumbered list
@@ -656,7 +670,7 @@
 
 * Updated Cakey Bot's invite to no longer request administrator while inviting
   * [https://cakeybot.app/invite](https://cakeybot.app/invite)
-* Updated website navbar buttons to be consistent across all pages \(Previously colors were inverted on some pages\)
+* Updated website navbar buttons to be consistent across all pages (Previously colors were inverted on some pages)
 * Pushed Korean and Swedish translations live
 
 ## 6/7/2021 - Temporary Actions
@@ -676,10 +690,10 @@
 * Added `!lolice <opt:user>` command
 * Added `/afk` and `/unafk` slash commands
 * Added two new placeholders!
-  * You can now use the `{chance:X}` placeholder to randomly send a response \(or not :P\)
-    * You can check out more details on our documentation here: [https://docs.cakeybot.app/setup/placeholders-variables\#response-chance](https://docs.cakeybot.app/setup/placeholders-variables#response-chance)
+  * You can now use the `{chance:X}` placeholder to randomly send a response (or not :P)
+    * You can check out more details on our documentation here: [https://docs.cakeybot.app/setup/placeholders-variables#response-chance](https://docs.cakeybot.app/setup/placeholders-variables#response-chance)
   * You can now use the `{react:X}` placeholder to add basic reactions to your responses! `[Premium Only]`
-    * You can check out more details on our documentation here: [https://docs.cakeybot.app/setup/placeholders-variables\#reactions](https://docs.cakeybot.app/setup/placeholders-variables#reactions)
+    * You can check out more details on our documentation here: [https://docs.cakeybot.app/setup/placeholders-variables#reactions](https://docs.cakeybot.app/setup/placeholders-variables#reactions)
 
 ## 6/6/2021 - TTT Fixes
 
@@ -691,7 +705,7 @@
 #### Changed
 
 * `!ttt` now keeps the game board displayed after it has finished
-* Slightly improved AI to target winning tiles \(Still need to add the AI actively blocking player wins, but slightly better than pure randomization\)
+* Slightly improved AI to target winning tiles (Still need to add the AI actively blocking player wins, but slightly better than pure randomization)
 
 #### Added
 
@@ -713,7 +727,7 @@
 #### Changed
 
 * Added usage info for `!quote` command when incorrect parameters are provided
-* Updated `!warnings` to accept user id OR user object. \(This allows you to view warnings of users who are no longer in the server\)
+* Updated `!warnings` to accept user id OR user object. (This allows you to view warnings of users who are no longer in the server)
 
 ## 6/2/2021 - Calculator
 
@@ -726,7 +740,7 @@
 #### Added
 
 * Discord recently added stage channels that splits speakers and audience into two groups. All you have to do is make Cakey Bot a stage moderator and it will play your favorite music in stage channels too! Note: For the moment, sometimes you also have to right-click Cakey Bot and click "Invite to Speak"
-  * How to add stage moderators: [https://support.discord.com/hc/article\_attachments/1500007375362/modifying\_stage\_moderators\_flow\_gif.gif](https://support.discord.com/hc/article_attachments/1500007375362/modifying_stage_moderators_flow_gif.gif) 
+  * How to add stage moderators: [https://support.discord.com/hc/article_attachments/1500007375362/modifying_stage_moderators_flow_gif.gif](https://support.discord.com/hc/article_attachments/1500007375362/modifying_stage_moderators_flow_gif.gif) 
   * Stage channels FAQ: [https://support.discord.com/hc/en-us/articles/1500005513722](https://support.discord.com/hc/en-us/articles/1500005513722)
 
 ## 5/30/2021 - Slash Commands V2
@@ -737,7 +751,7 @@
 
 #### Changed
 
-* Updated some slash commands to be ephemeral \(This means they'll show the results only to you, so you can use them without spamming chat!\)
+* Updated some slash commands to be ephemeral (This means they'll show the results only to you, so you can use them without spamming chat!)
 
 #### Added
 
@@ -755,7 +769,7 @@
 #### Added
 
 * Added new command! `!eqpreset <preset>` This will allow you to automatically apply a preset equalizer to the song your listening to. 
-  * Current presets are: `lowpass, highpass, flat, extrabass, extratreble, bassandtreble` \(Thanks @Captain Ibblesworth \)
+  * Current presets are: `lowpass, highpass, flat, extrabass, extratreble, bassandtreble` (Thanks @Captain Ibblesworth )
 
 ## 5/6/2021 - Stickers!
 
@@ -788,7 +802,7 @@
 
 #### Changed
 
-* Updated `{confirmdelete}` placeholder cooldown \(30s=&gt;60s\)
+* Updated `{confirmdelete}` placeholder cooldown (30s=>60s)
 
 ## 3/25/2021 - Audit Log Fixes
 
@@ -800,18 +814,18 @@
 
 #### Added
 
-* Custom Command Arguments/$N variables are now released. You can read up on them here: [https://docs.cakeybot.app/setup/placeholders-variables\#arguments-usdn-variable-custom-commands-only](https://docs.cakeybot.app/setup/placeholders-variables#arguments-usdn-variable-custom-commands-only)
+* Custom Command Arguments/$N variables are now released. You can read up on them here: [https://docs.cakeybot.app/setup/placeholders-variables#arguments-usdn-variable-custom-commands-only](https://docs.cakeybot.app/setup/placeholders-variables#arguments-usdn-variable-custom-commands-only)
   * This placeholder is very new and could be buggy, please report any problems!
 
 ## 3/20/2021 - Choose & Choice Placeholders
 
 #### Changed
 
-* Updated advanced placeholders to be case-insensitive \(Originally only basic placeholders were case-insensitive\)
+* Updated advanced placeholders to be case-insensitive (Originally only basic placeholders were case-insensitive)
 
 #### Added
 
-* Implemented Choice and Choose advanced placeholders! You can read up on how to use these here: [https://docs.cakeybot.app/setup/placeholders-variables\#choose-and-choice](https://docs.cakeybot.app/setup/placeholders-variables#choose-and-choice)
+* Implemented Choice and Choose advanced placeholders! You can read up on how to use these here: [https://docs.cakeybot.app/setup/placeholders-variables#choose-and-choice](https://docs.cakeybot.app/setup/placeholders-variables#choose-and-choice)
 
 ## 3/14/2021 - Music Updates
 
@@ -821,17 +835,17 @@
 
 #### Changed
 
-* Updated new dashboard audit log to be localized \(multi-language\)
+* Updated new dashboard audit log to be localized (multi-language)
 
 #### Added
 
 * Added max song length to dashboard
-* Added word blacklist to dashboard for music titles \(To auto-blacklist ear rape or similar\)
+* Added word blacklist to dashboard for music titles (To auto-blacklist ear rape or similar)
 
 #### Removed
 
 * Removed the `!playskip` command.
-* Removed useless code from `!search` \(Checking for playlist loading, will now display no results error\)
+* Removed useless code from `!search` (Checking for playlist loading, will now display no results error)
 
 ## 3/11/2021 - Dashboard Logging!
 
@@ -863,14 +877,14 @@
 
 #### Added
 
-* Add dropdown to delete persistent & temporary roles \(add clear all button too\)
+* Add dropdown to delete persistent & temporary roles (add clear all button too)
 
 ## 2/26/2021 - Bug Fixes + Premium Banners
 
 #### Fixed
 
-* Fixed `!image` command \(+related slash command\)
-* Fixed profile images not working when user doesn't have one \(Affects multiple commands\)
+* Fixed `!image` command (+related slash command)
+* Fixed profile images not working when user doesn't have one (Affects multiple commands)
 * Fixed incorrect text on `!help` commands
 * Multiple bug fixes
 
@@ -901,7 +915,7 @@
 #### Changed
 
 * Improve strictness when censoring certain text in non-NSFW channels.
-* Updated links in bot \(Donate =&gt; premium\)
+* Updated links in bot (Donate => premium)
 * Added up-sale info on certain commands for Premium
 * Updated premium info on docs/faq
 * Updated web dashboard URLs in Cakey Bot
@@ -935,7 +949,7 @@
 #### Changed
 
 * Cakey Bot will now send a persistent message when it has disconnected from a voice channel due to no users
-* Added up to 2 retry attempts for all Cakey Bot temporary actions \(tempmute/tempban\) & reminders.
+* Added up to 2 retry attempts for all Cakey Bot temporary actions (tempmute/tempban) & reminders.
 
 #### Added
 
@@ -987,7 +1001,7 @@
 
 #### Changed
 
-* Updated required user permissions for `!purge` \(Administrator =&gt; ManageMessages\)
+* Updated required user permissions for `!purge` (Administrator => ManageMessages)
 
 #### Added
 
@@ -1009,13 +1023,13 @@
 
 #### Fixed
 
-* Fixed \#songrequest controls not properly clearing the song queue
-* Fixed formatting for queue items in \#songrequest channels
+* Fixed #songrequest controls not properly clearing the song queue
+* Fixed formatting for queue items in #songrequest channels
 * Made even more fixes to music playing states, connections and disconnects
 
 #### Added
 
-* Add new `!report <user> <reason>` command \(setup via web dashboard\)
+* Add new `!report <user> <reason>` command (setup via web dashboard)
 
 ## 1/12/2021 - Addition Dashboard Info
 
@@ -1051,13 +1065,13 @@
 
 #### Fixed
 
-* Fixed numerous issues with Cakey's \#song\_request channel
+* Fixed numerous issues with Cakey's #song_request channel
 * Fixed issues relating to `!loop` and `!skip`
 * Updated old website URLs to reflect the new ones
 * Updated `!announce` command to require "ManageMessages" instead of "ManageServer"
 * Fixed an issue where `!qoute` would fail to quote large messages
 * Fixed an issue where `!quote` would fail if you tried to quote a file/image
-* Updated music queue in \#song\_request to automatically revert to default if the player state is invalid 
+* Updated music queue in #song_request to automatically revert to default if the player state is invalid 
 * Updated `/remindme` to check for null users when Discord sends incomplete data
 
 ## 1/1/2021 - Premium Subscriptions
@@ -1065,11 +1079,11 @@
 #### Added
 
 * Premium subscription options, with perks:
-  * Higher Music Queue Song limit \(50 =&gt; Unlimited\)
-  * Load Larger Music Playlists \(50 =&gt; Unlimited\)
+  * Higher Music Queue Song limit (50 => Unlimited)
+  * Load Larger Music Playlists (50 => Unlimited)
   * Access to `{dm}` placeholders in Custom commands/Auto Responder
   * Custom `!query` Background Banner Images
-  * * More Coming Soon
+  *
+    * More Coming Soon
 
 .
-
