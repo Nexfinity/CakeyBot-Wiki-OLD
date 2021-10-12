@@ -11,21 +11,21 @@
 * Open an incognito tab and invite Cakey Bot from there.
   *  If you're sure that **you're signed into the correct account** and **you have permissions on the server that you'd like to add Cakey Bot to**, then you should open an incognito tab and invite Cakey Bot from there. You can find instructions in the table below, if you don't know how to do that.
 
-| Browser | Windows/Linux | MacOS |
-| :--- | :--- | :--- |
-| Chrome | CTRL+Shift+N | CMD+Shift+N |
-| Firefox | CTRL+Shift+P | CMD+Shift+P |
-| Opera | CTRL+Shift+N | CMD+Shift+N |
-| MS Edge | CTRL+Shift+N | CMD+Shift+N |
-| Explorer | CTRL+Shift+P | N/A |
-| Safari | N/A | CMD+Shift+N |
+| Browser  | Windows/Linux | MacOS       |
+| -------- | ------------- | ----------- |
+| Chrome   | CTRL+Shift+N  | CMD+Shift+N |
+| Firefox  | CTRL+Shift+P  | CMD+Shift+P |
+| Opera    | CTRL+Shift+N  | CMD+Shift+N |
+| MS Edge  | CTRL+Shift+N  | CMD+Shift+N |
+| Explorer | CTRL+Shift+P  | N/A         |
+| Safari   | N/A           | CMD+Shift+N |
 
 * Why is this necessary?
   * Because Discord caches data into cookies, it retains old account information and glitches out the bot invite screen. By using an incognito/private browsing window, it forces Discord to use a fresh session which fixes the glitch and allows you to select a server from the drop-down menu.
 
 ### When adding Cakey Bot, Discord asks me to verify my e-mail address.
 
-![](../.gitbook/assets/ss5.jpg)
+![](<../.gitbook/assets/SS5 (5).JPG>)
 
 Discord requires you to verify your e-mail account to add bots into your servers. Head to the User Settings and verify your e-mail there.
 
@@ -46,8 +46,8 @@ Cakey Bot uses a number of fancy custom emoji to make everything fun and visuall
      * You can learn how to change Cakey Bot's prefix by heading to the [Prefix Setting](faq.md#what-is-the-default-prefix-and-how-can-i-change-it) section!
   3. Make sure Cakey Bot has the permissions to read and send messages in the channel.
      * You can give the `Administrator` permission to Cakey Bot to make this easier.
-  4. Take a look at our [\#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakeybot.app/discord) server to see if there are any issues going on. You can also check out our NEW [status page](https://cakeybot.statuspage.io/).
-  5. If the above methods do not work, please choose option 3 in our [\#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://cakeybot.app/discord) server to receive assistance from a member of our Support Team.
+  4. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakeybot.app/discord) server to see if there are any issues going on. You can also check out our NEW [status page](https://cakeybot.statuspage.io).
+  5. If the above methods do not work, please choose option 3 in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://cakeybot.app/discord) server to receive assistance from a member of our Support Team.
 
 ## Audio Troubleshooting
 
@@ -96,4 +96,3 @@ If your queue contains audio from multiple/different sources, you can create a C
 
 * If you encounter this error when inviting Cakey Bot, try opening an **Incognito Tab** and copy this link into the search bar: [https://cakeybot.app/invite](https://cakeybot.app/invite)
 * [Click here](https://support.google.com/chrome/answer/95464) to learn how to open an Incognito Tab.
-

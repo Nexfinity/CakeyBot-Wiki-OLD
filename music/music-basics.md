@@ -9,9 +9,9 @@ In order to use music Cakey Bot will need **`Connect`** and **`Speak`** permissi
 Cakey Bot can play music from multiple sources which you can view a full list of [here](supported-sources.md). In order to listen to music you will need to follow the steps below.
 
 1. Join a voice channel that Cakey bot has access to join/speak in
-2. Type `!join` or `!play <song>` \(The `!play` command will auto-summon Cakey Bot\)
-   1. You can also use the `!move` command if no one else is using the bot
-3. If you typed !join or !move in step two you will now need to type !play &lt;song&gt; in order to start playing a song
+2. Type `!join` or `!play <song>` (The `!play` command will auto-summon Cakey Bot)
+   1. You can also use the `!move `command if no one else is using the bot
+3. If you typed !join or !move in step two you will now need to type !play \<song> in order to start playing a song
 
 If no song is currently playing when you add one, it will start to play instantly. If a song is currently playing, your song will be added to a queue that will play through automatically.
 
@@ -44,4 +44,3 @@ Cakey Bot has additional bots that you can invite that are designed specifically
 Cakey Bot supports many different sources including Twitch and Youtube!
 
 You can view all of our current and planned music sources on [this page](supported-sources.md).
-

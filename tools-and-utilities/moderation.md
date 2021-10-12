@@ -26,7 +26,7 @@ Many commands in this module require higher-level permissions such as **`Manage 
 * Silent Actions
   * You can mute, kick, ban and warn users silently using "-s" or "-silent" anywhere in the reason section of the command.
 * User Reports
-  * You can set a channel on the Web Dashboard where user reports are sent. Normal users can make reports with the `!report <text>` command.
+  * You can set a channel on the Web Dashboard where user reports are sent. Normal users can make reports with the `!report <text> `command.
 
 ### Auto Moderation
 
@@ -60,23 +60,23 @@ For example: `!warn TestSubject -s Spamming the chat` will add a warning to the 
 
 ### Advanced Purge Filters
 
-You can purge any amount of messages \(up to 100\) by typing `!purge <amount>`. This will delete the specified number of messages as long as they are not older than 2 weeks and are not pinned. 
+You can purge any amount of messages (up to 100) by typing `!purge <amount>`. This will delete the specified number of messages as long as they are not older than 2 weeks and are not pinned. 
 
 You can also filter what types of messages you want to delete by typing `!purge <type> <amount>`. You can view a list of advanced filters below:
 
-* Links \(Any well-formatted URL/Link\)
-* Invites \(Discord invite links\)
-* Images \(Any messages that have an image/file attached\)
-* Mentions \(Any messages that contain at least 1 user mention\)
-* Embeds \(Any messages that contain an embed\)
-* Self \(Any messages that were sent by Cakey Bot\)
-* Bots \(Any messages that were sent by a bot\)
-* Components \(Any messages that have buttons or selection dropdowns\)
-* User \(Any messages that were sent by the specified user\)
+* Links (Any well-formatted URL/Link)
+* Invites (Discord invite links)
+* Images (Any messages that have an image/file attached)
+* Mentions (Any messages that contain at least 1 user mention)
+* Embeds (Any messages that contain an embed)
+* Self (Any messages that were sent by Cakey Bot)
+* Bots (Any messages that were sent by a bot)
+* Components (Any messages that have buttons or selection dropdowns)
+* User (Any messages that were sent by the specified user)
   * **Special Format:** `!purge user <user id>`
-* Until \(Deletes every message between the command and the specified message ID\)
+* Until (Deletes every message between the command and the specified message ID)
   * **Special Format:** `!purge until <message id>`
-* Between \(Deletes every message between the specified message IDs\)
+* Between (Deletes every message between the specified message IDs)
   * **Special Format:** `!purge between <message id> <message id>`
 
 {% hint style="warning" %}
@@ -86,4 +86,3 @@ Sometimes Cakey Bot will purge fewer messages than the number you specify. This 
 * Some messages may be older than 2 weeks within the specified amount
 * Some messages may be "pinned" within the specified amount
 {% endhint %}
-

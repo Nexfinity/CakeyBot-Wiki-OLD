@@ -2,7 +2,7 @@
 
 ## Overview
 
-Cakey Bot can automatically post custom messages when users join/leave or are banned. You can have Cakey Bot announce for one or all of these events and set different messages \(or image banners\) for each event.
+Cakey Bot can automatically post custom messages when users join/leave or are banned. You can have Cakey Bot announce for one or all of these events and set different messages (or image banners) for each event.
 
 ## Setting A Message
 
@@ -28,7 +28,7 @@ You can also use a fancy banner picture for your join/leave messages too! In ord
 Currently, you can not set a banner for ban messages.
 {% endhint %}
 
-![](../.gitbook/assets/ss5%20%284%29.jpg)
+![](<../.gitbook/assets/SS5 (4).JPG>)
 
 {% hint style="warning" %}
 Note: If you choose to use a banner image, you will not be able to use/apply custom text or placeholders alongside it.
@@ -41,4 +41,3 @@ Announcements will work with all **Basic Placeholders**. You can find the list o
 {% hint style="warning" %}
 Announcements will **NOT** work with the **Advanced Placeholders**.
 {% endhint %}
-

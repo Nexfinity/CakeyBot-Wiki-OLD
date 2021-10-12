@@ -8,7 +8,7 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 
 1. Login to our [web dashboard](https://cakeybot.app/dashboard/).
 2. Go to "Social Feeds" [here](https://cakeybot.app/dashboard/public/feeds).
-3. Click the tab for the feed you want to add \(i.e. Reddit, Twitter, etc\)
+3. Click the tab for the feed you want to add (i.e. Reddit, Twitter, etc)
 4. Click the "Add New Feed" button
 5. Fill in the required information. All feeds will require a channel ID and a web hook URL for that channel in order to post messages there. You can read how to create a web hook URL [here](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
 6. Click "Create"
@@ -19,7 +19,7 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 
 {% tabs %}
 {% tab title="Twitch" %}
-![](../.gitbook/assets/twitchfeed.jpg)
+![](../.gitbook/assets/!TwitchFeed.JPG)
 {% endtab %}
 
 {% tab title="Youtube" %}
@@ -33,7 +33,7 @@ Not implemented yet.
 Reddit feeds currently require a premium subscription to use due to rate limit concerns.
 {% endhint %}
 
-![](../.gitbook/assets/ss5%20%281%29.jpg)
+![](../.gitbook/assets/SS5.JPG)
 {% endtab %}
 
 {% tab title="Twitter" %}
@@ -48,4 +48,3 @@ Not implemented yet.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
-
