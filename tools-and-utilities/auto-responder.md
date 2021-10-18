@@ -27,19 +27,18 @@ You will need **`Manage Server`** or **`Administrator`** permission to manage se
   * Will check to see if the message ends with this string/trigger
 * Contains Files
   * Will check to see if the message contains any files/attachments. (i.e. documents, images, videos)
-  * **Note:** When using this flag, the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.
 * From Webhook
   * Will check to see if the message was sent by a webhook
-  * **Note:** When using this flag, the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.
 * Contains user mention
   * Will check to see if the message contains a user mention
-  * **Note:** When using this flag, the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.
 * Contains channel mention
   * Will check to see if the message contains a channel mention
-  * **Note:** When using this flag, the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.
 * Contains role mention
   * Will check to see if the message contains a role mention
-  * **Note:** When using this flag, the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.
+
+{% hint style="warning" %}
+**Note:** When using the "Contains Files", "From Webhook", and "Contains X mention", the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.&#x20;
+{% endhint %}
 
 ## Limitations/Restrictions
 
