@@ -1,5 +1,40 @@
 # Changelist - 2021
 
+## 10/20/2021 - Misc Bug Fixes + Vote Points
+
+#### Fixed
+
+* Fixed an issue where `!warnings` would not display if a user had too many warnings&#x20;
+* Possibly fixed the bot not joining music voice channels after some time&#x20;
+* Fixed `!play` command sometimes breaking on very large queues/songs&#x20;
+* Updated the `!invite` command for the new music bots
+
+#### Added
+
+* Added vote rewards system, checkout `!vote` and `!votepoints`
+
+## 10/18/2021 -  New Auto Responder Flags
+
+#### Added
+
+* Added several new Auto Responder flags!
+  * From Webhook
+  * Contains user mention
+  * Contains channel mention
+  * Contains role mention
+
+## 10/15/2021 - More Music Bots
+
+#### Fixed
+
+* Fixed an issue where you couldn't run the `!queue` command while music was paused
+
+#### Added
+
+* Released @Cakey Bot 4
+* Released @Cakey Bot 5
+* Updated all premium bots to use the new music core (less bugs)
+
 ## 10/12/2021 - Massive Bug Fixes
 
 #### Fixed
@@ -169,7 +204,7 @@
     * Get User Info
     * View Warnings
     * Mute `[Not implemented Yet]`
-    * Unmute `[Not implemented Yet]` 
+    * Unmute `[Not implemented Yet]`&#x20;
   * **Message:**
     * Analyze Image `[Bugged]`
     * Base64 Decode
@@ -199,13 +234,13 @@
 
 * Removed premium message on `!help` command due to rate limits.
 * Upgraded `!top` command to format member counts.
-* Upgraded the "VIP Features" list to be a bit more human-readable. 
+* Upgraded the "VIP Features" list to be a bit more human-readable.&#x20;
   * This also decreases the amount of characters used allows more features to be shown on servers that have a lot of features enabled.
 
 #### Added
 
 * Added new `!selfrole embed` parameter to the `!selfrole` command.
-  * This will generate an embed with a selection dropdown, buttons or reactions to self-assign roles. 
+  * This will generate an embed with a selection dropdown, buttons or reactions to self-assign roles.&#x20;
   * You will be able to set which method to use via the web dashboard.
     * Currently, only selection dropdowns are supported and as such can't be changed via dashboard yet
 
@@ -740,7 +775,7 @@
 #### Added
 
 * Discord recently added stage channels that splits speakers and audience into two groups. All you have to do is make Cakey Bot a stage moderator and it will play your favorite music in stage channels too! Note: For the moment, sometimes you also have to right-click Cakey Bot and click "Invite to Speak"
-  * How to add stage moderators: [https://support.discord.com/hc/article_attachments/1500007375362/modifying_stage_moderators_flow_gif.gif](https://support.discord.com/hc/article_attachments/1500007375362/modifying_stage_moderators_flow_gif.gif) 
+  * How to add stage moderators: [https://support.discord.com/hc/article\_attachments/1500007375362/modifying\_stage\_moderators\_flow\_gif.gif](https://support.discord.com/hc/article\_attachments/1500007375362/modifying\_stage\_moderators\_flow\_gif.gif)&#x20;
   * Stage channels FAQ: [https://support.discord.com/hc/en-us/articles/1500005513722](https://support.discord.com/hc/en-us/articles/1500005513722)
 
 ## 5/30/2021 - Slash Commands V2
@@ -768,7 +803,7 @@
 
 #### Added
 
-* Added new command! `!eqpreset <preset>` This will allow you to automatically apply a preset equalizer to the song your listening to. 
+* Added new command! `!eqpreset <preset>` This will allow you to automatically apply a preset equalizer to the song your listening to.&#x20;
   * Current presets are: `lowpass, highpass, flat, extrabass, extratreble, bassandtreble` (Thanks @Captain Ibblesworth )
 
 ## 5/6/2021 - Stickers!
@@ -1065,13 +1100,13 @@
 
 #### Fixed
 
-* Fixed numerous issues with Cakey's #song_request channel
+* Fixed numerous issues with Cakey's #song\_request channel
 * Fixed issues relating to `!loop` and `!skip`
 * Updated old website URLs to reflect the new ones
 * Updated `!announce` command to require "ManageMessages" instead of "ManageServer"
 * Fixed an issue where `!qoute` would fail to quote large messages
 * Fixed an issue where `!quote` would fail if you tried to quote a file/image
-* Updated music queue in #song_request to automatically revert to default if the player state is invalid 
+* Updated music queue in #song\_request to automatically revert to default if the player state is invalid&#x20;
 * Updated `/remindme` to check for null users when Discord sends incomplete data
 
 ## 1/1/2021 - Premium Subscriptions
