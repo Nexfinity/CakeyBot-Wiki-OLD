@@ -134,8 +134,8 @@ Examples:
 ### **Not**
 
 `{not:&role}` - Blacklist a specific role from using the command. Replace "**role**" with the role ID.\
-**\*\*`{not:#channel}` - Blacklist the command from being run in a specific channel. Replace "**channel**" with the channel ID.**\
-**`{not:@user}` - Blacklist a specific user from using the command. Replace "**user\*\*" with the user ID.
+`{not:#channel}` - Blacklist the command from being run in a specific channel. Replace "**channe**l" with the channel ID.\
+`{not:@user}` - Blacklist a specific user from using the command. Replace "**user**" with the user ID.
 
 Examples:
 
@@ -255,4 +255,4 @@ $3+ represents all the arguments after the first one in the command call (big fi
 Remember, do not include this variable in the initial command. Place $1 $2 and so on in the command response.
 {% endhint %}
 
-![The diagram above is a visual representation of how argument variables work in custom commands.](../.gitbook/assets/cc_args.png)
+![The diagram above is a visual representation of how argument variables work in custom commands.](../.gitbook/assets/cc\_args.png)
