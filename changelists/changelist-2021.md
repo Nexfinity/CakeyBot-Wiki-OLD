@@ -1,12 +1,14 @@
 # Changelist - 2021
 
-## 12/23/2021 - Wildcard Flag
+## 12/23/2021 - Wildcard Flag & Anti-Phishing
 
 #### Added
 
 * Added a new auto responder flag! (Suggested by @GM Rod )
   * You can now use wildcard matching for your auto responder triggers when you set the "Wildcard Contains" flag.
   * The wildcard symbol is `*`
+* Added more valid URLs to the whitelist to further decrease false positives
+* Added support for URL shorteners, Cakey Bot will now follow the URL to the original URL and verify it against our phishing database for improved accuracy!
 
 ## 12/3/2021 - Filter Fixes
 
