@@ -1,5 +1,63 @@
 # Changelist - 2021
 
+## 12/23/2021 - Wildcard Flag
+
+#### Added
+
+* Added a new auto responder flag! (Suggested by @GM Rod )
+  * You can now use wildcard matching for your auto responder triggers when you set the "Wildcard Contains" flag.
+  * The wildcard symbol is `*`
+
+## 12/3/2021 - Filter Fixes
+
+#### Fixed
+
+* Fixed an issue where `!filter <name> reset` would load incorrect default values for "karaoke" and "lowpass" filters. (Thanks @uwyne )
+
+## 12/2/2021 - Cakey Bot List Command
+
+#### Added
+
+* Added `!fakebots` command so users can verify if a bot is a real Cakey Bot.
+
+## 11/30/2021 - Archive Fix
+
+#### Fixed
+
+* Fixed `/archive` not working after manually unarchiving a thread. (Thanks @Prof.Brain )
+
+## 11/29/2021 - Improved Anti-Phishing Checks
+
+#### Fixed
+
+* Auto Mod phishing check will no longer false flag on valid/legitimate URLs for Twitch and Discord.
+
+## 11/18/2021 - Premium Fixes
+
+#### Fixed
+
+* Premium subscriptions will now persist for the entire month paid if they get canceled early.
+
+## 11/13/2021 - Anti-Phishing Enhancements
+
+#### Changed
+
+* Increased the speed at which Cakey Bot updates the phishing URLs from remote APIs (6h => 1h)
+
+## 11/8/2021 - Music Bug Fixes
+
+#### Fixed
+
+* Fixed song request channel not enqueuing songs correctly.
+* Fixed skip button not working correctly on song request channel embed.
+
+## 10/31/2021 - User Cache Improvements
+
+#### Changed
+
+* Completely overhauled Cakey Bot's user cache/rest system, commands should be much more reliable in larger servers where users may be missing from the cache.
+* Minor updates to Avatar fallback images.
+
 ## 10/20/2021 - Misc Bug Fixes + Vote Points
 
 #### Fixed
