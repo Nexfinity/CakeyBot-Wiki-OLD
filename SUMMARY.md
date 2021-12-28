@@ -8,11 +8,12 @@
 * [FAQ](setup/faq.md)
 * [Troubleshooting](setup/troubleshooting.md)
 * [Placeholders/Variables](setup/placeholders-variables.md)
-* [Localization \(Multi-Language\)](setup/localization.md)
+* [Localization (Multi-Language)](setup/localization.md)
 
 ## Changelists
 
 * [Planned Features](https://cakeybot.app/planned-features)
+* [Changelist - 2022](changelists/changelist-2022.md)
 * [Changelist - 2021](changelists/changelist-2021.md)
 * [Changelist - 2020](changelists/changelist-2020.md)
 * [Changelist - 2019](changelists/changelist-2019.md)
@@ -36,7 +37,7 @@
 * [Song Request Channel](music/song-request-channel.md)
 * [Special Permissions/Conditions](music/special-permissions.md)
 
-## Tool & Utilities <a id="tools-and-utilities"></a>
+## Tool & Utilities <a href="#tools-and-utilities" id="tools-and-utilities"></a>
 
 * [AFK Messages](tools-and-utilities/afk-messages.md)
 * [Audit Log](tools-and-utilities/audit-log.md)
@@ -57,4 +58,3 @@
 ## Other/Misc
 
 * [Math Command](other-misc/math-command.md)
-
