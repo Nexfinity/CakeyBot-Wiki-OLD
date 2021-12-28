@@ -1,12 +1,29 @@
 # Changelist - 2021
 
+## 12/28/2021 - QOL & Bug Fixes
+
+#### Fixed
+
+* Fixed AFK messages not sending
+* Fixed `!trivia` command not working
+
+#### Added
+
+* Added `!soundboard` as alias for `!soundbite` command.
+
+#### Changed
+
+* AFK messages will now reference/reply to the message that trigger them.
+* `!warnings` will now use a paginator to show all warnings for users who have more warnings than Discord's character limit will allow.
+
 ## 12/23/2021 - Wildcard Flag & Anti-Phishing
 
 #### Added
 
 * Added a new auto responder flag! (Suggested by @GM Rod )
   * You can now use wildcard matching for your auto responder triggers when you set the "Wildcard Contains" flag.
-  * The wildcard symbol is `*`
+  * The multi-character wildcard symbol is `*`
+  * The single-character wildcard symbol is `?`
 * Added more valid URLs to the whitelist to further decrease false positives
 * Added support for URL shorteners, Cakey Bot will now follow the URL to the original URL and verify it against our phishing database for improved accuracy!
 
