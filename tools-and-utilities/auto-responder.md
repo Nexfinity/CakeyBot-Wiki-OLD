@@ -63,7 +63,3 @@ To use images in responses, you can simply just type the image URL/link like you
 ## Placeholders/Variables
 
 Auto Responder will work with BOTH **Basic Placeholders** & **Advanced Placeholders**. Placeholders can be included in the response section and can modify the behavior/output of the response. You can find the list of supported placeholders [here](../setup/placeholders-variables.md).
-
-{% hint style="warning" %}
-Auto Responder will **NOT** work with the **Advanced Placeholders**.
-{% endhint %}
