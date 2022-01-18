@@ -10,7 +10,7 @@ Cakey Bot can play music from multiple sources which you can view a full list of
 
 1. Join a voice channel that Cakey bot has access to join/speak in
 2. Type `!join` or `!play <song>` (The `!play` command will auto-summon Cakey Bot)
-   1. You can also use the `!move `command if no one else is using the bot
+   1. You can also use the `!move` command if no one else is using the bot
 3. If you typed !join or !move in step two you will now need to type !play \<song> in order to start playing a song
 
 If no song is currently playing when you add one, it will start to play instantly. If a song is currently playing, your song will be added to a queue that will play through automatically.
@@ -26,14 +26,6 @@ Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to functio
 ### Default Volume
 
 By default, Cakey Bot's volume will be set to 50 when playing music. You can change the volume using the `!volume <amount>` command but the volume will revert to 50 if the queue runs out of songs or the next time you use Cakey Bot. You can however change the default volume on our [web dashboard](https://cakeybot.app/dashboard/public/) from 50 to any number between 0 and 100.
-
-### Sound Bites
-
-Cakey Bot also has a pre-made list of fun sound bites you can play outside of music. You can view a full current list of sound bites by running the `!soundbite` command and can play the specified sound bite by running `!soundbite <name>`.
-
-{% hint style="warning" %}
-Sound Bites are separate from regular music and will cause Cakey Bot to leave the voice channel and clear any ongoing music queue.
-{% endhint %}
 
 ### Multiple Music Bots
 
