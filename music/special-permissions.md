@@ -16,7 +16,7 @@ Many users have abused the disconnect command as a way to bypass vote skip restr
 
 ### Skip/Vote Skip Command
 
-Most of the time, if you want to skip a song you must vote to skip it with other users. If you run the command after you have already voted to skip, it will cancel/remove your vote to skip. There are some cases where you are able to force-skip the currently playing song. In order to this this, you must meet one of the conditions below.
+By default anyone in a voice channel can skip songs regardless of the number of users in the voice channel. You also have the option to enable "vote skipping" which requires more than 50% of the users in the voice channel to vote to skip the song. If you run the command after you have already voted to skip, it will cancel/remove your vote to skip. There are some cases where you are able to force-skip the currently playing song regardless of the number of votes. In order to do this, you must meet one of the conditions below.
 
 * Have [Server Moderator](../setup/faq.md#what-is-considered-a-server-moderator) permissions
 * Have a "DJ" role
@@ -25,12 +25,11 @@ Most of the time, if you want to skip a song you must vote to skip it with other
 
 ### Play-skip/Remove/Clear Queue
 
-These are normal/generic commands but they can be easily abused by members who are wanting to troll those listening to music. In an effort to prevent trolls these commands requires at least one of the conditions for the user to be true.
+These are normal/generic commands but they can be easily abused by members who are wanting to troll those listening to music. In an effort to prevent trolls from abusing these commands they require at least one of the conditions for the user to be true.
 
 * Have [Server Moderator](../setup/faq.md#what-is-considered-a-server-moderator) permissions
 * Have a "DJ" role
 
 ### Live Streams
 
-Some commands can not be used while a live stream is playing. If you try to use one of these commands while a live stream is playing you will be notified with an error message. In order to use these commands you will either need to wait until the stream ends or use the `!skip` command to go to the next song in the queue. \(or stop playing if the queue is empty\)
-
+Some commands can not be used while a live stream is playing. If you try to use one of these commands while a live stream is playing you will be notified with an error message. In order to use these commands you will either need to wait until the stream ends or use the `!skip` command to go to the next song in the queue. (or stop playing if the queue is empty)
