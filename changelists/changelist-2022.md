@@ -5,6 +5,7 @@
 #### Fixed
 
 * Fixed error messages not displaying (ratelimits, missing permissions, module disabled, multiple matches, etc)
+* Fixed typereader not working with plain user IDs on commands
 
 ## Jan 25th - Error Message Bug Fixes
 
