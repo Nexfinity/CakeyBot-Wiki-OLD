@@ -1,5 +1,11 @@
 # Changelist - 2022
 
+## Feb 2nd - Phishing Improvement
+
+#### Changed
+
+* Cakey Bot will now ignore URLs on the phishing check if the URL is added to the dashboard whitelist (if you have false positive triggers)
+
 ## Jan 26th - Fixed Error Messages
 
 #### Fixed
