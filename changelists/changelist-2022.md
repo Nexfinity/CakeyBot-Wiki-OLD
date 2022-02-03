@@ -1,5 +1,11 @@
 # Changelist - 2022
 
+## Feb 3rd - Fixed Webhooks/Social Feeds
+
+#### Fixed
+
+* Twitch and Reddit social feeds should now send as expected again
+
 ## Feb 2nd - Phishing Improvement
 
 #### Changed
