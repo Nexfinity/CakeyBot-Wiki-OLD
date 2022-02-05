@@ -19,8 +19,8 @@ Cakey Bot (and our web dashboard) both support over 10 different languages. The 
 * Arabic/العربية `(Sipancoolboy)`
 * Romanian/Limba română `(Silviu200530)`
 
-We are adding more languages and you can contribute via our Github Repository located [here](https://github.com/MrCakeSlayer/CakeyBot-translations). Once the majority of a language is completed (>80% translated) on Github it will be added as an officially supported language.
+We are adding more languages and you can contribute via our Github Repository located [here](https://github.com/MrCakeSlayer/CakeyBot-translations) or on our Crowdin page [here](https://crowdin.com/project/cakey-bot). Once the majority of a language is completed (>80% translated) on Github/Crowdin it will be added as an officially supported language. Crowdin and Github are frequently synced so you can contribute to whichever you find the easiest.
 
 {% hint style="warning" %}
-If you plan to contribute, please follow the rules and formatting guidelines provided in the README on the repository page.
+If you plan to contribute, please follow the rules and formatting guidelines provided in the [README ](https://github.com/MrCakeSlayer/CakeyBot-translations/blob/master/README.md)on the repository page.
 {% endhint %}
