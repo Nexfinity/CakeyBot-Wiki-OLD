@@ -4,24 +4,7 @@
 
 Auto Moderation allows Cakey Bot to automatically detect rule breakers and punish them automatically even while your moderators are offline or busy! Auto Moderation can detect anything from spam, inappropriate content, and even zalgo text. Currently in Auto Mod Cakey Bot can only delete messages. However, In Auto Mod V2, you will be able to define custom rule sets and custom punishments including adding/removing roles, adding warnings or warning points automatically, and kicking/banning users who are constant trouble makers.
 
-## Features
 
-* Capitalization check
-* Duplicated text
-* Duplicated words
-* Word Blacklist
-* Discord invite URLs
-* Any URL/Link \(+Whitelist specific URLs\)
-* Mass mentions
-* Mass emoji
-* Has Spoilers
-* Self bot detection
-* Auto-Dehoist nicknames
-* Scam Link Detection
-* Stickers detection
-* Zalgo detection
-* Phishing URL Detection
-  * **NOTE:** This feature is only to help block malicious URLs while allowing "safe" URLs. While we constantly try to improve its accuracy, it will NOT block every unsafe URL. You will still need to manually review some URLs.
 
 ## Setup
 
@@ -38,9 +21,30 @@ Note: You will need to make sure that the "Auto Mod" module is enabled. This mod
 3. Go to the "Auto Moderation" page.
 4. You can then customization how Auto Moderation works in your server. Including which checks/rules are applied and their thresholds.
 
-## Advanced Setup \(Auto Mod V2\)
+## Features
 
-{% hint style="danger" %}
-This is part of a long-term plan and is not currently being worked on. Auto Mod V2 will include custom rule sets and an advanced punishment system to fit your needs.
-{% endhint %}
+* Capitalization check
+* Duplicated text
+* Duplicated words
+* Word Blacklist
+* Discord invite URLs
+* Any URL/Link (+Whitelist specific URLs)
+* Mass mentions
+* Mass emoji
+* Has Spoilers
+* Self bot detection
+* Auto-Dehoist nicknames
+* Scam Link Detection
+* Stickers detection
+* Zalgo detection
+* Phishing URL Detection
+  * **NOTE:** This feature is only to help block malicious URLs while allowing "safe" URLs. While we constantly try to improve its accuracy, it will NOT block every unsafe URL. You will still need to manually review some URLs.
 
+## Punishment Types
+
+1. Delete Message
+2. Delete Message & Warn User
+3. Warn User
+4. Delete Message & Kick User
+5. Delete Message & Kick + Warn User
+6. Ban User (Delete 24h)
