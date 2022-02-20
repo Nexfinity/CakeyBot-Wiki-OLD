@@ -1,5 +1,37 @@
 # Changelist - 2022
 
+## Feb 20th - Auto Mod Fixes
+
+#### Fixed
+
+* Mass capitalization, Duplicate character and duplicate word checks should now work properly with "min character" and "min percent" properties
+* Discord invite link check should now properly detect Discord invites again (the anti-phishing module broke this by accident)
+
+## Feb 15th - Image Manipulation/Banner Fixes
+
+#### Fixed
+
+* Fixed join/leave image banners not working
+* Fixed `!query` banners not working
+* Fixed `!pride` command not working
+
+#### Added
+
+* Added support for canary URLs to auto quoter
+
+## Feb 14th - Misc. Bug Fixes
+
+#### Fixed
+
+* `!trivia` now properly disables answer buttons after being clicked
+* All Image Manipulation commands support messages with multiple attachments/images
+  * Currently it only applies to the first image/attachment
+* Fixed a ton of misc. errors and bugs
+
+#### Changed
+
+* Uploaded completed Arabic translations
+
 ## Feb 3rd - Fixed Webhooks/Social Feeds
 
 #### Fixed
