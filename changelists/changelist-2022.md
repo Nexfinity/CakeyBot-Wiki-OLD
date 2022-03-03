@@ -5,6 +5,7 @@
 #### Fixed
 
 * Auto Responder webhook trigger should now be functional again
+* Fixed an issue where Twitch/Reddit feeds would not send at all
 
 #### Changed
 
