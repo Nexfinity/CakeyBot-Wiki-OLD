@@ -57,5 +57,4 @@
 
 ## Other/Misc
 
-* [FAQ-old](setup/faq.md)
 * [Math Command](other-misc/math-command.md)

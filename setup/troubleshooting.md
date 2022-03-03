@@ -59,7 +59,7 @@ Cakey Bot uses a number of fancy custom emoji to make everything fun and visuall
 ### Cakey Bot will not play audio or the  laggy/buggy&#x20;
 
 * As you are using Cakey Bot, you may encounter some issues with the audio that is played. This can be due to a few reasons: the Discord voice node you are on could have failed, or it could be an internet connection issue.
-* If you are encountering these issues, you can check out [this section](faq.md#cakey-bots-music-is-laggy-glitchy-distorted-not-playing) in order to resolve these issues.
+* If you are encountering these issues, you can check out [this section](https://cakeybot.app/faq.html) in order to resolve these issues.
 
 
 
