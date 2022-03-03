@@ -1,23 +1,5 @@
 # Changelist - 2021
 
-## 12/29/2021 - Interaction Prep Work
-
-#### Removed
-
-As part of prep towards fully implementing slash commands and their extremely limiting nature (thanks discord), we have started to remove fun but rarely used commands. Starting off, we have removed the following commands:
-
-* Removed `!emoji` command
-* Removed `EmojiManagement` module
-* Removed `!nggyu` command
-* Removed `!recipe` command
-* Removed `!calculator` command
-* Removed `!uptime` command
-* Removed `!bgg` command
-* Removed `!someone` command
-* Removed `!orderpizza` command
-* Removed `!votepoints`, `!redeem` commands (and entire vote point system as it's not used)
-* Removed `!soundbite` command
-
 ## 12/28/2021 - QOL & Bug Fixes
 
 #### Fixed

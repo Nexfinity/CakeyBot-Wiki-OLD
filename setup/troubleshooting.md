@@ -43,7 +43,7 @@ Cakey Bot uses a number of fancy custom emoji to make everything fun and visuall
   1. Make sure Cakey Bot is showing as online.
      * If Cakey Bot is offline, try kicking the bot out of your server and inviting it again. If after doing that Cakey Bot is still showing as offline, you may skip to step 4.
   2. Make sure you're using the correct prefix. You can type `!prefix` to get the prefix.
-     * You can learn how to change Cakey Bot's prefix by heading to the [Prefix Setting](faq.md#what-is-the-default-prefix-and-how-can-i-change-it) section!
+     * You can learn how to change Cakey Bot's prefix by heading to the [Prefix Setting](https://cakeybot.app/faq.html) section!
   3. Make sure Cakey Bot has the permissions to read and send messages in the channel.
      * You can give the `Administrator` permission to Cakey Bot to make this easier.
   4. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakeybot.app/discord) server to see if there are any issues going on. You can also check out our NEW [status page](https://cakeybot.statuspage.io).
