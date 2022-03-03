@@ -1,5 +1,28 @@
 # Changelist - 2022
 
+## March 2nd - Auto Responder Fixes
+
+#### Fixed
+
+* Auto Responder webhook trigger should now be functional again
+
+#### Changed
+
+* Custom Commands/Auto responder `{not:}` & `{require:}` placeholders are now checked before all other placeholders. (This means `{delete}` no longer triggers if you have a `{not:}` placeholder)
+
+## Feb 25th - Auto Mod Punishments
+
+#### Added
+
+* Added new auto mod punishment type: `Delete & Timeout User (1h)`
+* Punishment type now shows on the auto mod log entry
+
+## Feb 21st - More Trivia Questions!
+
+#### Added
+
+* Added 500 new trivia questions!
+
 ## Feb 20th - Auto Mod Fixes
 
 #### Fixed
