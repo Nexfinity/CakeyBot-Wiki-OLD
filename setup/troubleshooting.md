@@ -7,9 +7,9 @@
 * Are you signed into the correct account?
   * If you can't find your server in the drop-down section, this can be caused by various reasons. First, you should make sure that you're signed into the correct account. If you're not, then press the blue **Not you?** button.
 * Do you have permissions in the server you want to add Cakey Bot to?
-  *  If you're **100%** sure that you're signed into the correct account, then you should make sure that you have the correct permissions. In order to add a bot, you need to have a role with the `Manage Server` or `Administrator` permission. If you're the server owner, you have those regardless, of course.
+  * &#x20;If you're **100%** sure that you're signed into the correct account, then you should make sure that you have the correct permissions. In order to add a bot, you need to have a role with the `Manage Server` or `Administrator` permission. If you're the server owner, you have those regardless, of course.
 * Open an incognito tab and invite Cakey Bot from there.
-  *  If you're sure that **you're signed into the correct account** and **you have permissions on the server that you'd like to add Cakey Bot to**, then you should open an incognito tab and invite Cakey Bot from there. You can find instructions in the table below, if you don't know how to do that.
+  * &#x20;If you're sure that **you're signed into the correct account** and **you have permissions on the server that you'd like to add Cakey Bot to**, then you should open an incognito tab and invite Cakey Bot from there. You can find instructions in the table below, if you don't know how to do that.
 
 | Browser  | Windows/Linux | MacOS       |
 | -------- | ------------- | ----------- |
@@ -31,7 +31,7 @@ Discord requires you to verify your e-mail account to add bots into your servers
 
 ### I can't invite Cakey Bot on my mobile device!
 
-*  For any issue with inviting Cakey Bot on mobile devices, see the [Mobile Troubleshooting](troubleshooting.md#mobile-troubleshooting) section.
+* &#x20;For any issue with inviting Cakey Bot on mobile devices, see the [Mobile Troubleshooting](troubleshooting.md#mobile-troubleshooting) section.
 
 ### Emoji are showing up as text in command responses!
 
@@ -43,7 +43,7 @@ Cakey Bot uses a number of fancy custom emoji to make everything fun and visuall
   1. Make sure Cakey Bot is showing as online.
      * If Cakey Bot is offline, try kicking the bot out of your server and inviting it again. If after doing that Cakey Bot is still showing as offline, you may skip to step 4.
   2. Make sure you're using the correct prefix. You can type `!prefix` to get the prefix.
-     * You can learn how to change Cakey Bot's prefix by heading to the [Prefix Setting](faq.md#what-is-the-default-prefix-and-how-can-i-change-it) section!
+     * You can learn how to change Cakey Bot's prefix by heading to the [Prefix Setting](../other-misc/faq-old.md#what-is-the-default-prefix-and-how-can-i-change-it) section!
   3. Make sure Cakey Bot has the permissions to read and send messages in the channel.
      * You can give the `Administrator` permission to Cakey Bot to make this easier.
   4. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakeybot.app/discord) server to see if there are any issues going on. You can also check out our NEW [status page](https://cakeybot.statuspage.io).
@@ -56,10 +56,10 @@ Cakey Bot uses a number of fancy custom emoji to make everything fun and visuall
 * For performance reasons, Cakey Bot leaves after a while of being alone or unused in a voice channel. This helps Cakey Bot save resources while no one is listening to it and keeps the music quality consistent for all users at any given time!
 * Don't worry though, as long as you are in a voice channel, just type `!join` to make Cakey Bot rejoin your channel!
 
-### Cakey Bot will not play audio or the  laggy/buggy 
+### Cakey Bot will not play audio or the  laggy/buggy&#x20;
 
 * As you are using Cakey Bot, you may encounter some issues with the audio that is played. This can be due to a few reasons: the Discord voice node you are on could have failed, or it could be an internet connection issue.
-* If you are encountering these issues, you can check out [this section](faq.md#cakey-bots-music-is-laggy-glitchy-distorted-not-playing) in order to resolve these issues.
+* If you are encountering these issues, you can check out [this section](../other-misc/faq-old.md#cakey-bots-music-is-laggy-glitchy-distorted-not-playing) in order to resolve these issues.
 
 
 

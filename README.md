@@ -10,7 +10,7 @@ If you got to this page by inviting Cakey Bot, please review the REQUIRED permis
 
 ## Support/Report Bugs/Suggestions
 
-If you are having issues with the bot check out our [troubleshooting page](setup/troubleshooting.md). You can also find answers to common questions on our [FAQ page](setup/faq.md). If you do not find your issue there you can also join our discord [support server](https://cakeybot.app/discord) and get direct assistance there in our [\#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
+If you are having issues with the bot check out our [troubleshooting page](setup/troubleshooting.md). You can also find answers to common questions on our [FAQ page](other-misc/faq-old.md). If you do not find your issue there you can also join our discord [support server](https://cakeybot.app/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
 
 If you would like to make a suggestion or request a new feature you can join our discord [support server](https://cakeybot.app/discord).
 
@@ -25,37 +25,37 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 ## Features
 
 * [x] AFK Messages
-* [x] Audit Log \(Including Boost Info\)
-* [x] Announcements \(Join/Leave/Ban\) \(+Image Banners\)
+* [x] Audit Log (Including Boost Info)
+* [x] Announcements (Join/Leave/Ban) (+Image Banners)
 * [x] Auto Moderation
-* [x] Auto Message / Auto Purge \(Purge or Post Messages on a Specific Interval\)
+* [x] Auto Message / Auto Purge (Purge or Post Messages on a Specific Interval)
 * [x] Auto Quoter
 * [x] Auto Role
 * [x] Auto Responder
 * [x] Custom Commands
 * [x] Emoji Management
-* [x] Equalizer for Music \(Including Bass Boost & other cool presets!\)
-* [x] Games \(Coin flip, 8ball, etc\)
+* [x] Equalizer for Music (Including Bass Boost & other cool presets!)
+* [x] Games (Coin flip, 8ball, etc)
 * [x] Github Code Previewer
 * [x] Giveaway Commands
-* [x] IMDb Lookup \(Movie/TV/Company Info +Trailers\)
+* [x] IMDb Lookup (Movie/TV/Company Info +Trailers)
 * [x] Info Commands
-* [x] Localization \(Cakey Bot supports over 10 different languages!\)
-* [x] Moderation Tools \(Kick, Ban, Purge, etc\) \(Includes `!report` and `!modmenu` commands\)
-* [x] Music \([Multiple Sources](music/supported-sources.md)\) \(+Custom Playlists\)
+* [x] Localization (Cakey Bot supports over 10 different languages!)
+* [x] Moderation Tools (Kick, Ban, Purge, etc) (Includes `!report` and `!modmenu` commands)
+* [x] Music ([Multiple Sources](music/supported-sources.md)) (+Custom Playlists)
 * [x] Music Song Request Channel
-* [x] Persistent Roles \(Prevents Mute Evasion\)
+* [x] Persistent Roles (Prevents Mute Evasion)
 * [x] Reaction/Button/Selection Role Assignment
 * [x] Reminders
-* [x] Role-Play Commands \(Including Basic D&D\)
-* [x] Role Management \(Muting, Persistent Roles, Self Roles\)
+* [x] Role-Play Commands (Including Basic D\&D)
+* [x] Role Management (Muting, Persistent Roles, Self Roles)
 * [x] Self Roles
-* [x] Social Media/Streaming Announcements \(Reddit, Youtube, Twitter, Twitch, RSS, etc\)
+* [x] Social Media/Streaming Announcements (Reddit, Youtube, Twitter, Twitch, RSS, etc)
 * [x] Song Request Channel / Music Embed Controller
 * [ ] Starboard
 * [x] Support Ticket Commands
 * [x] Tags System
-* [x] Temporary Mutes/Bans \(Including silent moderation actions\)
+* [x] Temporary Mutes/Bans (Including silent moderation actions)
 * [x] Text Manipulation
 * [x] Trivia Minigames
 * [x] Image Manipulation
@@ -63,5 +63,4 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 * [x] Verification Role System
 * [x] Web Dashboard
 * [x] Warnings/Infractions
-* [x] + so much more!
-
+* [x] \+ so much more!

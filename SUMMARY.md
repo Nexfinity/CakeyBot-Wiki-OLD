@@ -5,7 +5,7 @@
 ## Setup
 
 * [Setup](setup/setup.md)
-* [FAQ](setup/faq.md)
+* [FAQ](https://cakeybot.app/planned-features)
 * [Troubleshooting](setup/troubleshooting.md)
 * [Placeholders/Variables](setup/placeholders-variables.md)
 * [Localization (Multi-Language)](setup/localization.md)
@@ -57,4 +57,5 @@
 
 ## Other/Misc
 
+* [FAQ-old](other-misc/faq-old.md)
 * [Math Command](other-misc/math-command.md)

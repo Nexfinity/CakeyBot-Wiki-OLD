@@ -9,7 +9,7 @@
 #### Added
 
 * Added playlist/queue saving! You can now save everything in your queue and load it up at a later point!
-  *  Usage: `!playlist <save | load | delete> <name>`
+  * &#x20;Usage: `!playlist <save | load | delete> <name>`
   * This feature will allow you to have a playlist of songs from multiple sources, rather than ONLY YouTube or ONLY Bandcamp.
 
 ## 12/30/2019 - DJ Role Support
@@ -19,25 +19,25 @@
 * AFK messages can now be deleted by clicking a trashcan emoji
   * This only removes the message that the bot sends, it doesn't unset the user from AFK
   * If Cakey Bot doesn't have the correct permissions for this feature, AFK messages will show as they did before
-* `!slowmode` now accepts human readable times \(i.e. 1h5min3s\)
+* `!slowmode` now accepts human readable times (i.e. 1h5min3s)
 * `!clearqueue`, `!remove` and `!playskip` now require Server Moderator permission / DJ Role
 
 #### Added
 
 * Support for "DJ" role instead of Server Moderator permissions on music commands
-* Added Cakey Bot's definition of a "Server Moderator" to the [FAQ](../setup/faq.md#what-is-considered-a-server-moderator).
+* Added Cakey Bot's definition of a "Server Moderator" to the [FAQ](../other-misc/faq-old.md#what-is-considered-a-server-moderator).
 
 ## 12/28/2019 - Soundcloud Support Added
 
 #### Changed
 
-* Updated how roles are parsed in commands \(You can now use ANY one of these three things for role input: ID, Name, Mention\). Affects the following commands/features:
+*   Updated how roles are parsed in commands (You can now use ANY one of these three things for role input: ID, Name, Mention). Affects the following commands/features:
 
-  * Self Roles command
-  * Role Info command
-  * Role Management module
+    * Self Roles command
+    * Role Info command
+    * Role Management module
 
-  Note:  `!setting autorole` & `!setting muterole` commands still require you to ping/mention the role
+    Note:  `!setting autorole` & `!setting muterole` commands still require you to ping/mention the role
 
 #### **Added**
 
@@ -51,29 +51,29 @@
 #### Changed
 
 * Updated usage info for `!remove`
-* Improved string censor to prevent false censoring \(i.e. on words like "canal"\)
+* Improved string censor to prevent false censoring (i.e. on words like "canal")
 
 #### Added
 
 * Bandcamp support added for music
 * Vimeo support added for music
 * Mixer support added for music
-* Added a `!clearqueue` command \(Aliases: `!cq`, `!clqueue`, `!emptyqueue`\)
+* Added a `!clearqueue` command (Aliases: `!cq`, `!clqueue`, `!emptyqueue`)
 * Added a plural check to the global warnings in `!userinfo`
-* Added `!slowmode <time> <opt:channel>` command - Updates slowmode for the provided channel \(if not provided, it uses the channel the command was ran in\)
+* Added `!slowmode <time> <opt:channel>` command - Updates slowmode for the provided channel (if not provided, it uses the channel the command was ran in)
 * Added `!role <add | remove> <user> <role>` command - Adds or removes a role from someone
-* Released Emoji Management module. \(Incomplete\)
+* Released Emoji Management module. (Incomplete)
 
 ## 12/24/2019 - Command Info Overhaul
 
 #### Fixed
 
-*  Fixed an issue in `!cmdhelp` where null values could mess up formatting
+* &#x20;Fixed an issue in `!cmdhelp` where null values could mess up formatting
 * `!dc` now functions again while a song is playing
 
 #### Changed
 
-*  Reduced `!purge` rate limit \(30s =&gt; 7s\)
+* &#x20;Reduced `!purge` rate limit (30s => 7s)
 * `!userinfo` now shows global warning count for a user
 
 #### Added
@@ -98,7 +98,7 @@
 #### Changed
 
 * Better handling and less null issues when moving the bot between different channels
-*  Improved error handling for `!lyrics` command when no lyrics are found
+* &#x20;Improved error handling for `!lyrics` command when no lyrics are found
 
 #### Added
 
@@ -113,7 +113,7 @@
 
 #### Added
 
-* Many more strings added to localization \(Still plenty to do like core module and audit log, but it's getting there\)
+* Many more strings added to localization (Still plenty to do like core module and audit log, but it's getting there)
 
 ## 12/16/2019 - Music Improvements
 
@@ -145,8 +145,8 @@
 
 #### Changed
 
-* Made `!s` and alias of `!skip` instead of `!search` \(This seems to be the more common expectation of that alias\)
-* Improved join/move behavior of the bot overall \(Weird unexpected behavior could cause the bot to be disconnected or moved and this wasn't handled properly previously\)
+* Made `!s` and alias of `!skip` instead of `!search` (This seems to be the more common expectation of that alias)
+* Improved join/move behavior of the bot overall (Weird unexpected behavior could cause the bot to be disconnected or moved and this wasn't handled properly previously)
 * Cakey Bot no longer self-deafens when joining voice channels
 
 #### Added
@@ -154,4 +154,3 @@
 * Song Requested is now shown on the `!np` and `!queue` commands
 * Users are now able to force-skip the currently playing if they are the ones who added it, regardless of current vote skips or lack of moderator permissions
 * You can now loop your favorite songs with `!loop`!
-

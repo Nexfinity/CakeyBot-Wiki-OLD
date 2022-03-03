@@ -1,4 +1,4 @@
-# FAQ
+# FAQ-old
 
 {% hint style="info" %}
 If you can't find the answer to your question you can contact us on our discord [support server](https://cakeybot.app/discord).
@@ -12,18 +12,18 @@ You will need **`Manage Server`** or **`Administrator`** permission to add Cakey
 
 You can invite Cakey Bot using this [Discord OAuth URL](https://cakeybot.app/invite). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user.
 
-To view a list of require/optional permissions you can check out [this section](setup.md#inviting-cakey-bot).
+To view a list of require/optional permissions you can check out [this section](../setup/setup.md#inviting-cakey-bot).
 
 ## Why isn't Cakey Bot responding to any commands?
 
 1. Type `@Cakey Bot#2608 help`. If Cakey Bot responds, you have the correct permissions but were using an incorrect prefix. The help command you just ran will show you what the current prefix is.
-2. Check the channel permissions to see if Cakey Bot has Send/Read permissions for the channel. You can either check permissions manually or use the `!debug` command. **This is the most common reason why Cakey Bot doesn't respond.** 
-3. Make sure that Cakey Bot is online. Discord might be having issues or Cakey Bot may be restarting to apply new updates/content. 
+2. Check the channel permissions to see if Cakey Bot has Send/Read permissions for the channel. You can either check permissions manually or use the `!debug` command. **This is the most common reason why Cakey Bot doesn't respond.**&#x20;
+3. Make sure that Cakey Bot is online. Discord might be having issues or Cakey Bot may be restarting to apply new updates/content.&#x20;
 4. If none of these steps work you can join our discord [support server](https://cakeybot.app/discord) here for direct help from our developers.
 
 ## What is the default prefix and how can I change it?
 
-The default prefix is `!` \(exclamation point\). To change the prefix you can either use the `!prefix <new prefix>` command or modify it in the [web dashboard](https://cakeybot.app/dashboard/public/).
+The default prefix is `!` (exclamation point). To change the prefix you can either use the `!prefix <new prefix>` command or modify it in the [web dashboard](https://cakeybot.app/dashboard/public/).
 
 {% hint style="info" %}
 If you forget what you set your custom prefix to you can always check it using the `!prefix` command or by mentioning/tagging Cakey Bot.
@@ -49,7 +49,7 @@ Some music commands also require a "Server Moderator". Any music commands that r
 
 ## Why is Cakey Bot offline in my server but online in other servers?
 
-Cakey Bot may be working on some servers, but not on others. This is because the Cakey Bot is shard based and runs on multiple shards that each have a set amount of servers \(or servers\) on them.
+Cakey Bot may be working on some servers, but not on others. This is because the Cakey Bot is shard based and runs on multiple shards that each have a set amount of servers (or servers) on them.
 
 ## What sources can I listen to music from? Do you support YouTube/Twitch/Spotify?
 
@@ -59,7 +59,7 @@ You can view all of our current and planned music sources on [this page](../musi
 
 ## Can I use special variables/custom content in join/leave/ban announcements or custom commands?
 
-Yes! We have a list of variables that you are able to use in both of these features. To see our full list of variables you can check out [this page](placeholders-variables.md) that is dedicated to custom variables.
+Yes! We have a list of variables that you are able to use in both of these features. To see our full list of variables you can check out [this page](../setup/placeholders-variables.md) that is dedicated to custom variables.
 
 ## How does user muting work in Cakey Bot?
 
@@ -77,7 +77,7 @@ Note: In order for Cakey Bot to mute a user several things must happen. Cakey Bo
 
 Cakey Bot server deafens itself to prevent itself from receiving your audio. This doesn't have any effect on the functionality of the bot and it can play music even if it is server deafened.
 
-This significantly reduces Cakey Bot's bandwidth usage \(since we don't receive what you say in a voice channel\), as well as Discord's bandwidth \(as they don't need to send it\).
+This significantly reduces Cakey Bot's bandwidth usage (since we don't receive what you say in a voice channel), as well as Discord's bandwidth (as they don't need to send it).
 
 This also protects your privacy, as we don't receive any audio from your voice channel.
 
@@ -122,9 +122,9 @@ Not currently, though we may look into this option in the future.
 There's a few steps required to become a BETA tester.
 
 1. Join our [Support Discord](https://cakeybot.app/discord).
-2. Assign yourself the tester role using the buttons in our [\#server-info-and-rules](https://discord.com/channels/408424043482447872/408434189256359937/848972083684835380) channel.
+2. Assign yourself the tester role using the buttons in our [#server-info-and-rules](https://discord.com/channels/408424043482447872/408434189256359937/848972083684835380) channel.
 3. Become an active tester and earn the "Active Tester" role
-4. Read the [\#request-beta](https://discord.com/channels/660164229092999183/780131612499247134/780132537162399755) channel to apply
+4. Read the [#request-beta](https://discord.com/channels/660164229092999183/780131612499247134/780132537162399755) channel to apply
 
 ## Why isn’t Auto Mod deleting messages?
 
@@ -142,7 +142,7 @@ Discord doesn’t allow bots to purge/delete messages that are older than 14 day
 
 ## Why won't Cakey Bot assign the Auto Role?
 
-You have to move Cakey Bot’s role above the role you’re trying to manage by going to Server Settings -&gt; Roles and dragging Cakey Bot's role above any roles you want Cakey Bot to manage.
+You have to move Cakey Bot’s role above the role you’re trying to manage by going to Server Settings -> Roles and dragging Cakey Bot's role above any roles you want Cakey Bot to manage.
 
 To learn more about role hierarchy, [click here](https://support.discordapp.com/hc/en-us/articles/214836687-Role-Management-101).
 
@@ -159,8 +159,7 @@ If none of these seem to be the cause of this issue, please head over to our [su
 Cakey Bot may automatically leave servers for a few reasons. Some of these are listed below:
 
 * The server is blacklisted from Cakey Bot
-  * If servers abuse Cakey Bot too much, the server \(and/or server owner\) can be blacklisted from using the bot
+  * If servers abuse Cakey Bot too much, the server (and/or server owner) can be blacklisted from using the bot
 * The server is a "Bot Hell"
   * Some servers will have hundreds/thousands of bots but only a handful of users. Bots in these servers are generally spammy and pointless which adds unnecessary load to Cakey Bot.
   * Cakey Bot will attempt to DM the server owner if this happens.
-
