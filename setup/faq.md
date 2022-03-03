@@ -12,7 +12,7 @@ You will need **`Manage Server`** or **`Administrator`** permission to add Cakey
 
 You can invite Cakey Bot using this [Discord OAuth URL](https://cakeybot.app/invite). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user.
 
-To view a list of require/optional permissions you can check out [this section](../setup/setup.md#inviting-cakey-bot).
+To view a list of require/optional permissions you can check out [this section](setup.md#inviting-cakey-bot).
 
 ## Why isn't Cakey Bot responding to any commands?
 
@@ -59,7 +59,7 @@ You can view all of our current and planned music sources on [this page](../musi
 
 ## Can I use special variables/custom content in join/leave/ban announcements or custom commands?
 
-Yes! We have a list of variables that you are able to use in both of these features. To see our full list of variables you can check out [this page](../setup/placeholders-variables.md) that is dedicated to custom variables.
+Yes! We have a list of variables that you are able to use in both of these features. To see our full list of variables you can check out [this page](placeholders-variables.md) that is dedicated to custom variables.
 
 ## How does user muting work in Cakey Bot?
 
