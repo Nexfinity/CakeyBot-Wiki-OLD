@@ -1,5 +1,20 @@
 # Changelist - 2022
 
+## March 5th - Reddit Fixes
+
+#### Fixed
+
+* Multiple fixes for Reddit social feed
+
+#### Changed
+
+* No longer require channel ID for any social feed
+
+#### Added
+
+* Added support for "Link Posts" on Reddit feeds
+  * Images for "Link Posts" will properly be embeded inside of Discord as a preview
+
 ## March 2nd - Auto Responder Fixes
 
 #### Fixed
