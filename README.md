@@ -27,7 +27,7 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 * [x] AFK Messages
 * [x] Audit Log (Including Boost Info)
 * [x] Announcements (Join/Leave/Ban) (+Image Banners)
-* [x] Auto Moderation
+* [x] Auto Moderation (Including custom punishments)
 * [x] Auto Message / Auto Purge (Purge or Post Messages on a Specific Interval)
 * [x] Auto Quoter
 * [x] Auto Role
@@ -50,6 +50,7 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 * [x] Role-Play Commands (Including Basic D\&D)
 * [x] Role Management (Muting, Persistent Roles, Self Roles)
 * [x] Self Roles
+* [x] Slash Commands/Context Menus
 * [x] Social Media/Streaming Announcements (Reddit, Youtube, Twitter, Twitch, RSS, etc)
 * [x] Song Request Channel / Music Embed Controller
 * [ ] Starboard
