@@ -1,5 +1,14 @@
 # Changelist - 2022
 
+## March 6th - Social Feed Features
+
+#### Added
+
+* Added new `!timeout <user> <time>` command.
+* Modified social feed limits (read up in 「📣」website-updates )
+* Added the ability to have social feeds ping a specific role
+* Ability to set custom embed color for social feeds coming soon
+
 ## March 5th - Reddit Fixes
 
 #### Fixed
