@@ -1,5 +1,16 @@
 # Changelist - 2022
 
+## March 11th - Music Fixes
+
+#### Changed
+
+* Disabled the ability to use playlist URLs in `!search` command (Since it's designed to only load a single song anyways)
+* Patched an exploit where `!playlist` command allowed users to bypass premium restrictions on music
+
+#### Added
+
+* Added "stayed for" property to audit user left event
+
 ## March 6th - Social Feed Features
 
 #### Added
