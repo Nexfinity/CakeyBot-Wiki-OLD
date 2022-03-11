@@ -1,6 +1,11 @@
 # Changelist - 2022
 
-## March 11th - Music Fixes
+## March 11th - Music Fixes + Spotify Playlists
+
+#### Fixed
+
+* Fixed single-song Spotify URLs not loading
+* Fixed `!nowplaying` showing the incorrect source (Will be applied on next restart)
 
 #### Changed
 
@@ -10,6 +15,7 @@
 #### Added
 
 * Added "stayed for" property to audit user left event
+* Added support for Spotify playlist URL loading
 
 ## March 6th - Social Feed Features
 
