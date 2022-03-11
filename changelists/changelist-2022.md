@@ -11,11 +11,13 @@
 
 * Disabled the ability to use playlist URLs in `!search` command (Since it's designed to only load a single song anyways)
 * Patched an exploit where `!playlist` command allowed users to bypass premium restrictions on music
+* Moderation commands now include use-specified reason in the audit log entry
 
 #### Added
 
 * Added "stayed for" property to audit user left event
 * Added support for Spotify playlist URL loading
+* Added reason support for `!timeout` command
 
 ## March 6th - Social Feed Features
 
