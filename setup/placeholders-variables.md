@@ -98,7 +98,7 @@ __`{everyone}` - Mentions `@everyone`\
 
 `{messagelink}` - Displays a Discord message link/url to the original command/message that triggered the response\
 `{quote:#channelid}` - Quote the last message in the provided channel. Replace "**channelid**" with the ID of the channel\
-`{reply}` - Sends the response as a Discord "reply" to the message that triggered it. _**COMING SOON - NOT IMPLEMENTED YET**_
+`{reply}` - Sends the response as a Discord "reply" to the message that triggered it.
 
 ### Other
 
