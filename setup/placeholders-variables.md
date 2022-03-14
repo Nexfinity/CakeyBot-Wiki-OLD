@@ -78,16 +78,31 @@ Don't know how to find role/channel/user IDs? You can use this extremely detaile
 Currently, all times & dates are for the United States Eastern timezone. In the future, you will be able to select your timezone per-server.
 {% endhint %}
 
-### Other
+### Mentions
 
-`{everyone}` - Mentions `@everyone`\
+`{@username}` - Mentions a specific user. Replace **"username"** with their username\
+`<@userid>` - Mentions a specific user. Replace **"userid"** with their user ID _(More reliable)_\
+__`{user.mention}` - Mentions the user\
+__`{channel.mention}` - Channel mention\
+`{#channel}` - A channel mention. Replace "**channel"** with the name of the channel\
+`<#channelid>` - A channel mention. Replace "**channelid**" with the ID of the channel _(More reliable)_\
+`{&role}` - Mention a role by name. Replace "**role"** with the role name\
+`<@&roleid>` - Mention a role. Replace "**roleid"** with the role ID _(More reliable)_\
+__`{everyone}` - Mentions `@everyone`\
 `{noeveryone}` - Disables `@everyone` (being able to mention everyone) in the command\
 `{here}` - Mentions `@here`\
 `{nohere}` - Disables `@here` (being able to mention everyone online with `@here`) in the command\
-`{nomentions}` - Disables **ALL** mentions in the command **including** `@everyone`, `@here`, role mentions & user mentions.\
-`{prefix}` - Show command prefix for the server\
+`{nomentions}` - Disables **ALL** mentions in the command **including** `@everyone`, `@here`, role mentions & user mentions.
+
+### Message
+
 `{messagelink}` - Displays a Discord message link/url to the original command/message that triggered the response\
 `{quote:#channelid}` - Quote the last message in the provided channel. Replace "**channelid**" with the ID of the channel\
+`{reply}` - Sends the response as a Discord "reply" to the message that triggered it. _**COMING SOON - NOT IMPLEMENTED YET**_
+
+### Other
+
+`{prefix}` - Show command prefix for the server\
 `{random:min:max}` - Generates a random number between the min/max. Replace "**min**" and "**max**" with a number between 0 and 999,999,999. **Note:** Your minimum number must be smaller than your maximum number.\
 `{delay:0-60}` - Delays the response for up to 60 seconds. Only the first delay placeholder in a response will work. If you exclude the delay placeholder then responses will be sent instantly.
 
