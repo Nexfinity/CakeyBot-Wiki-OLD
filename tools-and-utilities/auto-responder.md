@@ -36,7 +36,10 @@ You will need **`Manage Server`** or **`Administrator`** permission to manage se
 * Contains role mention
   * Will check to see if the message contains a role mention
 * Wildcard Contains
-  * Will search the entire message to see if it contains this string/trigger while allowing the asterisk character to act as a wildcard (\*)
+  * Will search the entire message to see if it contains this string/trigger while allowing you to match with wildcards:
+    * **`*`** - Matches any number of characters
+    * **`?`** - Matches a single character
+      * If you need to have a literal question mark in the trigger, you can escape it using a backslash: `\?`
 
 {% hint style="warning" %}
 **Note:** When using the "Contains Files", "From Webhook", and "Contains X mention", the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.&#x20;
