@@ -154,3 +154,7 @@
 * Song Requested is now shown on the `!np` and `!queue` commands
 * Users are now able to force-skip the currently playing if they are the ones who added it, regardless of current vote skips or lack of moderator permissions
 * You can now loop your favorite songs with `!loop`!
+
+{% hint style="warning" %}
+Any historical changes before this point must be viewed on our Discord server's update/announcement channels.
+{% endhint %}
