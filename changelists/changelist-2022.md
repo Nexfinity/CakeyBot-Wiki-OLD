@@ -1,5 +1,38 @@
 # Changelist - 2022
 
+## April 5th - Song Thumbnails
+
+#### Fixed
+
+* Cakey Bot now supports Stage channels again
+* Re-added thumbnail preview support for `!nowplaying` commands
+* Song request channel image should now update to resolved track image again
+
+## March 26th - Query Bug Fix
+
+#### Fixed
+
+* Fixed `!query` for MCPE/bedrock servers
+
+## March 22nd - Timeout Improvements
+
+#### Changed
+
+* Update `!timeout` command max duration to 28 days
+
+## March 14th - Reply Placeholder
+
+#### Added
+
+* Added new `{reply}` placeholder for custom commands/auto responder to "reply" to the message that triggered it.
+
+## March 13th - Radio Streams
+
+#### Added
+
+* Added new `!radio` command to easily queue up live radio streams without finding the direct URL. (If you have suggestions for more, post them in 「🌟」feature-requests )
+  * Note: You can still use direct URLs for live radio if you wish
+
 ## March 11th - Music Fixes + Spotify Playlists
 
 #### Fixed
