@@ -41,10 +41,4 @@ Reddit feeds currently require a premium subscription to use due to rate limit c
 Not implemented yet.
 {% endhint %}
 {% endtab %}
-
-{% tab title="Generic RSS" %}
-{% hint style="danger" %}
-Not implemented yet.
-{% endhint %}
-{% endtab %}
 {% endtabs %}
