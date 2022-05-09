@@ -1,5 +1,53 @@
 # Changelist - 2022
 
+## May 9th - Timestamp QOL
+
+#### Changed
+
+* Updated all visible timestamps to use Discord's localized timestamp system
+  * `!warnings`, `!userinfo`, `!serverinfo`, `!inviteinfo`
+
+## May 2nd - Banner Fixes
+
+#### Fixed
+
+* Join/leave banners have been restored and are now functional again.
+
+## April 17th - Bug Fixes
+
+#### Fixed
+
+* Fixed transcripts not showing any messages for embeds or file attachments on support tickets
+* Fixed auto mod invite false positives with channel/message links
+* Fixed Cakey Bot's DM/group chat detection
+
+#### Changed
+
+* Improved layout/formatting for `!serverinfo` and `!userinfo` commands (Also removed deprecated fields)
+* Audit message deleted will now directly attach any deleted images to the audit log message for persistent storage instead of relying on third parties (Imgur)
+
+## April 14th - Responder Bug Fixes
+
+#### Fixed
+
+* Fixed webhook detection for auto responder
+
+## April 12th - Higher Ticket Limits
+
+#### Changed
+
+* Increased number of open tickets a server can have (50 => 150)
+  * This limit was due to category channels only being able to have up to 50 channels each, Cakey Bot will now create "Support Tickets 2" and "Support Tickets 3" as needed.
+  * If this becomes insufficient, I'll increase the limit again for larger servers.
+
+## April 9th - Custom Embeds
+
+#### Added
+
+* You can now attach a custom embed to your auto responders and custom commands!
+* To create an embed, log in to our web dashboard and navigate to the "**Embed Editor**" page which will take you to: [https://cakeybot.app/dashboard/public/embed-editor](https://cakeybot.app/dashboard/public/embed-editor). Once on this page, you can customize the embed to your heart's content and copy the browser URL. You then take the browser URL you copied and paste it into the embed or custom command of your choice in the "**Embed URL**" input field.
+* Note: For the time being custom embeds will be limited to Premium servers only.
+
 ## April 5th - Song Thumbnails
 
 #### Fixed
