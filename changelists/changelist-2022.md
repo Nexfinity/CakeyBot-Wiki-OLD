@@ -1,5 +1,26 @@
 # Changelist - 2022
 
+## May 16th - Support Fixes
+
+#### Fixed
+
+* Re-wrote the entire Support Ticket category creation process so it should be much more reliable (Discord caching messed with it a bit)
+
+#### Changed
+
+* Swapped Cakey's default auth link to in-app
+* Added in-app auth to all Cakey music bots
+
+#### Removed
+
+* Removed `!steam` command
+* Removed `!moviedb` command
+* Removed `!timezone` command
+* Removed `!fortune` command
+* Removed `!modmenu` command
+* Removed `!imdb` command
+* Removed `!trailer` command
+
 ## May 9th - Timestamp QOL
 
 #### Changed
