@@ -12,13 +12,13 @@ Cakey Bot (and our web dashboard) both support over 10 different languages. The 
 * Dutch/Nederlands `(Vikthor)`
 * German/Deutsch `(Marcel & MST2)`
 * Korean/한국어 `(Johnmacro)`
-* Japanese `(hikarun)`
 * Greek/ελληνικά `(xxNikosGaming)`
 * Swedish/Svenska `(Hampus)`
 * Turkish/Türkçe `(Aleph & Oğuzhan)`
 * Italian/Italiano `(GiorgioHerbie)`
 * Arabic/العربية `(Sipancoolboy)`
 * Romanian/Limba română `(Silviu200530)`
+* Japanese `(hikarun)`
 
 We are adding more languages and you can contribute via our Github Repository located [here](https://github.com/MrCakeSlayer/CakeyBot-translations) or on our Crowdin page [here](https://crowdin.com/project/cakey-bot). Once the majority of a language is completed (>80% translated) on Github/Crowdin it will be added as an officially supported language. Crowdin and Github are frequently synced so you can contribute to whichever you find the easiest.
 
