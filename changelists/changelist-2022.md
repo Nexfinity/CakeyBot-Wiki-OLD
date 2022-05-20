@@ -1,5 +1,22 @@
 # Changelist - 2022
 
+## May 20th - Misc Bug Fixes
+
+#### Added
+
+* Added more URLs to phishing URL
+
+#### Fixed
+
+* Debug inspect will now send the output as a file if the content is longer than 2k characters (Reported by @CelticTrinculo )
+* Fixed hierarchy related error messages (Reported by @CelticTrinculo )
+
+## May 17th - Confirm Delete Fix
+
+#### Fixed
+
+* Fixed `{confirmdelete}` placeholder
+
 ## May 16th - Support Fixes
 
 #### Fixed
