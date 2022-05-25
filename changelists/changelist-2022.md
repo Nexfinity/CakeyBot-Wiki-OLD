@@ -1,5 +1,17 @@
 # Changelist - 2022
 
+## May 25th - FMBot Bot Scrobbling
+
+#### Added
+
+* FMBot's Bot Scrobbling feature now works with Cakey Bot's music. ([https://fmbot.xyz/](https://fmbot.xyz/))
+
+## May 21st - More Support Tickets
+
+#### Changed
+
+* Ability to open up-to \~500 support tickets (Discord max channel limit) \[Previously was limited to \~150]
+
 ## May 20th - Misc Bug Fixes
 
 #### Added
