@@ -1,5 +1,16 @@
 # Changelist - 2022
 
+## May 28th - Anime Fixes
+
+#### Fixed
+
+* Fixed `!anime` command
+* Fixed `!manga` command
+
+#### Changed
+
+* Prefixes are now case-insensitive
+
 ## May 25th - FMBot Bot Scrobbling
 
 #### Added
