@@ -23,6 +23,13 @@ By default anyone in a voice channel can skip songs regardless of the number of 
 * Be the only person in the voice channel
 * Be the user who added the currently playing track
 
+### Move Command
+
+This command is blocked for regular users to prevent a user from "stealing" the bot from other users who may be listening to Cakey Bot. In order to move Cakey Bot to a different voice channel, Cakey Bot must either not be playing any music OR the user running the command must meet one of the conditions below.
+
+* Have [Server Moderator](https://cakeybot.app/faq.html) permissions
+* Have a "DJ" role
+
 ### Play-skip/Remove/Clear Queue
 
 These are normal/generic commands but they can be easily abused by members who are wanting to troll those listening to music. In an effort to prevent trolls from abusing these commands they require at least one of the conditions for the user to be true.
