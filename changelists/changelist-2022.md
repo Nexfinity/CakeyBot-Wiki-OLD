@@ -1,5 +1,34 @@
 # Changelist - 2022
 
+## June 1st - Massive Music Rewrite - Part 1
+
+#### Fixed
+
+* Fixed inactivity disconnect after 30 seconds
+* Fixed `!join` saying it lacks permissions when it joins anyways
+* Fixed `!move` just disconnecting Cakey Bot
+* Fixed `!nowplaying` now highlighting the song title link incorrectly
+* Fixed missing emoji on the FinishedPlaying/NowPlaying message
+* Fixed `!lyrics` not working
+* Fixed being able to go into negatives with `!rewind`
+
+#### Changed
+
+* Moved TrackEnd code into player & fix now playing messages when a track ends (much more reliable)
+* Slightly increased `!lyrics` cooldown to prevent abuse
+* Decreased audio buffer size (Filters/volume changes take effect faster)
+
+#### Added
+
+* Added support for voice text channels (sometimes fails due to DNet bug will be fully functional in a few days)
+* Added ability for DJs/Admins to force move cakey while playing music
+
+## May 30th - Auto Role Fix
+
+#### Fixed
+
+* Fixed an issue where Cakey Bot would spam auto roles when modifying a user's roles
+
 ## May 28th - Anime Fixes
 
 #### Fixed
