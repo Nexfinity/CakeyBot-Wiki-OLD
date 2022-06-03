@@ -1,13 +1,14 @@
 # Filters & Presets
 
-## Equalizer \(+ EQ Presets\)
+## Equalizer (+ EQ Presets)
 
-You can set custom equalizer bands using the `!equalizer <band> <value>` command. There are 15 bands \(**0-14**\) that can be changed. gain is the multiplier for the given band. The default value is **0**. Valid values range from **-0.25** to **1.0**, where **-0.25** means the given band is completely muted, and **0.25** means it is doubled.
+You can set custom equalizer bands using the `!equalizer <band> <value>` command. There are 15 bands (**0-14**) that can be changed. gain is the multiplier for the given band. The default value is **0**. Valid values range from **-0.25** to **1.0**, where **-0.25** means the given band is completely muted, and **0.25** means it is doubled.
 
 You can also use our presets for those of you who just want a quick and easy solution by typing `!eqpreset <preset>`. Our presets include:
 
 * Lowpass
 * Highpass
+* Bandpass
 * Flat
 * Extrabass
 * Extratreble
@@ -69,4 +70,3 @@ Vaporwave requires a premium subscription to use due to increased CPU usage requ
 {% endhint %}
 
 Vaporwave is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `!vaporwave` command.
-
