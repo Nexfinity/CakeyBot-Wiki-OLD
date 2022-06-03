@@ -1,5 +1,16 @@
 # Changelist - 2022
 
+## June 2nd - Text-In-Voice + Music Filters
+
+#### Changed
+
+* Fined tuned all music filters to sound a bit better
+
+#### Added
+
+* Cakey Bot now supports Text-In-Voice channels
+* Added new "bandpass" filter
+
 ## June 1st - Massive Music Rewrite - Part 1
 
 #### Fixed
