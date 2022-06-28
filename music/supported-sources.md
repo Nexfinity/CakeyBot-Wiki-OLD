@@ -22,6 +22,7 @@ Cakey bot can play music from multiple sources/streams. This includes normal vid
 * Clyp It
 * Reddit
 * Mix Cloud
+* Tiktok _**(Experimental, works on most videos)**_
 
 ### **Planned Sources**
 
