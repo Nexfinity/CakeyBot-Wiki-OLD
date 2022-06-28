@@ -11,7 +11,7 @@ Cakey bot can play music from multiple sources/streams. This includes normal vid
 * Bandcamp
 * Vimeo
 * Soundcloud
-* Direct URL/Web File (MP3, MP4, WAV, OGG, FLAC, MOV & M4A formats)
+* Direct URL/Web File (MP3, MP4, WAV, OGG, FLAC, MOV, MKV & M4A formats)
 * Live Online Radio
 * Bitchute
 * Spotify
