@@ -1,5 +1,31 @@
 # Changelist - 2022
 
+## June 28th - More music sources and Echo filter
+
+#### Added
+
+* Added support for `.mkv` files for Direct URL source
+* Added new `Echo` music filter. Usage: `!filter echo <delay> <decay>`
+* Added a ton of new support music sources:
+  * Apple music
+  * OC Remix
+  * Get Yarn
+  * Clyp It
+  * Reddit
+  * Mix Cloud
+  * TikTok _**(Experimental, works on most videos)**_
+
+## June 2nd - Text-In-Voice + Music Filters
+
+#### Changed
+
+* Fined tuned all music filters to sound a bit better
+
+#### Added
+
+* Cakey Bot now supports Text-In-Voice channels
+* Added new "bandpass" filter
+
 ## June 1st - Massive Music Rewrite - Part 1
 
 #### Fixed
