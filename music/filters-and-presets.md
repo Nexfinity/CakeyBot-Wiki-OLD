@@ -14,7 +14,7 @@ You can also use our presets for those of you who just want a quick and easy sol
 * Extratreble
 * Bassandtreble
 
-## Music Filters
+## Customizable Music Filters
 
 {% hint style="warning" %}
 Filters require a premium subscription to use due to increased CPU usage requirements.
@@ -55,26 +55,13 @@ You can also set custom filters on your music using the `!filter <name> <options
 All filters have a minimum value of **0.01** and a maximum value of **5.**
 {% endhint %}
 
-## Nightcore
+## Music Filters
 
 {% hint style="warning" %}
-Nightcore requires a premium subscription to use due to increased CPU usage requirements.
+All preset music filters require a premium subscription to use due to increased CPU usage requirements.
 {% endhint %}
 
-Nightcore is a special effect that speeds up the music while applying a slightly higher pitch to it. You can toggle this preset with the `!nightcore` command.
-
-## Vaporwave
-
-{% hint style="warning" %}
-Vaporwave requires a premium subscription to use due to increased CPU usage requirements.
-{% endhint %}
-
-Vaporwave is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `!vaporwave` command.
-
-## 8D Audio
-
-{% hint style="warning" %}
-8D audio requires a premium subscription to use due to increased CPU usage requirements.
-{% endhint %}
-
-8D is a special effect that 'rotates' the music to provide a more interesting listening experience. You can toggle this preset with the `!8d` command.
+* **Nightcore** is a special effect that speeds up the music while applying a slightly higher pitch to it. You can toggle this preset with the `!nightcore` command.
+* **Vaporwave** is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `!vaporwave` command.
+* **8D Audio** is a special effect that 'rotates' the music to provide a more interesting listening experience. You can toggle this preset with the `!8d` command.
+* **Reverb** is a special effect that makes use of echo to create a more dynamic sound space for a song. You can toggle this preset with the `!reverb` command.
