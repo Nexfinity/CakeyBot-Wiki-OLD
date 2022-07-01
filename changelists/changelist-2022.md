@@ -2,6 +2,11 @@
 
 ## June 30th - 8D audio
 
+#### Fixed
+
+* Fixed default values for some audio filters
+* Fixed audio filters not properly disabling
+
 #### Added
 
 * Added new `!8d` audio filter for music `[Premium command]`
