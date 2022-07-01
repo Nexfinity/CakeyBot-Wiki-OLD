@@ -70,3 +70,11 @@ Vaporwave requires a premium subscription to use due to increased CPU usage requ
 {% endhint %}
 
 Vaporwave is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `!vaporwave` command.
+
+## 8D Audio
+
+{% hint style="warning" %}
+8D audio requires a premium subscription to use due to increased CPU usage requirements.
+{% endhint %}
+
+8D is a special effect that 'rotates' the music to provide a more interesting listening experience. You can toggle this preset with the `!8d` command.

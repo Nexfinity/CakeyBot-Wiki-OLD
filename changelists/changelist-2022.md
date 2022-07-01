@@ -1,5 +1,11 @@
 # Changelist - 2022
 
+## June 30th - 8D audio
+
+#### Added
+
+* Added new `!8d` audio filter for music `[Premium command]`
+
 ## June 28th - More music sources and Echo filter
 
 #### Added
