@@ -10,6 +10,7 @@
 #### Added
 
 * Added new `!8d` audio filter for music `[Premium command]`
+* Added new `!reverb` audio filter for music `[Premium command]`
 
 ## June 28th - More music sources and Echo filter
 
