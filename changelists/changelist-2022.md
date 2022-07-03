@@ -1,5 +1,18 @@
 # Changelist - 2022
 
+## July 3rd - Command Removal
+
+#### Removed
+
+* Removed `!togglemention` command
+* Removed `!togglehoist` command
+* Removed `!rolecolor` command
+* Removed `!bing` command
+* Removed `!covid` command
+* Removed `!video` command
+* Removed `!staff` command
+* Removed `!vote` command
+
 ## June 30th - 8D audio
 
 #### Fixed
@@ -10,6 +23,7 @@
 #### Added
 
 * Added new `!8d` audio filter for music `[Premium command]`
+* Added new `!reverb` audio filter for music `[Premium command]`
 
 ## June 28th - More music sources and Echo filter
 
