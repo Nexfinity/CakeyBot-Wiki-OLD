@@ -12,6 +12,11 @@
 * Removed `!video` command
 * Removed `!staff` command
 * Removed `!vote` command
+* Removed `!xkcd` command
+* Removed `!fakebots` command
+* Removed `!premium` command
+* Removed `!inviteinfo` command
+* Removed `!quote` command
 
 ## June 30th - 8D audio
 
