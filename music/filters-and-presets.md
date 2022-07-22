@@ -2,9 +2,9 @@
 
 ## Equalizer (+ EQ Presets)
 
-You can set custom equalizer bands using the `!equalizer <band> <value>` command. There are 15 bands (**0-14**) that can be changed. gain is the multiplier for the given band. The default value is **0**. Valid values range from **-0.25** to **1.0**, where **-0.25** means the given band is completely muted, and **0.25** means it is doubled.
+You can set custom equalizer bands using the `/equalizer <band> <value>` command. There are 15 bands (**0-14**) that can be changed. gain is the multiplier for the given band. The default value is **0**. Valid values range from **-0.25** to **1.0**, where **-0.25** means the given band is completely muted, and **0.25** means it is doubled.
 
-You can also use our presets for those of you who just want a quick and easy solution by typing `!eqpreset <preset>`. Our presets include:
+You can also use our presets for those of you who just want a quick and easy solution by typing `/eqpreset <preset>`. Our presets include:
 
 * Lowpass
 * Highpass
@@ -20,7 +20,7 @@ You can also use our presets for those of you who just want a quick and easy sol
 Filters require a premium subscription to use due to increased CPU usage requirements.
 {% endhint %}
 
-You can also set custom filters on your music using the `!filter <name> <options>` command. If you'd like to revert these changes you can also type `!filter <name> reset`. If you run the `!nowplaying` command, it will show all of your currently applied filters as well. Our possible filters include:
+You can also set custom filters on your music using the `/filter <name> <options>` command. If you'd like to revert these changes you can also type `/filter <name> reset`. If you run the `/nowplaying` command, it will show all of your currently applied filters as well. Our possible filters include:
 
 * Distortion
   * Sin Offset - Default: 1
@@ -61,7 +61,7 @@ All filters have a minimum value of **0.01** and a maximum value of **5.**
 All preset music filters require a premium subscription to use due to increased CPU usage requirements.
 {% endhint %}
 
-* **Nightcore** is a special effect that speeds up the music while applying a slightly higher pitch to it. You can toggle this preset with the `!nightcore` command.
-* **Vaporwave** is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `!vaporwave` command.
-* **8D Audio** is a special effect that 'rotates' the music to provide a more interesting listening experience. You can toggle this preset with the `!8d` command.
-* **Reverb** is a special effect that makes use of echo to create a more dynamic sound space for a song. You can toggle this preset with the `!reverb` command.
+* **Nightcore** is a special effect that speeds up the music while applying a slightly higher pitch to it. You can toggle this preset with the `/filterpreset nightcore` command.
+* **Vaporwave** is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `/filterpreset vaporwave` command.
+* **8D Audio** is a special effect that 'rotates' the music to provide a more interesting listening experience. You can toggle this preset with the `/filterpreset 8d` command.
+* **Reverb** is a special effect that makes use of echo to create a more dynamic sound space for a song. You can toggle this preset with the `/filterpreset reverb` command.

@@ -57,12 +57,3 @@ You can configure advanced features like the ones listed below in the web dashbo
 * View Persistent and Temporary Roles
 
 and more!
-
-## Per-Server Settings \(Setting Command\)
-
-{% hint style="warning" %}
-You will need **`Manage Server`** or **`Administrator`** permission to customize Cakey Bot in your server.
-{% endhint %}
-
-To configure/modify the most settings you will need to use the [Web Dashboard](https://cakeybot.app/dashboard/public/). However, you can use `!setting prefix <new prefix>` to set the prefix within the server. \(The prefix can also be set via the web dashboard if desired.\)
-

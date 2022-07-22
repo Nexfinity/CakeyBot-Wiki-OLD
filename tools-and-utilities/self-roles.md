@@ -8,14 +8,14 @@ Make sure that Cakey Bot has the **`Manage Roles`** permission and that the Cake
 
 Self Roles allows users to add/remove roles to/from themselves from a list of roles that have been created/set by the server admins.
 
-To add/remove a role from this list you can use the `!sr add <role>` and `!sr remove <role>` commands.
+To add/remove a role from this list you can use the `/selfrole add <role>` and `/selfrole remove <role>` commands.
 
-To list all roles that can be self-assigned you can use the `!sr list` command.
+To list all roles that can be self-assigned you can use the `/selfrole list` command.
 
-After you have added some roles to the self role list you \(and your users\) can add/remove the roles from yourself using the `!sr use <role>` and `!sr unuse <role>` commands.
+After you have added some roles to the self role list you \(and your users\) can add/remove the roles from yourself using the `/selfrole use <role>` and `/selfrole unuse <role>` commands.
 
 {% hint style="info" %}
-If you want to use any of our advanced self-assign methods \(like buttons, reactions or selection dropdowns\) you will need to create a self-role embed using the `!selfrole embed` command. This will generate an embed using the assignment method you set on our web dashboard.
+If you want to use any of our advanced self-assign methods \(like buttons, reactions or selection dropdowns\) you will need to create a self-role embed using the `/selfrole embed` command. This will generate an embed using the assignment method you set on our web dashboard.
 {% endhint %}
 
 ## Button Roles

@@ -10,7 +10,7 @@ If Cakey Bot has the appropriate permissions \(**`Add Reactions`** and **`Manage
 
 ## Setting an AFK Message
 
-You are able to set your own AFK message by typing `!afk <message>`. If you ever forget what you have your AFK message set to you can always type `!afk` without any message and it'll show what message you currently have set. \(If one is set\)
+You are able to set your own AFK message by typing `/afk <message>`. If you ever forget what you have your AFK message set to you can always type `/afk` without any message and it'll show what message you currently have set. \(If one is set\)
 
 {% hint style="warning" %}
 Your AFK message will not be sent if a BOT mentions you or if you mention yourself.
@@ -19,10 +19,10 @@ Your AFK message will not be sent if a BOT mentions you or if you mention yourse
 ## Removing an AFK Message
 
 {% hint style="info" %}
-Users who have the **`Manage Server`** permission node can force remove a user's AFK message using the `!unafk <user>` command.
+Users who have the **`Manage Server`** permission node can force remove a user's AFK message using the `/unafk <user>` command.
 {% endhint %}
 
-You are able to remove your own AFK message by typing the `!unafk` command.
+You are able to remove your own AFK message by typing the `/unafk` command.
 
 ## Extra Configurations
 

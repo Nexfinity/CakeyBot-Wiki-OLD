@@ -1,7 +1,7 @@
 # Math Command
 
 {% hint style="warning" %}
-This page is only used as a general overview and guide of the features in the `!math` command. There may be functions, variables or expressions that will work but are not listed below.
+This page is only used as a general overview and guide of the features in the `/math` command. There may be functions, variables or expressions that will work but are not listed below.
 {% endhint %}
 
 ## Numbers

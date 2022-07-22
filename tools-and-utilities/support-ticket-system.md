@@ -22,7 +22,7 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 
 ## Usage
 
-Once you have enabled and configured support tickets via the web dashboard your users can start making tickets using the `!new <description>` command.&#x20;
+Once you have enabled and configured support tickets via the web dashboard your users can start making tickets using the `/ticket new <description>` command.&#x20;
 
 {% hint style="info" %}
 **Note:** The issue description is optional and a default reason will be filled in if a user does not provide one.

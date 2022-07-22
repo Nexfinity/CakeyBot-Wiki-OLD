@@ -42,19 +42,17 @@ Cakey Bot uses a number of fancy custom emoji to make everything fun and visuall
 * If Cakey Bot isn't responding to commands, try the following:
   1. Make sure Cakey Bot is showing as online.
      * If Cakey Bot is offline, try kicking the bot out of your server and inviting it again. If after doing that Cakey Bot is still showing as offline, you may skip to step 4.
-  2. Make sure you're using the correct prefix. You can type `!prefix` to get the prefix.
-     * You can learn how to change Cakey Bot's prefix by heading to the [Prefix Setting](https://cakeybot.app/faq.html) section!
-  3. Make sure Cakey Bot has the permissions to read and send messages in the channel.
+  2. Make sure Cakey Bot has the permissions to read and send messages in the channel.
      * You can give the `Administrator` permission to Cakey Bot to make this easier.
-  4. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakeybot.app/discord) server to see if there are any issues going on. You can also check out our NEW [status page](https://cakeybot.statuspage.io).
-  5. If the above methods do not work, please choose option 3 in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://cakeybot.app/discord) server to receive assistance from a member of our Support Team.
+  3. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakeybot.app/discord) server to see if there are any issues going on. You can also check out our NEW [status page](https://cakeybot.statuspage.io).
+  4. If the above methods do not work, please choose option 3 in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://cakeybot.app/discord) server to receive assistance from a member of our Support Team.
 
 ## Audio Troubleshooting
 
 ### Cakey Bot left the voice channel while not playing anything
 
 * For performance reasons, Cakey Bot leaves after a while of being alone or unused in a voice channel. This helps Cakey Bot save resources while no one is listening to it and keeps the music quality consistent for all users at any given time!
-* Don't worry though, as long as you are in a voice channel, just type `!join` to make Cakey Bot rejoin your channel!
+* Don't worry though, as long as you are in a voice channel, just type `/play` again to make Cakey Bot rejoin your channel!
 
 ### Cakey Bot will not play audio or the  laggy/buggy&#x20;
 
@@ -69,16 +67,16 @@ Cakey Bot uses a number of fancy custom emoji to make everything fun and visuall
 * To get around this we suggest creating a YouTube/Spotify playlist of the songs you wish to re-queue.
 
 {% hint style="info" %}
-If your queue contains audio from multiple/different sources, you can create a Cakey Bot playlist using the `!playlist` command.
+If your queue contains audio from multiple/different sources, you can create a Cakey Bot playlist using the `/playlist` command.
 {% endhint %}
 
 ### Cakey Bot is responding to commands but not joining the voice channel
 
 * If you find that Cakey Bot is responding to your commands but not joining a voice channel use the following method:
   1. Move to a different voice channel.
-  2. `!join` the bot into that voice channel.
+  2. `/play` to join the bot into that voice channel.
   3. Move back to the original voice channel.
-  4. `!join` the bot back into the original voice channel.
+  4. `/play` to join the bot back into the original voice channel.
 * If the above method does not work, try changing the server region of your server or kicking & reinviting Cakey Bot to your Discord server.
 
 ## Mobile Troubleshooting

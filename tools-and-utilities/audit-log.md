@@ -65,7 +65,7 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
   * When a member boosts your server, Cakey Bot will log the old and new boost value as well as the current boost tier. 
   * This event is also fired when a boost is removed from the server.
 * Warnings
-  * When a moderator uses the `!warn` command it will log the usage to the audit log
+  * When a moderator uses the `/warn` command it will log the usage to the audit log
 * Purges
   * When a moderator uses the !purge command it will log the amount of messages and the purge type to the audit log
   * If Cakey Bot has not hit the rate limit yet, purge will also include a Pastebin perma-link to all of the messages that were purged.

@@ -39,4 +39,4 @@ These are normal/generic commands but they can be easily abused by members who a
 
 ### Live Streams
 
-Some commands can not be used while a live stream is playing. If you try to use one of these commands while a live stream is playing you will be notified with an error message. In order to use these commands you will either need to wait until the stream ends or use the `!skip` command to go to the next song in the queue. (or stop playing if the queue is empty)
+Some commands can not be used while a live stream is playing. If you try to use one of these commands while a live stream is playing you will be notified with an error message. In order to use these commands you will either need to wait until the stream ends or use the `/skip` command to go to the next song in the queue. (or stop playing if the queue is empty)

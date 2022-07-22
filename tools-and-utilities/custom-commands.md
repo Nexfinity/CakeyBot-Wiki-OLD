@@ -21,9 +21,7 @@ The command trigger will use a custom set prefix if you have changed Cakey Bot's
 
 ## Limitations/Restrictions
 
-You can't name the command the same thing as a command that already exists in Cakey Bot. For example, you can't create a command like `!help`. For commands like these, you either need to use the chat trigger or modify your command slightly so it doesn't match any of Cakey Bot's commands. For example `!helpme`. Some other limitations are listed below:
-
-* You can't have duplicate tags with the same name
+* You can't have duplicate triggers with the same name
 * Custom Commands are also limited to Discord's message character limit
 * Messages sent by bots or webhooks will be ignored
 
