@@ -1,5 +1,28 @@
 # Changelist - 2022
 
+## July 26th - Pause QOL + Bug Fixes
+
+#### Fixed
+
+* Fixed an issue where Cakey Bot would not work in Discord servers that had a newer 19-digit length server ID
+* Misc. Bug Fixes
+
+#### Changed
+
+* `/pause` now works as a toggle and will resume if the song is currently paused. (Instead of having to type `/resume`)
+
+## July 21st - Query & Slash Command Fixes
+
+#### Fixed
+
+* Fixed `/query` showing incorrect information for PE/Bedrock servers
+* Fixed wildcard contains flag for auto responder not working properly with literal `?` triggers.
+* Fixed an issue where `/play` would return an incorrect error response
+
+#### Removed
+
+* Removed the `/join` command. Cakey Bot will auto-join when running the `/play` command.
+
 ## July 3rd - Command Removal
 
 #### Removed
