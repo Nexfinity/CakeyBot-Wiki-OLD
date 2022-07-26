@@ -1,6 +1,6 @@
 # Changelist - 2022
 
-## July 26th - Pause QOL + Bug Fixes
+## July 26th - Music Updates + Bug Fixes
 
 #### Fixed
 
@@ -10,6 +10,16 @@
 #### Changed
 
 * `/pause` now works as a toggle and will resume if the song is currently paused. (Instead of having to type `/resume`)
+
+#### Added
+
+* The anti-phishing module in the auto moderation now includes several popular IP-grabbing URLs in the blacklist.
+* Added an optional `shuffleQueue` parameter to the `/play` command to shuffle the queue after queueing a new song/playlist.
+* Added an optional `count` parameter to `/skip` to skip more than one song at a time.
+* Added an optional `playTop` parameter to `/play` to insert a song at the start/top of the queue instead of the end.
+* Added new `/remove first` sub-command to remove the first track in the queue.
+* Added new `/remove last` sub-command to remove the last track in the queue.
+* Added a new `/lockqueue` command that will prevent the queue from being modified by non-DJs/moderators. (This will disabling skipping, removing, jumping to, and shuffling but will still allow users to add new songs.)
 
 ## July 21st - Query & Slash Command Fixes
 
