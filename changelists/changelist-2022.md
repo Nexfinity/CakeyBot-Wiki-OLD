@@ -1,5 +1,25 @@
 # Changelist - 2022
 
+## July 27th - Slash Command QOL Updates
+
+#### Changed
+
+* Updated `/playlist list` & `/playlist delete` so they can be used while music is not playing.
+* User playlists are now global and not linked to a specific server.
+* `/unwarn` will now send a DM to the user notifying them of the removal.
+* Modified the parameters of `/unwarn <user> <id>` to `/unwarn <id> <opt:isSilent>`
+* All moderator commands that can provide a reason now include a `isSilent` parameter instead of using the old "-s"/"-silent" method in the reason itself.
+
+#### Added
+
+* Added a new `/remove keyword <keyword>` sub-command to remove all tracks in the queue whose title contains the specified keyword.
+* Added a new `/remove user <user>` sub-command to remove all tracks in the queue that were added by the specified user.
+* Added new `/sortqueue <title | author | length> <asc/desc>` command to re-sort the queue.
+* Added new `/sortqueue reverse` command to re-sort the queue in reverse.
+* Added new `/sortqueue swap <firstIndex> <secondIndex>` command to swap two tracks around in the queue.
+* Updated `/playlist list` & `/playlist delete` so they can be used while music is not playing.
+* Added new `/playlist rename <name> <newName>` sub-command to rename user playlists.
+
 ## July 26th - Music Updates + Bug Fixes
 
 #### Fixed
