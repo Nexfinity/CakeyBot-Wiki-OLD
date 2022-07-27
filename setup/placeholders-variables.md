@@ -102,7 +102,6 @@ __`{everyone}` - Mentions `@everyone`\
 
 ### Other
 
-`{prefix}` - Show command prefix for the server\
 `{random:min:max}` - Generates a random number between the min/max. Replace "**min**" and "**max**" with a number between 0 and 999,999,999. **Note:** Your minimum number must be smaller than your maximum number.\
 `{delay:0-60}` - Delays the response for up to 60 seconds. Only the first delay placeholder in a response will work. If you exclude the delay placeholder then responses will be sent instantly.
 

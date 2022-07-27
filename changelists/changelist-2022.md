@@ -21,6 +21,10 @@
 * Updated `/playlist list` & `/playlist delete` so they can be used while music is not playing.
 * Added new `/playlist rename <name> <newName>` sub-command to rename user playlists.
 
+#### Removed
+
+* Removed `{prefix}` placeholder for auto responder/custom commands.
+
 ## July 26th - Music Updates + Bug Fixes
 
 #### Fixed
