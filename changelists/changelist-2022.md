@@ -24,6 +24,7 @@
 #### Removed
 
 * Removed `{prefix}` placeholder for auto responder/custom commands.
+* Removed `/rp poke` sub-command due to API being removed.
 
 ## July 26th - Music Updates + Bug Fixes
 
