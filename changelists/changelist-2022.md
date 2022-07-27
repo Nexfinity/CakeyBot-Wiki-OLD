@@ -9,6 +9,7 @@
 * `/unwarn` will now send a DM to the user notifying them of the removal.
 * Modified the parameters of `/unwarn <user> <id>` to `/unwarn <id> <opt:isSilent>`
 * All moderator commands that can provide a reason now include a `isSilent` parameter instead of using the old "-s"/"-silent" method in the reason itself.
+* YouTube songs will now jump to the specified time if the URL contains a `?t=453` timestamp.
 
 #### Added
 
