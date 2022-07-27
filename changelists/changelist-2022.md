@@ -2,6 +2,11 @@
 
 ## July 27th - Slash Command QOL Updates
 
+#### Fixed
+
+* `/purge` commands will no longer show a "failed to respond" error message
+* `/purge` result messages now properly send to the log channel instead sending in the channel where the command was ran
+
 #### Changed
 
 * Updated `/playlist list` & `/playlist delete` so they can be used while music is not playing.
