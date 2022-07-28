@@ -1,5 +1,11 @@
 # Changelist - 2022
 
+## July 28th - Phone Number Auto Mod
+
+#### Added
+
+* Added new 'phone number' check to auto mod
+
 ## July 27th - Slash Command QOL Updates
 
 #### Fixed
