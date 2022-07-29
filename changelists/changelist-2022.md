@@ -1,5 +1,12 @@
 # Changelist - 2022
 
+## July 29th - Moderation Bug Fixes
+
+#### Fixed
+
+* Reasons for non-silent moderation commands will now show as expected.
+* Fixed some false positives with the new phone number auto mod check.
+
 ## July 28th - Phone Number Auto Mod
 
 #### Added
