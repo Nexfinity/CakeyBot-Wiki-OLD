@@ -7,6 +7,7 @@
 * Reasons for non-silent moderation commands will now show as expected.
 * Fixed some false positives with the new phone number auto mod check.
 * Fixed an issue where warning audit logs would be missing the hashtag between usernames/discriminators.
+* Fixed an issue where some slash commands would be shown only to the original user and not to the entire chat
 
 #### Changed
 
