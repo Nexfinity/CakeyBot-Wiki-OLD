@@ -1,11 +1,23 @@
 # Changelist - 2022
 
-## July 29th - Moderation Bug Fixes
+## July 29th - Bug Fixes + New Command
 
 #### Fixed
 
 * Reasons for non-silent moderation commands will now show as expected.
 * Fixed some false positives with the new phone number auto mod check.
+
+#### Changed
+
+* Merged `/verify setup` & `/musicsetup` into a single `/setup <verifyrole | songrequest>` command.
+
+#### Added
+
+* Added new `/movemsg <messageId> <newChannel>` command.
+
+#### Removed
+
+* Removed `/pokedex` command.
 
 ## July 28th - Phone Number Auto Mod
 
