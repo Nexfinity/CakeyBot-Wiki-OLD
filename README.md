@@ -1,7 +1,5 @@
 # Cakey Bot
 
-
-
 {% hint style="info" %}
 This is just the documentation for Cakey Bot. You do NOT configure the bot from here. Visit [https://cakeybot.app/dashboard/public](https://cakeybot.app/dashboard/public) to manage your server.
 {% endhint %}
@@ -52,7 +50,6 @@ Cakey Bot does have a "Premium" mode similar to some popular bots. However, the 
 * [x] Role-Play Commands (Including Basic D\&D)
 * [x] Role Management (Muting, Persistent Roles, Self Roles)
 * [x] Self Roles
-* [x] Slash Commands/Context Menus
 * [x] Social Media/Streaming Announcements (Reddit, Youtube, Twitter, Twitch, RSS, etc)
 * [x] Song Request Channel / Music Embed Controller
 * [ ] Starboard
