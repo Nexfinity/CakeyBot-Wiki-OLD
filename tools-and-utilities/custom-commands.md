@@ -39,4 +39,4 @@ To use images in responses, you can simply just type the image URL/link like you
 
 ### Placeholders/Variables
 
-Custom Commands will work with BOTH **Basic Placeholders** & **Advanced Placeholders**. Placeholders can be included in the response section and can modify the behavior/output of the response. You can find the full list of supported placeholders [here](../setup/placeholders-variables.md).
+Custom Commands will work with BOTH **Basic Placeholders** & **Advanced Placeholders**. Placeholders can be included in the response section and can modify the behavior/output of the response. You can find the full list of supported placeholders [here](../other-misc/placeholders-variables.md).

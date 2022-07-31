@@ -53,7 +53,7 @@ You will need **`Manage Server`** or **`Administrator`** permission to manage se
 
 ## Placeholders/Variables
 
-Auto Responder will work with BOTH **Basic Placeholders** & **Advanced Placeholders**. Placeholders can be included in the response section and can modify the behavior/output of the response. You can find the list of supported placeholders [here](../setup/placeholders-variables.md).
+Auto Responder will work with BOTH **Basic Placeholders** & **Advanced Placeholders**. Placeholders can be included in the response section and can modify the behavior/output of the response. You can find the list of supported placeholders [here](../other-misc/placeholders-variables.md).
 
 ## Using Emoji/Emotes in Responses
 

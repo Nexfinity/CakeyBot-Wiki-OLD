@@ -4,7 +4,7 @@
 
 #### Added
 
-* Released more [Advanced Placeholders](../setup/placeholders-variables.md#advanced-placeholders):
+* Released more [Advanced Placeholders](../other-misc/placeholders-variables.md#advanced-placeholders):
   * Released `{require:}` placeholders - You can now specify specific channels/users where a command can be used.
   * Released `{not:x}` placeholders - You can now specify specific channels/users where a command can not be used.
 
@@ -12,9 +12,9 @@
 
 #### Added
 
-* Released more [Advanced Placeholders](../setup/placeholders-variables.md#advanced-placeholders):
+* Released more [Advanced Placeholders](../other-misc/placeholders-variables.md#advanced-placeholders):
   * `{deleteafter:x}` - Delete the response after X amount of seconds. Replace the x with a number between 1 and 9.
-  * `{confirmdelete}` - Add a trashcan reaction to the response that deletes it after it is clicked. \(Similar to AFK messages\)
+  * `{confirmdelete}` - Add a trashcan reaction to the response that deletes it after it is clicked. (Similar to AFK messages)
   * `{respond:#channel}` - The channel that the command will send the response to
 
 ## 12/27/2020 - Slash Commands!
@@ -35,7 +35,7 @@
   * /dashboard
   * /debug
   * /prefix
-* Added new "Flag" type to auto responder. The new flag `Contains Files` will trigger auto responder if any messages contains files \(i.e. documents, images, videos, etc\)
+* Added new "Flag" type to auto responder. The new flag `Contains Files` will trigger auto responder if any messages contains files (i.e. documents, images, videos, etc)
 
 ## 12/25/2020 - User Gateway Screening
 
@@ -48,7 +48,7 @@
 
 * "View Usage" & "Placeholder Reference" both open in new tabs now
 * Auto Responder now correctly pre-fills the "Flags" field
-* Implemented a patch to fix the high latency on Shard \#4
+* Implemented a patch to fix the high latency on Shard #4
 
 ## 12/22/2020 - V3 Website Design
 
@@ -59,7 +59,7 @@
 
 #### Added
 
-* Added first "[Advanced Placeholder](../setup/placeholders-variables.md#advanced-placeholders)": `{delete}`
+* Added first "[Advanced Placeholder](../other-misc/placeholders-variables.md#advanced-placeholders)": `{delete}`
 
 ## 12/19/2020 - Among Us Gif
 
@@ -70,7 +70,7 @@
 
 #### Added
 
-* Added new `!amongus [user]` command. ;\)
+* Added new `!amongus [user]` command. ;)
 
 ## 12/14/2020 - Automatic Dehoist
 
@@ -78,7 +78,7 @@
 
 * Fixed the "Channel" for auto mod violations in audit log messages.
 * Fixed a translation error in the `!8ball` command.
-* Fixed literal boat load of bugs ;\)
+* Fixed literal boat load of bugs ;)
 
 #### Changed
 
@@ -120,8 +120,8 @@
 
 #### Added
 
-* Added option to disable users setting `!afk` statuses per-server _\[Web Dashboard\]_
-* Added option to set a max AFK time limit. _\[Web Dashboard\]_
+* Added option to disable users setting `!afk` statuses per-server _\[Web Dashboard]_
+* Added option to set a max AFK time limit. _\[Web Dashboard]_
   * By default, AFK statuses will be permanent until the user or an admin removes the status
   * You can set a max time limit between 1 minute and 1 week, after which the AFK status will be disabled automatically for users.
 
@@ -134,8 +134,8 @@
 
 #### Changed
 
-* Improved auto mod to check for new bypasses _\[BETA Feature\]_
-* `!userinfo` command embed color now matches the highest colored role of the user \(or default bot color if none\)
+* Improved auto mod to check for new bypasses _\[BETA Feature]_
+* `!userinfo` command embed color now matches the highest colored role of the user (or default bot color if none)
 * Updated documentation to match new dashboard layout/settings
 
 #### Added
@@ -147,7 +147,7 @@
 
 #### Changed
 
-* \#feedback channel on the [Support Discord](https://discord.gg/Y3VdQAD) has been renamed to \#suggestions \(Use `!suggestion <title> | <description>` to post suggestions now and use \#support for bug reports.\)
+* \#feedback channel on the [Support Discord](https://discord.gg/Y3VdQAD) has been renamed to #suggestions (Use `!suggestion <title> | <description>` to post suggestions now and use #support for bug reports.)
 
 #### Removed
 
@@ -175,8 +175,8 @@
 #### Added
 
 * Started up Cakey Bot BETA Testing program again
-* Added `BETA`, `WIP` \(Work-In-Progress\), and `New` badges to the navigation sidebar of the panel.
-  * WIP are non-BETA features that are currently in development. They may be buggy or incomplete. \(Similar to BETA features but do not require BETA access\)
+* Added `BETA`, `WIP` (Work-In-Progress), and `New` badges to the navigation sidebar of the panel.
+  * WIP are non-BETA features that are currently in development. They may be buggy or incomplete. (Similar to BETA features but do not require BETA access)
 * Added toggle for generic web URL check on web dashboard
 
 ## 11/11/2020
@@ -193,8 +193,8 @@
 
 * Added `!yoink` as alias for `!grab`
 * Added underscores to `!dehoist`
-* Started work for auto-resume on music when shards reconnect \(1/2\)
-* _\[Internal\] Added ability to toggle 'Limited Mode' during major outages in the core_
+* Started work for auto-resume on music when shards reconnect (1/2)
+* _\[Internal] Added ability to toggle 'Limited Mode' during major outages in the core_
 
 ## 11/6/2020 - Github Code Preview
 
@@ -206,47 +206,47 @@
 
 #### Fixed
 
-* Fixed an issue where server data was not syncing with the database correctly \(This caused incorrect server icons and member counts for the web dashboard\)
+* Fixed an issue where server data was not syncing with the database correctly (This caused incorrect server icons and member counts for the web dashboard)
 * Implemented a patch to prevent duplicate custom commands/auto responders
-* Misc. bug fixes \(Including fixing music\)
+* Misc. bug fixes (Including fixing music)
 
 #### Added
 
-* Added Auto Quoter \(You can toggle this via the web dashboard\)
+* Added Auto Quoter (You can toggle this via the web dashboard)
 
 ## 11/2/2020 - Dashboard V2 Update
 
 #### Added
 
-* Responsive Design \(MUCH better tablet/phone support\)
-* Localization support \(Change panel language\)
+* Responsive Design (MUCH better tablet/phone support)
+* Localization support (Change panel language)
 * Fullscreen toggle
-* Improved/cleaner UI design \(looks nicer overall, including animated icons \) 
+* Improved/cleaner UI design (looks nicer overall, including animated icons )&#x20;
 * Ability to edit custom commands/auto responders
 * Enabled the ability to configure auto mod settings
 
 #### Changed
 
-* Instant data refresh \(no more needed to manually refresh pages to see your changes\)
-* Improved feedback/notifications/errors \(You now get a fancy pop up when you make changes or encounter issues\)
-* Improved tables \(They are now paginated, sortable and can be searched!\) \(They also load much faster\)
-* Improved security \(Won't go into details here\)
-* Faster load times 
+* Instant data refresh (no more needed to manually refresh pages to see your changes)
+* Improved feedback/notifications/errors (You now get a fancy pop up when you make changes or encounter issues)
+* Improved tables (They are now paginated, sortable and can be searched!) (They also load much faster)
+* Improved security (Won't go into details here)
+* Faster load times&#x20;
 * Confirmation dialogs for sensitive actions and hover tooltips for various actions
 
 #### Planned
 
 * Light Mode addition
-* More features overall \(Basically all the stuff that's been sitting on the "planned" list due to lack of a decent dashboard\)
+* More features overall (Basically all the stuff that's been sitting on the "planned" list due to lack of a decent dashboard)
 * This new dashboard is much cleaner and easier for me to code on. Which means I can add new stuff quickly and easily
 * Updating main website to match dashboard UI
-* Live data-sync between bot/website \(i.e. view music queue on website or send embeds from the dashboard\)
+* Live data-sync between bot/website (i.e. view music queue on website or send embeds from the dashboard)
 
 ## 10/23/2020
 
 #### Fixed
 
-* Tons of bug fixes \(like literally a ton\)
+* Tons of bug fixes (like literally a ton)
 * Fixed error message for purge when there are no valid messages to delete
 * **Fixed music, seems it may have been broken for a day or two**
 
@@ -259,23 +259,23 @@
 
 #### Fixed
 
-* Fixed \[join \| leave \| ban\] arguments being case-sensitive on the announcements command
+* Fixed \[join | leave | ban] arguments being case-sensitive on the announcements command
 * Fixed an error message in the announcement command where it wasn't auto-filling the custom prefix
 
 #### Changed
 
-* Updated how roleplay commands mention users \(This should fix the invalid mentions for mobile users\)
+* Updated how roleplay commands mention users (This should fix the invalid mentions for mobile users)
 
 #### Added
 
-* Added another fallback for user avatars \(Affects many core components of the bot where user avatars are used\)
+* Added another fallback for user avatars (Affects many core components of the bot where user avatars are used)
 
 ## 10/5/2020 - More Audit Logs
 
 #### Fixed
 
-* Fixed Join/Leave announcements \(They will now work with [Basic Placeholders](../setup/placeholders-variables.md#basic-placeholders) as intended\)
-* Improved voice channel join checks \(Now checks for user limit AND permissions\)
+* Fixed Join/Leave announcements (They will now work with [Basic Placeholders](../other-misc/placeholders-variables.md#basic-placeholders) as intended)
+* Improved voice channel join checks (Now checks for user limit AND permissions)
 
 #### Added
 
@@ -307,7 +307,7 @@
 * Added `!raccoon` Command - Displays an image of a random raccoon!
 * Added `!kangaroo` Command - Displays an image of a random kangaroo!
 * Added `!facepalm` Command - Displays a facepalm gif.
-* Added `!wink <user>` Command - Wink at someone ;\)
+* Added `!wink <user>` Command - Wink at someone ;)
 * Added donation information to `!about`, `!help`, & `!vote` commands.
 * Added `!blurple` Command - Tints the given image blue/purple.
 * Added `!brightness` Command - Brightens the provided image.
@@ -366,8 +366,8 @@
 
 ### Fixed
 
-* Fixed join/leave/ban announcements sending when set to "none" \(They will now no longer send as intended\)
-* Removed `!rank` as alias for `!role` \(Conflicts with too many other bots\)
+* Fixed join/leave/ban announcements sending when set to "none" (They will now no longer send as intended)
+* Removed `!rank` as alias for `!role` (Conflicts with too many other bots)
 
 ## 9/19/2020
 
@@ -391,13 +391,13 @@
 
 ### Added
 
-* Added new `!grab` command to send the currently playing song's info to your DMs. \(Great way to save a good song for later\)
+* Added new `!grab` command to send the currently playing song's info to your DMs. (Great way to save a good song for later)
 
 ## 8/30/2020
 
 ### Changed
 
-* Updated trivia timeout \(10s =&gt; 15s\)
+* Updated trivia timeout (10s => 15s)
 * Trivia errors and timeout will now show the correct answer
 
 ## 8/27/2020 - The Trivia Update
@@ -414,11 +414,11 @@
 ### Added
 
 * Added new `!discrim <value>` command that will give you a list of users that have the same discriminator
-* Added new `!trivia` minigame command with over 400 questions! \(More coming soon ;\) \)
+* Added new `!trivia` minigame command with over 400 questions! (More coming soon ;) )
 * Added video url to song request channel queue list
 * Added Bitchute as source for music core
 * Added experimental support for Twitch VODs/Clips
-* Added support for more Direct Web URL files! \(.OGG, .FLAC, & .WAV\)
+* Added support for more Direct Web URL files! (.OGG, .FLAC, & .WAV)
 
 ## 8/26/2020 - Improved Auto Responder
 
@@ -435,13 +435,13 @@
   * Contains - Will search entire message to see if it contains this string/trigger
   * Begins With - Will check to see if the message begins with this string/trigger
   * Ends With - Will check to see if the message ends with this string/trigger
-* Added placeholder support to Auto Responder & Custom Commands. You can view these [here](../setup/placeholders-variables.md#basic-placeholders).
+* Added placeholder support to Auto Responder & Custom Commands. You can view these [here](../other-misc/placeholders-variables.md#basic-placeholders).
 
 ## 8/4/2020
 
 ### Fixed
 
-* Fixed some issues with Cakey Bot not handling permissions correctly. \(Specifically when trying to delete messages\)
+* Fixed some issues with Cakey Bot not handling permissions correctly. (Specifically when trying to delete messages)
 
 ### Changed
 
@@ -453,14 +453,14 @@
 
 ### Removed
 
-* Removed support for mixer from music \(Mixer shut down July 22nd apparently\)
+* Removed support for mixer from music (Mixer shut down July 22nd apparently)
 
 ## 7/29/2020 - The Verification Update
 
 ### Fixed
 
 * Fixed a bug where messages would not be properly translated for the Role Management module
-* Fixed an issue where certain embeds, errors and messages were not displaying correctly. \(i.e. a success message showing up as an error\)
+* Fixed an issue where certain embeds, errors and messages were not displaying correctly. (i.e. a success message showing up as an error)
 * Usual misc. bug fixes
 
 ### Added
@@ -471,7 +471,7 @@
 
 ### Added
 
-* New 14-band equalizer command for music \(`!equalizer <band> <gain>`\)
+* New 14-band equalizer command for music (`!equalizer <band> <gain>`)
   * View current equalizer values by running the `!equalizer` command without any arguments.
 
 ## 6/3/2020
@@ -487,7 +487,7 @@
 
 ### Added
 
-* Cakey Bot will now display "Cakey Bot is typing...." when a command is ran. \(Similar to normal users in discord\)
+* Cakey Bot will now display "Cakey Bot is typing...." when a command is ran. (Similar to normal users in discord)
 
 ## 5/30/2020
 
@@ -514,8 +514,8 @@
 ### Changed
 
 * Updated the `!poll` command to not throw errors if the message is deleted while being processed
-* `!image` command will now function even if _some_ data is missing \(for example a title or source url\)
-* \[[Caketropolis](https://discord.com/invite/V73eTwK)-Specific\] Increased the ping detection limit in \#shard-info to 1,500ms
+* `!image` command will now function even if _some_ data is missing (for example a title or source url)
+* \[[Caketropolis](https://discord.com/invite/V73eTwK)-Specific] Increased the ping detection limit in #shard-info to 1,500ms
 
 ## 5/14/2020 - Silent Moderation
 
@@ -551,7 +551,7 @@
 
 ### Changed
 
-* Increased `!gif` command cooldown \(1s =&gt; 3s\)
+* Increased `!gif` command cooldown (1s => 3s)
 * Updated error messages on roleplay commands to use embeds
 
 ## 4/17/2020
@@ -563,10 +563,10 @@
 ### Changed
 
 * Update delays on commands that use reactions to prevent triggering Discord API rate limits
-* Increase rate limit on `!poll` command \(1s =&gt; 15s\)
+* Increase rate limit on `!poll` command (1s => 15s)
 * Updated logs on website to be color coded to find specific events easier
 * Enabled `Self Deafen` for music to save on bandwidth
-* Increased the resume timeout for music \(10s =&gt; 60s\)
+* Increased the resume timeout for music (10s => 60s)
   * This should help with resuming music automatically when a shard restarts. Any feedback on whether this is working or not is appreciated as I can't force a shard to reconnect to test it manually
 * Improved error handling for the `!unwarn` command
 
@@ -574,7 +574,7 @@
 
 * Added support for images in `!quote` command
 * Added new `{accountage}` variable for join/leave messages
-* Added new `!clearwarnings` command to delete ALL warnings from a user. **\(Note: This is irreversible\)**
+* Added new `!clearwarnings` command to delete ALL warnings from a user. **(Note: This is irreversible)**
 * Added new `!locate` command to display the current voice channel that Cakey Bot is playing music in
 
 ## 4/12/2020
@@ -582,15 +582,15 @@
 ### Changed
 
 * Slightly darkened the background for the server query banner
-* Increased cooldown on `!ping` command \(1s =&gt; 5s\)
+* Increased cooldown on `!ping` command (1s => 5s)
 
 ## 4/10/2020 - 4/11/2020 - The Covid Update
 
 ### Fixed
 
-* Fixed an issue where some music messages would be posted to the \#cakey\_songrequests channels 
-* Fixed an issue where some commands would throw "unknown errors" when a module was disabled 
-* Fixed an issue where Cakey Bot would try to check if a DM message was a "Song Request" channel 
+* Fixed an issue where some music messages would be posted to the #cakey\_songrequests channels&#x20;
+* Fixed an issue where some commands would throw "unknown errors" when a module was disabled&#x20;
+* Fixed an issue where Cakey Bot would try to check if a DM message was a "Song Request" channel&#x20;
 * Fixed an issue where Cakey could failed to get a valid music track but still try to play it
 * Fixed incorrect titles on some error messages
 * Fixed an issue where Cakey Bot would fail to add a server to the database if the server name contained special unicode
@@ -602,7 +602,7 @@
 * Updated `!setting module` to not completely break if Cakey Bot doesn't have external emoji permissions
 * Updated Auto Mod warnings to self-delete after 5 seconds
 * Improved error checking for disabled modules
-* Prevented the ability to run commands in \#cakey\_songrequests channels
+* Prevented the ability to run commands in #cakey\_songrequests channels
 * Pushed some more translations live
 * Converted all error messages to fancy embed format with same design
 * Updated strings in newer commands to used localized variants
@@ -692,9 +692,9 @@
 
 ### Added
 
-* Added cooldown time for `!dehoist` \(1s =&gt; 7s\)
+* Added cooldown time for `!dehoist` (1s => 7s)
 * Added new `!unnick` command
-* Banned member messages in audit log will now display the user's last known nickname \(if one exists\)
+* Banned member messages in audit log will now display the user's last known nickname (if one exists)
 
 ### Fixed
 
@@ -739,15 +739,15 @@
 
 * Updated `!image` command
   * SafeSearch is now disabled in NSFW text channels
-  * Now uses PNG file type for more results \(Previously jpg\)
-  * Can now handle results when total is &lt; 10
+  * Now uses PNG file type for more results (Previously jpg)
+  * Can now handle results when total is < 10
 
 ## 1/21/2020
 
 ### Fixed
 
 * Fixed the `!image` command
-* Fixed an issue where two commands used the same name \(`!emoji`\)
+* Fixed an issue where two commands used the same name (`!emoji`)
   * `!emojis` - List emojis and their ID in the server
   * `!emoji <action>` - Create, Modify and Delete emoji in the server
 
@@ -890,4 +890,3 @@
 * Added a `!panel`/`!dashboard` command for direct URL to web dashboard
 
 .
-

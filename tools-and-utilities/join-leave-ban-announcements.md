@@ -36,7 +36,7 @@ Note: If you choose to use a banner image, you will not be able to use/apply cus
 
 ## Variables
 
-Announcements will work with all **Basic Placeholders**. You can find the list of supported placeholders [here](../setup/placeholders-variables.md).
+Announcements will work with all **Basic Placeholders**. You can find the list of supported placeholders [here](../other-misc/placeholders-variables.md).
 
 {% hint style="warning" %}
 Announcements will **NOT** work with the **Advanced Placeholders**.

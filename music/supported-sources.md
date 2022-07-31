@@ -1,6 +1,6 @@
-# Supported Sources
+# Supported Music Sources
 
-### Sources
+### Supported Sources
 
 Cakey bot can play music from multiple sources/streams. This includes normal videos as well as live streams. All supported sources/streams are listed below, if you would like to have a source added you can [contact us](https://discordapp.com/invite/V73eTwK) and request it.
 

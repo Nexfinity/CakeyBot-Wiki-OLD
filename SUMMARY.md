@@ -4,10 +4,11 @@
 
 ## Setup
 
-* [Setup](setup/setup.md)
+* [Getting Started](setup/setup.md)
+* [Web Dashboard](setup/web-dashboard.md)
+* [Command List](https://cakeybot.app/commands.html)
 * [FAQ](https://cakeybot.app/faq.html)
 * [Troubleshooting](setup/troubleshooting.md)
-* [Placeholders/Variables](setup/placeholders-variables.md)
 * [Localization (Multi-Language)](setup/localization.md)
 
 ## Changelists
@@ -18,22 +19,13 @@
 * [Changelist - 2020](changelists/changelist-2020.md)
 * [Changelist - 2019](changelists/changelist-2019.md)
 
-## Core
-
-* [Command Info](core/commands.md)
-* [Command List](https://cakeybot.app/commands.html)
-
-## Web Dashboard
-
-* [Overview](web-dashboard/web-dashboard.md)
-* [Setup/Login](web-dashboard/web-setup.md)
-
 ## Music
 
 * [Basic Usage](music/music-basics.md)
-* [Playlists](music/playlists.md)
-* [Filters & Presets](music/filters-and-presets.md)
-* [Supported Sources](music/supported-sources.md)
+* [Custom Playlists](music/playlists.md)
+* [Filters, Equalizer & Presets](music/filters-and-presets.md)
+* [Queue Sorting/Cleanup](music/queue-sorting-cleanup.md)
+* [Supported Music Sources](music/supported-sources.md)
 * [Song Request Channel](music/song-request-channel.md)
 * [Special Permissions/Conditions](music/special-permissions.md)
 
@@ -57,4 +49,5 @@
 
 ## Other/Misc
 
+* [Placeholders/Variables](other-misc/placeholders-variables.md)
 * [Math Command](other-misc/math-command.md)
