@@ -1,15 +1,14 @@
 # Table of contents
 
-* [Cakey Bot](README.md)
+* [Getting Started](README.md)
 
-## Setup
+## Core
 
-* [Getting Started](setup/setup.md)
-* [Web Dashboard](setup/web-dashboard.md)
+* [Web Dashboard](core/web-dashboard.md)
 * [Command List](https://cakeybot.app/commands.html)
 * [FAQ](https://cakeybot.app/faq.html)
-* [Troubleshooting](setup/troubleshooting.md)
-* [Localization (Multi-Language)](setup/localization.md)
+* [Troubleshooting](core/troubleshooting.md)
+* [Localization (Multi-Language)](core/localization.md)
 
 ## Changelists
 
