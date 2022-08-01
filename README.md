@@ -56,7 +56,7 @@ It is not recommended to freely give out Administrator permission. It would just
 
 ### Slash Commands
 
-Cakey Bot makes use of Discord's slash command system. Slash commands will prompt you for arguments/parameters if they are required and some will send "ephemerally", meaning that the results are only shown to you. This means that you can use some slash commands without spamming the chat for everyone else!
+Cakey Bot makes use of Discord's slash command system. Slash commands will prompt you for arguments/parameters if they are required and some will send "ephemerally", meaning that the results are only shown to you. This means that you can use some slash commands without spamming the chat for everyone else! You can find a full list of our available commands on our [website here](https://cakeybot.app/commands.html).
 
 ### Custom Commands
 
@@ -68,7 +68,7 @@ You can set custom commands alongside Cakey Bot's default commands. For more inf
 You will need **`Manage Server`** or **`Administrator`** permission to customize Cakey Bot in your server.
 {% endhint %}
 
-After you invite Cakey Bot, most commands/features will work right out of the box (assuming it has the correct permissions). However, there are some more advanced features that you can enable. Some of these features include but are not limited to: multiple languages, custom prefix, custom commands, audit logging, etc.
+After you invite Cakey Bot, most commands/features will work right out of the box (assuming it has the correct permissions). However, there are some more advanced features that you can enable. Some of these features include but are not limited to: multiple languages, auto moderation, custom commands, audit logging, etc.
 
 You can access the web dashboard [here](https://cakeybot.app/dashboard/public). All of Cakey Bot's most advanced features can be configured through the web dashboard.
 
