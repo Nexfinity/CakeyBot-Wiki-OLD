@@ -2,6 +2,10 @@
 
 ## Aug 4th - Roleplay QOL
 
+#### Fixed
+
+* Fixed an issue where `/queue` & `/warnings` would say "failed to respond" but actually sent a response
+
 #### Changed
 
 * `/rp` commands will now mention the user rather than showing a plain username
