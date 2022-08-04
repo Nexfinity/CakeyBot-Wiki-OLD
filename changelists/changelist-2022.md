@@ -1,5 +1,11 @@
 # Changelist - 2022
 
+## Aug 4th - Roleplay QOL
+
+#### Changed
+
+* `/rp` commands will now mention the user rather than showing a plain username
+
 ## July 29th - Bug Fixes + New Command
 
 #### Fixed
@@ -8,6 +14,7 @@
 * Fixed some false positives with the new phone number auto mod check.
 * Fixed an issue where warning audit logs would be missing the hashtag between usernames/discriminators.
 * Fixed an issue where some slash commands would be shown only to the original user and not to the entire chat
+* Slash commands/interactions will now properly display in your selected language like old text commands did (if you have a non-english language set on the web dashboard for your server)
 
 #### Changed
 
