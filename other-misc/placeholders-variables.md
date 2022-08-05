@@ -137,7 +137,7 @@ These require Cakey Bot to have "Manage Message" permissions. `{confirmdelete}` 
 
 Examples:
 
-```
+```asciidoc
 {require:&237273200055156736}    //Specific role ID
 
 {require:#225182513465786369}    //Specific channel ID
@@ -153,7 +153,7 @@ Examples:
 
 Examples:
 
-```
+```asciidoc
 {not:&237273200055156736}    //Specific role ID
 
 {not:#225182513465786369}    //Specific channel ID
@@ -180,7 +180,7 @@ Cakey Bot can sometimes fail to send a DM if the user has their privacy settings
 
 Examples:
 
-```
+```asciidoc
 {dm:@225182513465786369}    //Specific user ID
 ```
 
@@ -192,7 +192,7 @@ Spamming commands that use this variable will lead to your server being blacklis
 
 Don't want to have the bot respond every...single...time? Well with the response chance placeholder, you can set a percentage between 0% and 100% for the bot to respond or not respond to the trigger. This works on both Auto Responders and Custom Commands. Also, only the first chance placeholder will be taken into account, any extras will be ignored. You can see some examples below:
 
-```
+```asciidoc
 {chance:0}   //0% chance to respond
 {chance:35}  //35% chance to respond
 {chance:100} //100% chance to respond
@@ -206,7 +206,7 @@ _(Note: You don't need `{chance:100}` to make the bot respond all the time, simp
 
 Examples:
 
-```
+```asciidoc
 {linkbutton:(Cakey Bot)[https://cakeybot.app]}
 {linkbutton:(Open Link)[https://google.com]}
 {linkbutton:(Some Random Text)[https://youtube.com]}
@@ -224,7 +224,7 @@ Due to rate limit concerns, this is a [**Premium Only**](https://cakeybot.app/pr
 
 You can also add reactions to responses (up to 3). To add a reaction simply include a reaction placeholder anywhere in the response string. You will need to get Discord's unique ID for the reaction you plan to use. You can do this by typing the emoji in Discord and placing a backslash in front of it. Some placeholder examples are shown here:
 
-```
+```asciidoc
 {react:<a:200IQ:730769872698736692>} //Animated/Gif Emote
 {react:<:r6s:847490914749382719>}    //Custom Server Emote
 {react:😄}                           //Normal Unicode Emote
@@ -251,6 +251,10 @@ My favorite fruit is {choice1} and my favorite animal is {choice2}!
 
 ### Arguments/$N Variable (Custom Commands Only)
 
+{% hint style="warning" %}
+**Note:** Command arguments ($N variable) can only be used with custom commands. This placeholder will **not** work with auto responders.
+{% endhint %}
+
 `$N` - Returns a command argument.
 
 **Examples:**
@@ -266,7 +270,7 @@ $2 represents the second argument (a), and so on.\
 $3+ represents all the arguments after the first one in the command call (big fish) since Joe is the first argument.
 
 {% hint style="info" %}
-Remember, do not include this variable in the initial command. Place $1 $2 and so on in the command response.
+**Remember:** Do **not** include this variable in the initial command/trigger. Place $1 $2 and so on **only** in the _response_ field.&#x20;
 {% endhint %}
 
 ![The diagram above is a visual representation of how argument variables work in custom commands.](../.gitbook/assets/cc\_args.png)
