@@ -22,7 +22,7 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 
 ## Usage
 
-Once you have enabled and configured support tickets via the web dashboard your users can start making tickets using the `/ticket new <description>` command.
+Once you have enabled and configured support tickets via the web dashboard your users can start making tickets using the `/ticket create <description>` command.
 
 {% hint style="info" %}
 **Note:** The issue description is optional and a default reason will be filled in if a user does not provide one.
@@ -39,3 +39,7 @@ Once a user has closed a ticket, Cakey Bot will send an embed with three differe
   * This option does NOT automatically save a transcript.
 
 ![](../.gitbook/assets/!SS2.JPG)
+
+## Ticket Creation Embed
+
+You can also create a fancy embed with a button that suers can click to automatically open up tickets instead of using the slash commands as well. You can create this embed using the `/setup createticketembed` command.
