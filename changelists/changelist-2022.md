@@ -1,5 +1,26 @@
 # Changelist - 2022
 
+## Aug 11th - Auto Mod Bug Fix
+
+#### Fixed
+
+* Auto Mod now actually triggers on the minimum value rather than Minimum + 1
+
+## Aug 10th - Max Volume Increase
+
+#### Changed
+
+* Increased max `/volume` for music (100 => 200)
+
+## Aug 5th - QOL Improvements
+
+#### Changed
+
+* The `/tag <tag>` command now makes use of Discord auto-complete system
+* The `/tags edit <tag>` & `/tags delete <tag>` commands now make use of Discord auto-complete system
+* Moved `/ticket createembed` command to `/setup createticketembed` (Added docs for this as well)
+* Changed `/ticket createticket <opt:desc>` command to `/ticket new <opt:desc>`
+
 ## Aug 4th - Roleplay QOL
 
 #### Fixed
