@@ -20,39 +20,42 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
   * Shows Server Join Date
   * Lists every role the user had
 * Message Deleted
-  * Includes "Perma-Link" for images
+  * Includes any attached images from the deleted message
+  * Includes logs of deleted system messages including when users delete their own join message
+  * Displays if the deleted message was a reply to another message and includes the content from that original emssage
   * Shows message author & message content
 * Message Modified
   * Includes "Jump-To" button
   * Shows before/after message content
 * Bulk Message Deletes
   * Bots are able to bulk delete messages, causing this event to trigger instead of the normal "Message Deleted" event
-* User Updated \(Nickname changed\)
+  * Unlike most bots, Cakey Bot will include a transcript of all of the bulk deleted messages.
+* User Updated (Nickname changed)
   * Shows before/after nickname
-* User Updated \(Roles changed\)
+* User Updated (Roles changed)
   * Shows role name + if it was added/removed
-* User Updated \(Voice channels\)
+* User Updated (Voice channels)
   * Shows when a User Joined/Left/Swapped voice channels
 * User Banned/Unbanned
 * User Kicked
-* Server Updated \(Nitro Boost\)
+* Server Updated (Nitro Boost)
   * Shows before/after boost count
   * Shows Current Tier level
 * Role Created/Deleted
 * Role Updated
   * Shows before/after permissions
   * Shows before/after name
-  * Shows before/after properties \(hoisted, mentionable, color, etc\)
+  * Shows before/after properties (hoisted, mentionable, color, etc)
 * Channel Created/Deleted
 * Channel Updated
   * Shows before/after permissions
   * Shows before/after name
-  * Shows before/after properties \(slow mode, topic, isNSFW, category, etc\)
+  * Shows before/after properties (slow mode, topic, isNSFW, category, etc)
 * Invite Created/Deleted
 * Thread Created/Deletion
 * Thread Updated
   * Shows before/after name
-  * Shows before/after properties \(slow mode, auto-archive time, isLocked, isArchived, etc\)
+  * Shows before/after properties (slow mode, auto-archive time, isLocked, isArchived, etc)
 * Stage Started/Ended
 * Stage Updated
   * Shows before/after name
@@ -62,7 +65,7 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
 ## Special Events
 
 * Server Boost
-  * When a member boosts your server, Cakey Bot will log the old and new boost value as well as the current boost tier. 
+  * When a member boosts your server, Cakey Bot will log the old and new boost value as well as the current boost tier.
   * This event is also fired when a boost is removed from the server.
 * Warnings
   * When a moderator uses the `/warn` command it will log the usage to the audit log
@@ -75,7 +78,7 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
 * Message Deletion
   * Cakey Bot only caches the last 100 messages per channel. If a message is deleted past that, Cakey Bot will not be able to show the content of that message.
   * Cakey Bot will not log who deleted the message.
-  * Cakey Bot will provide a separate URL if the message contains an image. \(If it's possible to do so\)
+  * Cakey Bot will provide a separate URL if the message contains an image. (If it's possible to do so)
   * Cakey Bot will not show the content of deleted embed messages.
 * Member Join
   * Cakey Bot will display the date that the user created their account.
@@ -83,4 +86,3 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
 * Member Left
   * Cakey Bot will display a list of any roles that use had when they left.
   * Cakey Bot will display the date of when the user joined the server.
-
