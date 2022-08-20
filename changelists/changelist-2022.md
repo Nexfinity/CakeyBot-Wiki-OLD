@@ -6,7 +6,7 @@
 
 * Bulk Message deletions will now save a transcript of the bulk deleted messages
 * Deleted messages that contain an image now use a more reliable method for storing the image in the log
-* Updated `/purge between` to specific that the message ID order does matter.
+* Updated `/purge between` so that the message ID order does not matter anymore.
 
 ## Aug 11th - Auto Mod Bug Fix
 
