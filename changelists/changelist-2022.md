@@ -1,5 +1,13 @@
 # Changelist - 2022
 
+## Aug 19th - Audit Log Improvements
+
+#### Changed
+
+* Bulk Message deletions will now save a transcript of the bulk deleted messages
+* Deleted messages that contain an image now use a more reliable method for storing the image in the log
+* Updated `/purge between` to specific that the message ID order does matter.
+
 ## Aug 11th - Auto Mod Bug Fix
 
 #### Fixed
