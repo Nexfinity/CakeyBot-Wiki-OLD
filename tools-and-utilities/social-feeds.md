@@ -25,7 +25,7 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 
 {% tab title="Youtube" %}
 {% hint style="warning" %}
-**Notice:** Due to how slowly YouTube's video RSS feeds update. Upload notifications can be delayed UP TO 30 minutes after the actual upload date. &#x20;
+**Notice:** Due to how slowly YouTube's video RSS feeds update, upload notifications can be delayed _UP TO_ 30 minutes after the actual upload time. &#x20;
 {% endhint %}
 
 <figure><img src="https://cdn.discordapp.com/attachments/690401612254019625/1011368267522265240/unknown.png?size=4096" alt=""><figcaption></figcaption></figure>
