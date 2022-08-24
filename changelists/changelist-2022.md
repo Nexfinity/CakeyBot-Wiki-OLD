@@ -1,5 +1,12 @@
 # Changelist - 2022
 
+## Aug 23th - YouTube Social Feed
+
+#### Added
+
+* Added new YouTube social feed notifications for new video uploads!
+  * Note: Due to limitations with how infrequently YouTube's RSS feed updates, it can take UP TO 30 minutes after the video upload for Cakey Bot to "notice" the video and send the alert in Discord.
+
 ## Aug 19th - Audit Log Improvements
 
 #### Changed
