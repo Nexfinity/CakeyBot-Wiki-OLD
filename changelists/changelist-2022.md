@@ -1,5 +1,21 @@
 # Changelist - 2022
 
+## Aug 24th - Song Request Channel V2
+
+#### Fixed
+
+* Fixed song only playing for X amount of seconds before randomly disconnecting
+* Fixed queue embed not showing the currently queued songs correctly/not updating
+* Fixed messages sent by Cakey Bot in the song request channel not being deleted properly (including join related messages)
+* Fixed songs not auto-skipping to the next one in the queue on song end if enqueued via song request channel
+* Fixed a bug that allowed users to control the song request channel via reactions/buttons if they were not in the same voice channel with the bot
+
+#### Changed
+
+* Upgraded song request channels to buttons (instead of reactions)
+  * When clicking an existing reaction or clearing all reactions on the music embed, it'll auto migrate
+  * When using the `/setup songrequest` command, it'll create using the new buttons
+
 ## Aug 23th - YouTube Social Feed
 
 #### Added
