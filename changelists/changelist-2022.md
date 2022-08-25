@@ -1,5 +1,13 @@
 # Changelist - 2022
 
+## Aug 25th - New Audit Events
+
+#### Added
+
+* Added new "User Kicked" audit log event
+* "User Banned" and "User Kicked" audit log events will now show which moderator kicked/banned the user as well as the reason.
+  * This requires Cakey Bot to have access to Discord's Audit Logs otherwise it'll just show that the user was banned/kicked without additional info
+
 ## Aug 24th - Song Request Channel V2
 
 #### Fixed

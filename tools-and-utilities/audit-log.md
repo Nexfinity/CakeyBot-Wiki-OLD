@@ -37,7 +37,9 @@ Cakey Bot will need access to Send/Read messages in the channel you designate as
 * User Updated (Voice channels)
   * Shows when a User Joined/Left/Swapped voice channels
 * User Banned/Unbanned
+  * Shows the moderator & reason
 * User Kicked
+  * Shows the moderator & reason
 * Server Updated (Nitro Boost)
   * Shows before/after boost count
   * Shows Current Tier level
