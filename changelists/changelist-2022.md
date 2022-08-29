@@ -1,5 +1,19 @@
 # Changelist - 2022
 
+## Aug 28th - Now Playing Controls
+
+#### Added
+
+* Added button controls to `/nowplaying`!
+  * Rewind (-10s) => Play/pause
+  * Fast forward (+10s)
+  * Volume down (-10)
+  * Toggle mute
+  * Volume up (+10)
+  * Loop song
+  * Stop & clear queue
+  * Skip song
+
 ## Aug 25th - New Audit Events
 
 #### Added
