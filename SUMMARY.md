@@ -21,7 +21,7 @@
 ## Music
 
 * [Basic Usage](music/music-basics.md)
-* [Custom Playlists](music/playlists.md)
+* [Music Playlists](music/playlists.md)
 * [Filters, Equalizer & Presets](music/filters-and-presets.md)
 * [Queue Sorting/Cleanup](music/queue-sorting-cleanup.md)
 * [Supported Music Sources](music/supported-sources.md)
