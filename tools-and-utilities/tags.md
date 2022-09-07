@@ -4,16 +4,24 @@
 
 This feature allows you to set up a variety of "tags" that users can list and use to output pre-determined strings of text. This is useful for creating public FAQ responses without making a bunch of [Custom Commands](custom-commands.md). Also, you can configure tags to be modified by different permission levels, unlike Custom Commands which can only be modified by server admins. The different permission tiers are listed below:
 
-* Anyone - Anyone can add, delete and modify any tag.
-* Tag Owner - Anyone can add tags, but they can only delete or modify tags that they created. (Server admins can always modify/delete ALL tags)
-* Server Mods - Anyone considered a "Server Mod" can create, delete and modify any tag.
-* Server Admins - Anyone with the "Administrator" permission node can create, delete and modify every tag.
+* Manage Own: Admins - Manage All: Admins
+  * Only administrators can manage tags. _(Default behavior)_
+* Manage Own: Mods - Manage All: Admins
+  * Moderators can manage their own tags, administrators can manage all tags
+* Manage Own: Mods - Manage All: Mods
+  * Moderators can manage every tag, regardless of who created it.
+* Manage Own: Users - Manage All: Admins
+  * Users can manage their own tags, administrators can manage all tags
+* Manage Own: Users - Manage All: Mods
+  * Users can manage their own tags, moderators can manage all tags
+* Manage Own: Users - Manage All: Users
+  * Any user can manage every tag, regardless of who created it.
 
 {% hint style="info" %}
 **Note:** These permissions only affect creating, deleting, and modifying tags. ALL users will be able to USE every tag regardless of who created the tag.
 {% endhint %}
 
-## Setup/Manage Tags (Web Dashboard)
+## Create/Manage Tags (Web Dashboard)
 
 1. Login to our [web dashboard](https://cakeybot.app/dashboard/).
 2. Go to "Tags" [here](https://cakeybot.app/dashboard/public/tags).
@@ -23,7 +31,7 @@ This feature allows you to set up a variety of "tags" that users can list and us
 
 Once you have created tags, you can also modify them here.
 
-## Manage Tags (Bot)
+## Create/Manage Tags (Bot/In-Discord)
 
 You can manage and list tags using the following commands:
 
