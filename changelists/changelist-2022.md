@@ -1,5 +1,73 @@
 # Changelist - 2022
 
+## Sept 11th - Play File Support for Music
+
+#### Fixed
+
+* Pushed a fix where `/purge` wouldn't show a success message if audit log wasn't configured
+
+#### Changed
+
+* Merged `/gif <query>` into the `/search gif <query>` command to make room for the new `/playfile` command.
+
+#### Added
+
+* Added new `/playfile <file>` command so you can listen to tracks you have downloaded on your PC/phone!
+
+## Sept 9th - Premium Music Updates
+
+#### Fixed
+
+* Fixed Premium Music Bots not working
+
+#### Changed
+
+* Synced missing features to the music bots:
+  * Duration included in "added to queue" message
+  * Added the new `/sortqueue` commands
+  * Added the player action history on `/nowplaying` command
+  * Added the player control buttons on `/nowplaying` command
+
+## Sept 6th - Tags V2
+
+#### Changed
+
+* `/tags create <tag>` now checks if a tag exists before creating it.
+
+#### Added
+
+*   Tag creation and management uses a new tiered permission system!
+
+    * Manage Own: Admins - Manage All: Admins
+    * Manage Own: Mods - Manage All: Admins
+    * Manage Own: Mods - Manage All: Mods
+    * Manage Own: Users - Manage All: Admins
+    * Manage Own: Users - Manage All: Mods
+    * Manage Own: Users - Manage All: Users
+
+    The permissions default to `Manage Own: Admins - Manage All: Admins` so that only admins can create/manage tags by default meaning you'll have to manually enable tag creation for users if you want to use tags in your server.
+
+## Sept 6th - Music Player Action History
+
+#### Changed
+
+* Moved `/dehoist` command to `/dehoist all`
+
+#### Added
+
+* Added new "Player History" to the `/nowplaying` command!
+  * This will show the last 5 events applied to the current music player and who made the actions.
+* Added new `/dehoist single <user>` sub-command
+* Added new `/dehoist role <role>` sub-command
+
+## Sept 4th - Shipping QOL
+
+#### Changed
+
+* `/weather` command now has a country flag icon for the country
+* `/ship` now has a compatibility percentage calculated
+* `/ship` no longer allows you to ship yourself with yourself
+
 ## Aug 28th - Now Playing Controls
 
 #### Added
