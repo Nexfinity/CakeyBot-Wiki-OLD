@@ -5,9 +5,11 @@
 #### Fixed
 
 * Fixed a typo in the `/purge` command
+* Re-added BassBoost preset to `/filterpreset`
 
 #### Added
 
+* Added music queue looping!
 * Added support for Spotify albums
 * Added support for YouTube Music playlists
 * Added additional music artwork fallback images
