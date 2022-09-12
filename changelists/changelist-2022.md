@@ -1,5 +1,17 @@
 # Changelist - 2022
 
+## Sept 12th - Improve Music Sources
+
+#### Fixed
+
+* Fixed a typo in the `/purge` command
+
+#### Added
+
+* Added support for Spotify albums
+* Added support for YouTube Music playlists
+* Added additional music artwork fallback images
+
 ## Sept 11th - Play File Support for Music
 
 #### Fixed
