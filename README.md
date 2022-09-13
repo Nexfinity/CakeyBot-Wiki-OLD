@@ -8,6 +8,10 @@ This is just the documentation for Cakey Bot. You do NOT configure the bot from 
 If you got to this page by inviting Cakey Bot, please review the REQUIRED permissions for Cakey Bot to work in your server. You can check these out below.
 {% endhint %}
 
+## Getting Started Video
+
+{% embed url="https://youtu.be/hC7pP4wKDIo" %}
+
 ## Need help? Have new ideas?
 
 #### Troubleshooting
