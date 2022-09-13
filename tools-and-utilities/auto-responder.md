@@ -70,7 +70,7 @@ To use images in responses, you can simply just type the image URL/link like you
 ## Custom Embeds
 
 {% hint style="info" %}
-Using custom embeds on responses is a [**Premium Only**](https://cakeybot.app/premium.html) feature.
+Using custom embeds on responses is a [**Premium Only**](https://cakeybot.app/premium.php) feature.
 {% endhint %}
 
 You can include an optional embed on responses by following the steps below:

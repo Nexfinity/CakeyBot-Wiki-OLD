@@ -33,7 +33,7 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 
 {% tab title="Reddit" %}
 {% hint style="warning" %}
-Reddit feeds currently require a premium subscription to use due to rate limit concerns.
+Reddit feeds currently require a [premium subscription](https://cakeybot.app/premium.php) to use due to rate limit concerns.
 {% endhint %}
 
 ![](../.gitbook/assets/SS5.JPG)

@@ -1,7 +1,7 @@
 # Music Playlists
 
 {% hint style="warning" %}
-Playlists must have 50 songs or less to be added to the queue and can not exceed the max queue size of 50 songs. (Premium users are excluded from this limit)
+Playlists must have 50 songs or less to be added to the queue and can not exceed the max queue size of 50 songs. ([Premium](https://cakeybot.app/premium.php) users are excluded from this limit)
 {% endhint %}
 
 ## Load Playlists

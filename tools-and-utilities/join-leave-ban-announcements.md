@@ -22,7 +22,7 @@ Cakey Bot will need access to Send/Read messages in the channel you designate fo
 
 ## Image/Banner Announcements
 
-You can also use a fancy banner picture for your join/leave messages too! In order to set an image banner as your join/leave message just type "banner" instead of a message. You can also choose a custom banner image to use if you have a premium subscription.
+You can also use a fancy banner picture for your join/leave messages too! In order to set an image banner as your join/leave message just type "banner" instead of a message. You can also choose a custom banner image to use if you have a [premium subscription](https://cakeybot.app/premium.php).
 
 {% hint style="danger" %}
 Currently, you can not set a banner for ban messages.

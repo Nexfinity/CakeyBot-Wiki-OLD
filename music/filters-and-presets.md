@@ -1,4 +1,4 @@
-# Filters & Presets
+# Filters, Equalizer & Presets
 
 ## Equalizer (+ EQ Presets)
 
@@ -58,10 +58,11 @@ All filters have a minimum value of **0.01** and a maximum value of **5.**
 ## Music Filters
 
 {% hint style="warning" %}
-All preset music filters require a premium subscription to use due to increased CPU usage requirements.
+All preset music filters require a [premium subscription](https://cakeybot.app/premium.php) to use due to increased CPU usage requirements.
 {% endhint %}
 
 * **Nightcore** is a special effect that speeds up the music while applying a slightly higher pitch to it. You can toggle this preset with the `/filterpreset nightcore` command.
 * **Vaporwave** is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `/filterpreset vaporwave` command.
 * **8D Audio** is a special effect that 'rotates' the music to provide a more interesting listening experience. You can toggle this preset with the `/filterpreset 8d` command.
 * **Reverb** is a special effect that makes use of echo to create a more dynamic sound space for a song. You can toggle this preset with the `/filterpreset reverb` command.
+* **Bass Boost** is a special effect that boosts the overall bass for the song. You can toggle this preset with the `/filterpreset bassboost` command.

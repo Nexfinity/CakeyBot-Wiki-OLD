@@ -168,7 +168,7 @@ Examples:
 ### **DM**
 
 {% hint style="info" %}
-In order to decrease the chances to abuse this placeholder, it is a [**Premium Only**](https://cakeybot.app/premium.html) placeholder.
+In order to decrease the chances to abuse this placeholder, it is a [**Premium Only**](https://cakeybot.app/premium.php) placeholder.
 {% endhint %}
 
 {% hint style="warning" %}
