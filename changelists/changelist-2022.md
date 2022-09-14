@@ -1,16 +1,5 @@
 # Changelist - 2022
 
-## Sept 14th - AFK V2
-
-#### Changed
-
-* Command prefix setting has been moved from `Bot Settings/Core` to the `Custom Commands` page since it only affects custom commands now.
-
-#### Added
-
-* Added a toggle to prefix user's nicknames with `[AFK]` when they are AFK
-* Added a toggle to remove a user's AFK message/status when they send a message or join a VC
-
 ## Sept 12th - Improve Music Sources
 
 #### Fixed
