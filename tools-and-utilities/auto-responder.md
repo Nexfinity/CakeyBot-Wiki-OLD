@@ -2,7 +2,7 @@
 
 ## Overview
 
-This feature allows you to set up custom responses that Cakey Bot can handle. For example, you can make Cakey Bot respond to messages such as `wot` with a link to a funny gif. You can also set some flags to determine what types of messages Cakey Bot will respond to.
+This feature allows you to set up custom trigegrs that Cakey Bot can automatically respond to. For example, you can make Cakey Bot respond to messages such as `wot` with a link to a funny gif. You can also set some flags to determine what types of messages Cakey Bot will respond to.
 
 ## Setup
 
