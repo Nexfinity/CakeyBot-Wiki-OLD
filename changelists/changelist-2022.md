@@ -1,5 +1,11 @@
 # Changelist - 2022
 
+## Sept 15th - Social Feed Embed Colors
+
+#### Added
+
+* Added the ability to set custom embed colors on all social feeds!
+
 ## Sept 14th - AFK V2 + Premium Chat Bot
 
 #### Changed
