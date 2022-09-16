@@ -33,23 +33,23 @@ Filters require a [premium subscription](https://cakeybot.app/premium.php) to us
 You can also set custom filters on your music using the `/filter <name> <options>` command. If you'd like to revert these changes you can also type `/filter <name> reset`. If you run the `/nowplaying` command, it will show all of your currently applied filters as well. Our possible filters include:
 
 * Distortion
-  * Sin Offset - Default: 1
+  * Sin Offset - Default: 0
   * Sin Scale - Default: 1
-  * Cos Offset - Default: 1
+  * Cos Offset - Default: 0
   * Cos Scale - Default: 1
-  * Tan Offset - Default: 1
+  * Tan Offset - Default: 0
   * Tan Scale - Default: 1
-  * Offset - Default: 1
+  * Offset - Default: 0
   * Scale - Default: 1
 * Karaoke
   * Level - Default: 1
   * Mono Level - Default: 1
-  * Filter Band - Default: 200
+  * Filter Band - Default: 220
   * Filter Width - Default: 100
 * Lowpass
   * Smoothing - Default: 20
 * Rotation
-  * Frequency - Default: 1
+  * Frequency - Default: 0
 * Timescale
   * Speed - Default: 1
   * Pitch - Default: 1
