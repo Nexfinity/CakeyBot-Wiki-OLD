@@ -1,5 +1,11 @@
 # Changelist - 2022
 
+## Sept 16th - Verify Command Bug Fix
+
+#### Fixed
+
+* Fixed an issue where `/verify` would fail to respond to the command even on success
+
 ## Sept 15th - Feed Embed Colors & New EQ Presets
 
 #### Fixed
