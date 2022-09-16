@@ -1,23 +1,33 @@
 # Filters, Equalizer & Presets
 
-## Equalizer (+ EQ Presets)
+## Custom Equalizer
 
 You can set custom equalizer bands using the `/equalizer <band> <value>` command. There are 15 bands (**0-14**) that can be changed. gain is the multiplier for the given band. The default value is **0**. Valid values range from **-0.25** to **1.0**, where **-0.25** means the given band is completely muted, and **0.25** means it is doubled.
+
+## Equalizer Presets
+
+{% hint style="warning" %}
+Equalizer presets require a [premium subscription](https://cakeybot.app/premium.php) to use.
+{% endhint %}
 
 You can also use our presets for those of you who just want a quick and easy solution by typing `/eqpreset <preset>`. Our presets include:
 
 * Lowpass
 * Highpass
 * Bandpass
-* Flat
+* None
 * Extrabass
 * Extratreble
 * Bassandtreble
+* Electronic
+* Soft
+* Pop
+* Ear Rape
 
-## Customizable Music Filters
+## Custom Filters
 
 {% hint style="warning" %}
-Filters require a premium subscription to use due to increased CPU usage requirements.
+Filters require a [premium subscription](https://cakeybot.app/premium.php) to use due to increased CPU usage requirements.
 {% endhint %}
 
 You can also set custom filters on your music using the `/filter <name> <options>` command. If you'd like to revert these changes you can also type `/filter <name> reset`. If you run the `/nowplaying` command, it will show all of your currently applied filters as well. Our possible filters include:
@@ -52,10 +62,10 @@ You can also set custom filters on your music using the `/filter <name> <options
   * Depth - Default: 0.5
 
 {% hint style="info" %}
-All filters have a minimum value of **0.01** and a maximum value of **5.**
+All filters will show minimum and maximum values in the command descriptions.
 {% endhint %}
 
-## Music Filters
+## Filter Presets
 
 {% hint style="warning" %}
 All preset music filters require a [premium subscription](https://cakeybot.app/premium.php) to use due to increased CPU usage requirements.
