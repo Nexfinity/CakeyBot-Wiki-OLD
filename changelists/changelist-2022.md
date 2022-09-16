@@ -1,10 +1,28 @@
 # Changelist - 2022
 
-## Sept 15th - Social Feed Embed Colors
+## Sept 15th - Feed Embed Colors & New EQ Presets
+
+#### Fixed
+
+* Fixed not being able to set band #0 on equalizer
+* Fixed equalizer success messages showing `#Zero`, `#One` for bands instead of `#0`, `#1`
+* Fixed "Est. time until play" showing the incorrect time when adding tracks to the queue
+* Fixed an issue where the `/filterpreset` command could be used by non-premium servers
+* Fixed an issue where the `/eqpreset` command could be used by non-premium servers
+
+#### Changed
+
+* Descriptions for filters will now show the default value
+* `/equalizer` now shows default values if no bands have been set instead of an error message
 
 #### Added
 
 * Added the ability to set custom embed colors on all social feeds!
+* Added new presets to the `/eqpreset` command
+  * Electronic
+  * Soft
+  * Pop
+  * Ear Rape
 
 ## Sept 14th - AFK V2 + Premium Chat Bot
 
