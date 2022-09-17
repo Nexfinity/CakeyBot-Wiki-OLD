@@ -1,10 +1,20 @@
 # Changelist - 2022
 
-## Sept 16th - Verify Command Bug Fix
+## Sept 16th - Verify Command Bug Fix + New Filter Presets
 
 #### Fixed
 
 * Fixed an issue where `/verify` would fail to respond to the command even on success
+* Fixed `/filter timescale` success message showing incorrect variable names
+
+#### Added
+
+* Added new filters to the `/filterpreset` command
+  * Chipmunk
+  * Darth Vader
+  * Slow Mo
+  * Speed
+  * Rate
 
 ## Sept 15th - Feed Embed Colors & New EQ Presets
 
