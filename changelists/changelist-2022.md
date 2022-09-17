@@ -14,7 +14,6 @@
   * Darth Vader
   * Slow Mo
   * Speed
-  * Rate
 
 ## Sept 15th - Feed Embed Colors & New EQ Presets
 
