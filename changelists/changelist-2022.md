@@ -1,5 +1,12 @@
 # Changelist - 2022
 
+## Spet 18th - Channel Mix Filter
+
+#### Added
+
+* Added new `/filterpreset vibrate`
+* Added new `/filter channelmix <LeftToLeft> <LeftToRight> <RightToLeft> <RightToRight>`
+
 ## Sept 16th - Verify Command Bug Fix + New Filter Presets
 
 #### Fixed
