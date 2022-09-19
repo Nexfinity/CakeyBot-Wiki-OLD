@@ -4,8 +4,8 @@
 
 #### Changed
 
-* Increase Spotify album track limit from 20 to infinite on `/play` command. (For premium servers)
-* Increase Spotify playlist track limit from 100 to infinite on `/play` command. (For premium servers)
+* Increased Spotify album track limit from 20 to infinite on `/play` command. (For premium servers)
+* Increased Spotify playlist track limit from 100 to infinite on `/play` command. (For premium servers)
 
 #### Added
 
