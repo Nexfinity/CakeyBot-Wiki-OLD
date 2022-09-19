@@ -1,5 +1,22 @@
 # Changelist - 2022
 
+## Sept 19th - Audit & music Improvements
+
+#### Changed
+
+* Increase Spotify album track limit from 20 to infinite on `/play` command. (For premium servers)
+* Increase Spotify playlist track limit from 100 to infinite on `/play` command. (For premium servers)
+
+#### Added
+
+* Added emoji changed to Role Modified audit log event.
+* Added icon changed to Role Modified audit log event.
+* Added channel overwrite changes to Channel Modified audit log event.
+
+#### Removed
+
+* Removed `/weather` command.
+
 ## Spet 18th - Channel Mix Filter
 
 #### Added
