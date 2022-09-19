@@ -9,6 +9,7 @@
 
 #### Added
 
+* Added sponsor block support to music (For premium servers)
 * Added emoji changed to Role Modified audit log event.
 * Added icon changed to Role Modified audit log event.
 * Added channel overwrite changes to Channel Modified audit log event.
