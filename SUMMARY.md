@@ -30,6 +30,7 @@
 
 ## Tool & Utilities <a href="#tools-and-utilities" id="tools-and-utilities"></a>
 
+* [AI Chatbot](tools-and-utilities/ai-chatbot.md)
 * [AFK Messages](tools-and-utilities/afk-messages.md)
 * [Audit Log](tools-and-utilities/audit-log.md)
 * [Auto Moderation](tools-and-utilities/auto-moderation.md)
