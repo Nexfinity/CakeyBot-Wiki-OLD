@@ -4,8 +4,10 @@
 Many commands in this module require higher-level permissions such as **`Manage Channels`**, **`Manage Messages`**, **`Manage Roles`**, **`Ban Members`** and **`Kick Members`**.
 {% endhint %}
 
-### Features
+## Features
 
+* Dehoisting Members
+  * Ability to manually or automatically dehoist users who use special characters in their usernames/nicknames to show at the top of the user list.
 * Kick Members
   * Ability to kick members with an optional warning.
 * Ban Members
@@ -26,17 +28,18 @@ Many commands in this module require higher-level permissions such as **`Manage 
 * Silent Actions
   * You can mute, kick, ban and warn users silently using "-s" or "-silent" anywhere in the reason section of the command.
 * User Reports
-  * You can set a channel on the Web Dashboard where user reports are sent. Normal users can make reports with the `/report <text> `command.
+  * You can set a channel on the Web Dashboard where user reports are sent. Normal users can make reports with the `/report <text>` command.
+* Plus so much more!
 
-### Auto Moderation
+## Auto Moderation
 
 If you are wanting Cakey Bot to automatically handle moderation you can check out [this section](auto-moderation.md) for more information.
 
-### Warnings
+## Warnings
 
 You can warn users with a given reason using the `/warn <user> <reason>` . It will place a warning on their account which you can then view later with the `/warnings <username>`. Warnings will record the date the warning was received, the reason as well as the moderator who made the warning. Warnings will also automatically post to your [Audit Log](audit-log.md) if you have one set up for Cakey Bot. If you want to remove a specific warning from a user you can simply do `/unwarn <user> <warning ID>`.
 
-### Muting
+## Muting
 
 When you run the `/mute <user>` command, Cakey Bot will assign a mute role to that user preventing them from chatting/speaking in voice channels. Now, You might be asking "What role does Cakey Bot use for this?". This depends on a few factors:
 
@@ -48,19 +51,19 @@ When you run the `/mute <user>` command, Cakey Bot will assign a mute role to th
 Note: In order for Cakey Bot to mute a user several things must happen. Cakey Bot must have **`Manage Roles`** permission and Cakey Bot's highest role must be higher than the Mute role and the muted user's highest role.
 {% endhint %}
 
-### Temporary Mutes
+## Temporary Mutes
 
 You can also mute people temporarily. It works exactly like normal muting above and requires the same setup/permissions but it will automatically remove the mute after the specified time. You can temporarily mute someone by using the `/tempmute <user> <time> <opt:reason>`command.
 
-### Silent Actions
+## Silent Actions
 
 When you run most moderation commands on a user, they send a DM/Notification to the user via private messages. There are some instances where you may not want this capability. You can cancel sending a DM notification by adding `-s` or `-silent` anywhere in the "reason" section of the command.
 
 For example: `/warn TestSubject -s Spamming the chat` will add a warning to the user but will not send a DM to them.
 
-### Advanced Purge Filters
+## Advanced Purge Filters
 
-You can purge any amount of messages (up to 100) by typing `/purge <amount>`. This will delete the specified number of messages as long as they are not older than 2 weeks and are not pinned. 
+You can purge any amount of messages (up to 100) by typing `/purge <amount>`. This will delete the specified number of messages as long as they are not older than 2 weeks and are not pinned.
 
 You can also filter what types of messages you want to delete by typing `/purge <type> <amount>`. You can view a list of advanced filters below:
 
@@ -85,4 +88,27 @@ Sometimes Cakey Bot will purge fewer messages than the number you specify. This 
 * There are not enough messages that meet the specified filter
 * Some messages may be older than 2 weeks within the specified amount
 * Some messages may be "pinned" within the specified amount
+{% endhint %}
+
+## Username Dehoisting
+
+Username dehoisting gives you the ability to manually or automatically dehoist users who use special characters in their usernames/nicknames to show at the top of the user list.
+
+### Manually Dehoist
+
+You can manually dehoist users by typing the `/dehoist` command in Discord. There are a few different types of dehoisting you can do:
+
+* All
+  * This will dehoist every user in the server. Note that this command may take several minutes to complete, especially in a large server.
+* Single \<user>
+  * This will just dehoist that specific user.
+* Role \<role>
+  * This will dehoist all users who have the specified role.
+
+### Automatically Dehoist
+
+You can setup automatic dehoisting by logging into our [web dashboard](https://cakeybot.app/dashboard/public) and going to the "Auto Mod" page. Once on the page, simply enable the "Auto Dehoist" feature and Cakey Bot will start automatically dehoisting users.
+
+{% hint style="info" %}
+Note: Auto Dehoist will only apply to new users in the server or suers who change their nickname AFTER the feature has been enabled. For existing users you will need to manually dehoist them. After existing users have been dehoisted, auto dehoist will take affect for new nickname changes.
 {% endhint %}

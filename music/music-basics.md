@@ -23,6 +23,14 @@ If you play a live stream, other songs in the queue will not be played until eit
 
 Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to function. You will also need to be in a voice channel to summon Cakey Bot to it. If Cakey Bot is currently being used by users in another channel you will not be able to summon it to your channel. Many commands in Cakey Bot excluding `/dc` require a song to be playing in order to be used. If a song is not playing an error message will be displayed. Some commands can not be used while a live stream is playing, to use these commands you will have to wait until the live stream ends or skip the live stream.
 
+### Sponsor Block
+
+{% hint style="warning" %}
+Sponsor block requires an active premium subscription to use.
+{% endhint %}
+
+Cakey Bot has the ability to automatically trim out sponsor and self-promotion segments on YouTube videos. You can enable this feature on the Music page of our [web dashboard](https://cakeybot.app/dashboard/public/) and it will automatically apply to any music queued on that server.
+
 ### Default Volume
 
 By default, Cakey Bot's volume will be set to 50 when playing music. You can change the volume using the `/volume <amount>` command but the volume will revert to 50 if the queue runs out of songs or the next time you use Cakey Bot. You can however change the default volume on our [web dashboard](https://cakeybot.app/dashboard/public/) from 50 to any number between 0 and 100.
@@ -30,6 +38,14 @@ By default, Cakey Bot's volume will be set to 50 when playing music. You can cha
 ### Multiple Music Bots
 
 Cakey Bot has additional bots that you can invite that are designed specifically for music playback! You can find the invites to these bots on our premium page [here](https://cakeybot.app/dashboard/public/premium). Note that you must have premium enabled on the server in order to invite these additional music bots.
+
+### 24/7 Music
+
+{% hint style="warning" %}
+24/7 music requires an active premium subscription to use due to increased CPU usage.
+{% endhint %}
+
+Cakey Bot has the ability to play music 24/7 and never leave a voice channel (except during bot restarts). You can enable this feature by toggling the "24/7 music" switch on the [Web Dashboard](https://cakeybot.app/dashboard/public) on the Music page.
 
 ### Supported Sources
 

@@ -1,8 +1,8 @@
-# Social Feeds
+# Social Feeds/RSS
 
 ## Overview
 
-Cakey Bot has the ability to send live updates and notifications to specific channels using web hooks. While Cakey Bot only supports a few official sources, you can suggest less-common feeds for us to look into adding though! You can set up these feeds via the "Social Feeds" page on the web dashboard.
+Cakey Bot has the ability to send live updates and notifications to specific channels using web hooks. While Cakey Bot only supports a few official sources, you can suggest less-common feeds for us to look into adding though! You can set up these feeds via the "Social Feeds" page on the [web dashboard](https://cakeybot.app/dashboard/public).
 
 ## Setup/Add Feeds
 
@@ -37,5 +37,11 @@ Reddit feeds currently require a [premium subscription](https://cakeybot.app/pre
 {% endhint %}
 
 ![](../.gitbook/assets/SS5.JPG)
+{% endtab %}
+
+{% tab title="Twitter" %}
+{% hint style="info" %}
+Twitter social feeds are planned but have been postponed due to complications when working with their API systems. There is no current ETA.
+{% endhint %}
 {% endtab %}
 {% endtabs %}
