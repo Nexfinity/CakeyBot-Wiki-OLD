@@ -96,3 +96,7 @@ You can configure advanced features like the ones listed below in the web dashbo
 * View Persistent and Temporary Roles
 
 and more!
+
+## White Label/Self-Hosting
+
+Cakey Bot is not open-sourced and as such can not be self-hosted. However, we are currently working on a white label system that will allow you to use Cakey Bot in your server with a custom profile picture, username, and bio text!
