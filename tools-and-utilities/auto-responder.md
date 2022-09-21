@@ -60,7 +60,7 @@ Auto Responder will work with BOTH **Basic Placeholders** & **Advanced Placehold
 Emoji/Emotes CAN be used in Custom Commands. However, it requires slightly more work due to how discord parses emotes. Normally in Discord, you could just type `:lel:` or `:smile:` to get an emote, however in Cakey Bot, neither of these will work. In order to get valid emojis you have to send the emojis in discord but place a backward slash in front of it to get the emote's full ID. Like so: `\:lel:` or `\:smile:` which will produce these results: `<:lel:408424717217693717>` or for Unicode emoji: `😄` . Once you have the full emoji id or the raw Unicode output, you can paste these into Cakey Bot's web dashboard and they should work as long as Cakey Bot is in a server that has that custom emote in it.
 
 {% hint style="info" %}
-It is worth noting that Cakey Bot can use emojis in between servers (similar to nitro users). So if you have an emoji in Server #1, you can use that emoji in a custom command in Server #2 if Cakey bot is in both of those servers.
+It is worth noting that Cakey Bot can use emojis in between servers (similar to nitro users). So if you have an emoji in Server #1, you can use that emoji in a response for Server #2 if Cakey bot is in both of those servers.
 {% endhint %}
 
 ## Using Images in Responses
@@ -69,7 +69,7 @@ To use images in responses, you can simply just type the image URL/link like you
 
 ## Custom Embeds
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Using custom embeds on responses is a [**Premium Only**](https://cakeybot.app/premium.php) feature.
 {% endhint %}
 
@@ -79,3 +79,7 @@ You can include an optional embed on responses by following the steps below:
 2. Use our [custom embed editor](https://cakeybot.app/dashboard/public/embed-editor) to design your embed.
 3. Copy your browser URL or click the "**Get Data Link**" button in the dropdown menu and copy the URL from there.
 4. Create an auto responder like you normally would and paste the URL you copied in the last step into the **Embed URL** text field.
+
+## Bulk Import/Export
+
+TBD
