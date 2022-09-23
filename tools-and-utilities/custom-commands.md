@@ -78,7 +78,7 @@ Base64 is a group of binary-to-text encoding schemes that represent binary data 
 
 ### How can I Base64 encode a string?
 
-If you using the tool linked above, all you have to do is paste your text in the top text input and it'll convert it into Base64 encoding and display it in the second text box. You can also convert Base64 back into text by using [this tool](https://www.base64decode.org/) OR by selecting "Decoding" at the top of the page and using the same process.
+If you are using the tool linked above, all you have to do is paste your text in the top text input and it'll convert it into Base64 encoding and display it in the second text box. You can also convert Base64 back into text by using [this tool](https://www.base64decode.org/) OR by selecting "Decoding" at the top of the page and using the same process.
 
 {% hint style="info" %}
 Note: The convert file process on this page converts the ENTIRE raw file itself and not just the contents of the file. This means you can NOT use the convert file process when converting for Cakey Bot.
