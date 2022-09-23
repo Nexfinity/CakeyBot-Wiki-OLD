@@ -150,5 +150,5 @@ The template CSV file and bulk exported CSVs will have a few different columns w
   * This is the response phrase for a trigger/command.
   * It must be Base64 encoded and be less than 2,000 characters before Base64 encoding.
 * Embed
-  * This is an optional field for responses that use a Cakey Bot custom embed. Embeds can only be used by Premium Servers regardless if a value is set here or not.
+  * This is an optional field for responses that use a Cakey Bot [custom embed](auto-responder.md#custom-embeds). Embeds can only be used by Premium Servers regardless if a value is set here or not.
   * The URL must start with [https://cakeybot.app/dashboard/public/embed-editor?data=](https://cakeybot.app/dashboard/public/embed-editor)
