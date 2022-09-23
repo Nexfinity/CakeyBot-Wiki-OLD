@@ -56,4 +56,76 @@ You can include an optional embed on responses by following the steps below:
 
 ## Bulk Import/Export
 
-TBD
+
+
+### Limitations/Guidelines
+
+*
+  * File **MUST** be in CSV format.
+  * File **MUST** be formatted with all of the required columns.
+  * Additional/extra columns will be ignored.
+  * `Command` & `Response` fields **MUST** be [Base64 encoded](https://www.base64encode.org/).
+  * Any fields that have too many characters will be trimmed. Column limits:
+    * **Command:** 200 characters (before base64 encoding)
+    * **Response:** 2,000 characters (before base64 encoding)
+  * Any fields that are not [Base64 encoded](https://www.base64encode.org/) or exceed the character will NOT work after importing.
+  * Bulk importing can **NOT** be canceled or reversed once started.
+  * Any broken commands will have to be individually deleted or fixed _after_ the import is finished.
+  * There is a limit of **500 commands** per bulk import.
+
+### What is Base64 encoding?
+
+Base64 is a group of binary-to-text encoding schemes that represent binary data in sequences of 24 bits that can be represented by four 6-bit Base64 digits. This sounds complicated, however, it's EXTREMELY easy to convert text to and from Base64 encoding. There are tons of online tools just like [this one](https://www.base64encode.org/) that automates the entire process just by you pasting your text in it.
+
+### How can I Base64 encode a string?
+
+If you using the tool linked above, all you have to do is paste your text in the top text input and it'll convert it into Base64 encoding and display it in the second text box. You can also convert Base64 back into text by using [this tool](https://www.base64decode.org/) OR by selecting "Decoding" at the top of the page and using the same process.
+
+{% hint style="info" %}
+Note: The convert file process on this page converts the ENTIRE raw file itself and not just the contents of the file. This means you can NOT use the convert file process when converting for Cakey Bot.
+{% endhint %}
+
+### How can I convert a ton of lines/rows of data?
+
+This is easy as well! Using the same Base64 encoding tool linked above you can simply paste all of your data (each row on a new line) and simply check the `"Encode each line separately (useful for when you have multiple entries)."` option. This will then convert each line individually rather than treating every single line as a single blob of text.
+
+{% hint style="warning" %}
+Note: If you are doing this for a ton of data, you can only process/paste one column of data at a time. If you try to copy multiple columns in the spreadsheet and paste all of them at once it'll merge the rows together as a single string.
+{% endhint %}
+
+### What do the columns/fields and their values mean?
+
+The template CSV file and bulk exported CSVs will have a few different columns with various restrictions. These are explained below:
+
+* Status
+  * This determines whether or not the command/response is "enabled" or "disabled"
+  * Acceptable values:
+    * 0 - Disabled
+    * 1 - Enabled
+* Command
+  * This is the command/trigger phrase for a response.
+  * It must be Base64 encoded and be less than 200 characters before Base64 encoding.
+* Triggers
+  * This is an internal value that determines whether or not a command is an Auto Responder or a Custom Command. The import script will ignore any value you put here and force set it internally.
+  * Acceptable values:
+    * 1 - Custom Commands
+    * 2 - Auto Responders
+* Flags
+  * These are only used for Auto Responders, they map directly to the Auto Responder flags.
+  * Acceptable values:
+    * 1 - Exact Match
+    * 2 - Contains
+    * 3 - Starts With
+    * 4 - Ends With
+    * 5 - Contains Files
+    * 6 - From Webhook
+    * 7 - Contains user mention
+    * 8 - Contains channel mention
+    * 9 - Contains role mention
+    * 10 - Wildcard Contains
+* Response
+  * This is the response phrase for a trigger/command.
+  * It must be Base64 encoded and be less than 2,000 characters before Base64 encoding.
+* Embed
+  * This is an optional field for responses that use a Cakey Bot custom embed. Embeds can only be used by Premium Servers regardless if a value is set here or not.
+  * The URL must start with [https://cakeybot.app/dashboard/public/embed-editor?data=](https://cakeybot.app/dashboard/public/embed-editor)
