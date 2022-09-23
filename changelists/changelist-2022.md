@@ -1,5 +1,22 @@
 # Changelist - 2022
 
+## Sept 22th - Music Title Blacklist
+
+#### Fixed
+
+* `/play` command errors now use a proper error embed rather than plain text
+
+#### Changed
+
+* Updated Auto Mod URL whitelist to be case-insensitive
+* Updated Auto Mod URL blacklist to be case-insensitive
+* Updated Auto Mod word blacklist to be case-insensitive
+* Song request channel will now auto fast forward to timestamp if included in YouTube URL (Similar to `/play` command)
+
+#### Added
+
+* Added new Music title blacklist
+
 ## Sept 19th - Audit & music Improvements
 
 #### Changed
