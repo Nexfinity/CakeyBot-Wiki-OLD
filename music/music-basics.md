@@ -23,6 +23,10 @@ If you play a live stream, other songs in the queue will not be played until eit
 
 Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to function. You will also need to be in a voice channel to summon Cakey Bot to it. If Cakey Bot is currently being used by users in another channel you will not be able to summon it to your channel. Many commands in Cakey Bot excluding `/dc` require a song to be playing in order to be used. If a song is not playing an error message will be displayed. Some commands can not be used while a live stream is playing, to use these commands you will have to wait until the live stream ends or skip the live stream.
 
+### Title Blacklist
+
+Cakey Bot also supports blacklisting specific words and phrases from song titles. This can be useful to discourage or prevent users from enqueueing abusing music (such as ear rape or inappropriate content). You can configure this list on the [web dashboard](https://cakeybot.app/dashboard/public) on the Music page.
+
 ### Sponsor Block
 
 {% hint style="warning" %}
