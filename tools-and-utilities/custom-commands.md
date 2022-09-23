@@ -110,7 +110,7 @@ The template CSV file and bulk exported CSVs will have a few different columns w
     * 1 - Custom Commands
     * 2 - Auto Responders
 * Flags
-  * These are only used for Auto Responders, they map directly to the Auto Responder flags.
+  * These are only used for Auto Responders, they map directly to the Auto Responder [flags](https://docs.cakeybot.app/tools-and-utilities/auto-responder#flags).
   * Acceptable values:
     * 1 - Exact Match
     * 2 - Contains
