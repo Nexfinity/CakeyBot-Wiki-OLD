@@ -60,18 +60,17 @@ You can include an optional embed on responses by following the steps below:
 
 ### Limitations/Guidelines
 
-*
-  * File **MUST** be in CSV format.
-  * File **MUST** be formatted with all of the required columns.
-  * Additional/extra columns will be ignored.
-  * `Command` & `Response` fields **MUST** be [Base64 encoded](https://www.base64encode.org/).
-  * Any fields that have too many characters will be trimmed. Column limits:
-    * **Command:** 200 characters (before base64 encoding)
-    * **Response:** 2,000 characters (before base64 encoding)
-  * Any fields that are not [Base64 encoded](https://www.base64encode.org/) or exceed the character will NOT work after importing.
-  * Bulk importing can **NOT** be canceled or reversed once started.
-  * Any broken commands will have to be individually deleted or fixed _after_ the import is finished.
-  * There is a limit of **500 commands** per bulk import.
+* File **MUST** be in CSV format.
+* File **MUST** be formatted with all of the required columns.
+* Additional/extra columns will be ignored.
+* `Command` & `Response` fields **MUST** be [Base64 encoded](https://www.base64encode.org/).
+* Any fields that have too many characters will be trimmed. Column limits:
+  * **Command:** 200 characters (before base64 encoding)
+  * **Response:** 2,000 characters (before base64 encoding)
+* Any fields that are not [Base64 encoded](https://www.base64encode.org/) or exceed the character will NOT work after importing.
+* Bulk importing can **NOT** be canceled or reversed once started.
+* Any broken commands will have to be individually deleted or fixed _after_ the import is finished.
+* There is a limit of **500 commands** per bulk import.
 
 ### What is Base64 encoding?
 
