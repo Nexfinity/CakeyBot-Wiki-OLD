@@ -1,5 +1,55 @@
 # Changelist - 2022
 
+## Sept 30th - Music Changes :(
+
+#### Fixed
+
+* Fixed issue where Cakey Bot would enqueue 30s 'sample' songs
+
+#### Changed
+
+* Song URLs now no longer link to the original music source and instead redirect to Cakey Bot's main website
+* `/nowplaying` no longer shows the current source provider
+
+#### Removed
+
+* Removed support for YouTube in music (Now defaults to sound cloud)
+* Removed the `/grab` command
+* Removed YouTube sources from `/radio`
+
+## Sept 16th - Category Specific Channels
+
+#### Added
+
+* Added new Category Specific Channels!
+  * YouTube URLs Only
+  * Reddit URLs Only
+  * Twitter URLs Only
+  * GitHub URLs Only
+  * Videos Only
+  * Images Only
+  * GIFs Only
+  * Files Only
+  * Emotes & Stickers Only
+  * Counting Only
+
+## Sept 22th - Music Title Blacklist
+
+#### Fixed
+
+* `/play` command errors now use a proper error embed rather than plain text
+
+#### Changed
+
+* Updated Auto Mod URL whitelist to be case-insensitive
+* Updated Auto Mod URL blacklist to be case-insensitive
+* Updated Auto Mod word blacklist to be case-insensitive
+* Song request channel will now auto fast forward to timestamp if included in YouTube URL (Similar to `/play` command)
+
+#### Added
+
+* Added new Music title blacklist
+
 ## Sept 19th - Audit & music Improvements
 
 #### Changed
