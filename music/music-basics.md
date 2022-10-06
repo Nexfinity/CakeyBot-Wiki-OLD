@@ -27,14 +27,6 @@ Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to functio
 
 Cakey Bot also supports blacklisting specific words and phrases from song titles. This can be useful to discourage or prevent users from enqueueing abusing music (such as ear rape or inappropriate content). You can configure this list on the [web dashboard](https://cakeybot.app/dashboard/public) on the Music page.
 
-### Sponsor Block
-
-{% hint style="warning" %}
-Sponsor block requires an active premium subscription to use.
-{% endhint %}
-
-Cakey Bot has the ability to automatically trim out sponsor and self-promotion segments on YouTube videos. You can enable this feature on the Music page of our [web dashboard](https://cakeybot.app/dashboard/public/) and it will automatically apply to any music queued on that server.
-
 ### Default Volume
 
 By default, Cakey Bot's volume will be set to 50 when playing music. You can change the volume using the `/volume <amount>` command but the volume will revert to 50 if the queue runs out of songs or the next time you use Cakey Bot. You can however change the default volume on our [web dashboard](https://cakeybot.app/dashboard/public/) from 50 to any number between 0 and 100.

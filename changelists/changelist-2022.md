@@ -1,5 +1,12 @@
 # Changelist - 2022
 
+## Oct 5th - Snipe Removal
+
+#### Removed
+
+* Removed Sponsor Block feature (Since youtube is no longer supported)
+* Removed `/snipe`, while I haven't received any warnings for it yet it seems that Discord does not like bot's that include it, so removing out of precaution
+
 ## Sept 30th - Music Changes :(
 
 #### Fixed
