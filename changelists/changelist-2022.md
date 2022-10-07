@@ -1,5 +1,13 @@
 # Changelist - 2022
 
+## Oct 7th - Bulk Import & Export
+
+#### Added
+
+* Added the ability to bulk import/export custom command and auto responder data. Read more details on our doc pages below:
+  * Custom Commands: [https://docs.cakeybot.app/tools-and-utilities/custom-commands#bulk-import-export](https://docs.cakeybot.app/tools-and-utilities/custom-commands#bulk-import-export)
+  * Auto Responders: [https://docs.cakeybot.app/tools-and-utilities/auto-responder#bulk-import-export](https://docs.cakeybot.app/tools-and-utilities/auto-responder#bulk-import-export)
+
 ## Oct 5th - Snipe Removal
 
 #### Removed
