@@ -56,7 +56,9 @@ You can include an optional embed on responses by following the steps below:
 
 ## Bulk Import/Export
 
-
+{% hint style="info" %}
+You must apply via support tickets to get access to Bulk Import. Anyone can use Bulk Export without applying. This is to decrease potential abuse.
+{% endhint %}
 
 ### Limitations/Guidelines
 
