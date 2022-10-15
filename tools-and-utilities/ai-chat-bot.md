@@ -28,7 +28,7 @@ Be warned that these are all AI generated responses, as such they can possibly r
 
 ## Request Limit
 
-Since every request made to OpenAI costs Cakey Bot money, premium servers will be limited to 50/requests per month. Every message sent to the bot is equal to a single request. You can also buy higher limits than this if you need to.
+Since every request made to OpenAI costs Cakey Bot money, premium servers will be limited to 500/requests per month. Every message sent to the bot is equal to a single request. You can also buy higher limits than this if you need to.
 
 #### Increasing Your Limit
 
@@ -44,7 +44,7 @@ In order to increase your limit you will need to follow these steps:
 6. Click "Edit Subscription" then click "Add Addons"
 7. Click "500 Additional API Requests" and hit the "Add" button
 8. You can now optionally select a quantity or leave it defaulted to 1.&#x20;
-   1. Each increase in quantity is an additional 500 requests. So a quantity of 5 would give you access to 2,500 requests/month plus the original free 50 requests/month for a total of 2,550 requests/month.
+   1. Each increase in quantity is an additional 500 requests. So a quantity of 5 would give you access to 2,500 requests/month plus the original free 500 requests/month for a total of 3,000 requests/month.
    2. **Note: You will be changed for the number of requests you select here every month even if you don't use the total amount selected.**
 9. Click "Update Subscription"
 
