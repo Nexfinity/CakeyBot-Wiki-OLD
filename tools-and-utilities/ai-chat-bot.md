@@ -42,9 +42,9 @@ In order to increase your limit you will need to follow these steps:
 5. Once signed in, select the premium subscription you would like to modify.&#x20;
    1. **Note: The additional requests you purchase will be assigned later and are not locked to the server linked to this subscription.**
 6. Click "Edit Subscription" then click "Add Addons"
-7. Click "50 Additional API Requests" and hit the "Add" button
+7. Click "500 Additional API Requests" and hit the "Add" button
 8. You can now optionally select a quantity or leave it defaulted to 1.&#x20;
-   1. Each increase in quantity is an additional 50 requests. So a quantity of 5 would give you access to 450 requests/month plus the original free 50 requests/month for a total of 500 requests/month.
+   1. Each increase in quantity is an additional 500 requests. So a quantity of 5 would give you access to 450 requests/month plus the original free 500 requests/month for a total of 2,550 requests/month.
    2. **Note: You will be changed for the number of requests you select here every month even if you don't use the total amount selected.**
 9. Click "Update Subscription"
 
