@@ -12,6 +12,7 @@ YouTube is no longer supported due to Discord policy.
   * Including Clips/VODs
 * Bandcamp
 * Vimeo
+* Deezer
 * Soundcloud
 * Direct URL/Web File
   * MP3, MP4, WAV, OGG, FLAC, MOV, MKV & M4A formats
@@ -32,7 +33,6 @@ YouTube is no longer supported due to Discord policy.
 
 There are also some sources that we do not currently support but do plan to add in the future, these include:
 
-* Text-To-Speech / TTS
 * Feel free to suggest some!
 
 ### Removed Sources
